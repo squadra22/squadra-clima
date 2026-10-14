@@ -1,0 +1,6 @@
+eccodes>=1.7
+ecmwf-opendata>=0.3
+numpy
+pandas
+requests
+matplotlib

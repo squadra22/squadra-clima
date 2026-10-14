@@ -1,0 +1,53 @@
+name: Coleta diária de clima
+
+on:
+  schedule:
+    - cron: "40 9 * * *"    # 06:40 BRT — após ECMWF 00z (~08:00 UTC) e GFS/GEFS 00z (~04:00 UTC)
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data de referência (AAAA-MM-DD). Vazio = hoje"
+        required: false
+  push:
+    paths:
+      - "clima/**"
+      - ".github/workflows/coleta.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Dependências e coleta (log em data/ultimo_log.txt)
+        run: |
+          mkdir -p data
+          {
+            echo "== $(date -u) =="
+            pip install -r requirements.txt 2>&1 | tail -5
+            if [ -n "${{ github.event.inputs.data }}" ]; then
+              python -m clima.run --data "${{ github.event.inputs.data }}"
+            else
+              python -m clima.run
+            fi
+          } > data/ultimo_log.txt 2>&1 || true
+          tail -40 data/ultimo_log.txt
+      - name: Grava resultados no repositório
+        run: |
+          git config user.name "squadra-clima-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "sem mudanças" && exit 0
+          git commit -m "Coleta $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
