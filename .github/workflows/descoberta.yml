@@ -1,0 +1,17 @@
+name: Descoberta (temporário)
+on:
+  push:
+    paths: ["ferramentas/**", ".github/workflows/descoberta.yml"]
+permissions:
+  contents: write
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install pandas requests && python ferramentas/descoberta.py || true
+      - run: |
+          git config user.name "squadra-clima-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/descoberta && git commit -m "descoberta" && for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done || true

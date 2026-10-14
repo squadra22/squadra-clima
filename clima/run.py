@@ -106,7 +106,7 @@ def verificacao(dia_obs):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", help="data de referência (AAAA-MM-DD, padrão: hoje UTC)")
-    ap.add_argument("--so", default="modelos,vento,observado,setor")
+    ap.add_argument("--so", default="modelos,observado,setor")
     a = ap.parse_args()
     hoje = dt.date.fromisoformat(a.data) if a.data else dt.datetime.utcnow().date()
     etapas = set(a.so.split(","))

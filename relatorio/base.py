@@ -13,7 +13,6 @@ import sys
 import os
 
 from clima.bacias import GRUPOS, REGIOES
-from clima.vento import REGIOES_EOLICAS
 from . import graficos
 
 DIAS = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo"]
@@ -158,17 +157,12 @@ def sec_preco(L):
 
 
 def sec_eolica(L, pasta):
-    E, V = L.get("eolica") or {}, L.get("vento_previsto") or {}
+    E = L.get("eolica") or {}
     imgs, linhas = [], []
     f1 = graficos.eolica_realizada(E, os.path.join(pasta, "eolica_realizada.png")) if E else None
     if f1:
         imgs.append({"caminho": f1, "legenda": f"Geração eólica verificada por hora, ONS (balanço de energia), até "
                      f"{E['ate'][8:10]}/{E['ate'][5:7]} {E['ate'][11:16]}. A linha tracejada é a média dos últimos 30 dias."})
-    f2 = graficos.vento_previsto(V, os.path.join(pasta, "vento_previsto.png")) if V else None
-    if f2:
-        rods = "; ".join(f"{m['modelo']} {rodada_txt(m['rodada'])}" for m in V.values())
-        imgs.append({"caminho": f2, "legenda": f"Velocidade média diária do vento a 100 m nas regiões dos parques "
-                     f"(contornos aproximados). Rodadas: {rods}."})
     # tabela: geração média dos últimos 7 dias x média de 30 dias
     if E.get("diario"):
         todos = sorted(E["diario"])
@@ -187,23 +181,10 @@ def sec_eolica(L, pasta):
         tabelas.append({"titulo": "Geração eólica verificada (MWmed)",
                         "colunas": ["Subsistema", "Último dia completo", "Média 7 dias", "Média 30 dias", "7d x 30d"],
                         "larguras": [1.4, 1.3, 1.2, 1.2, 1], "linhas": linhas})
-    if V:
-        cols, ordem = ["Região"], [k for k in ("gfs", "ecmwf", "aifs") if k in V]
-        cols += [V[k]["modelo"] for k in ordem]
-        lv = []
-        for reg in REGIOES_EOLICAS:
-            row = [reg]
-            for k in ordem:
-                ds = sorted(V[k]["diario"])[1:8]
-                v = [V[k]["diario"][d][reg] for d in ds if reg in V[k]["diario"][d]]
-                row.append(n(sum(v) / len(v), 1) + " m/s" if v else "n/d")
-            lv.append(row)
-        tabelas.append({"titulo": "Vento médio previsto a 100 m, próximos 7 dias", "colunas": cols, "linhas": lv,
-                        "larguras": [2.2] + [1.2] * len(ordem)})
     if not imgs and not tabelas:
-        return {"titulo": "Eólica: geração verificada e vento previsto", "paragrafos": ["Dados de eólica indisponíveis nesta coleta."]}
-    return {"titulo": "Eólica: geração verificada e vento previsto", "imagens": imgs, "tabelas": tabelas,
-            "bullets": ["[PREENCHER: leitura da eólica — desempenho recente x média, se os modelos indicam vento acima ou abaixo nos próximos dias no NE (interior x litoral) e no Sul, e o efeito no PLD/spreads]"]}
+        return {"titulo": "Eólica: geração verificada", "paragrafos": ["Dados de eólica indisponíveis nesta coleta."]}
+    return {"titulo": "Eólica: geração verificada", "imagens": imgs, "tabelas": tabelas,
+            "bullets": ["[PREENCHER: leitura da eólica — desempenho recente x média de 30 dias no NE e no Sul, perspectiva dos boletins para os próximos dias e efeito no PLD/spreads]"]}
 
 
 def kpis(L):
