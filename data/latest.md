@@ -1,5 +1,5 @@
 # Coleta squadra-clima — 2026-10-14
-Gerado em 2026-10-14T17:55 UTC
+Gerado em 2026-10-14T19:30 UTC
 
 ## Status das fontes
 - **gfs**: ok (rodada 2026101400)
