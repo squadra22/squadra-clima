@@ -24,3 +24,10 @@ Consolidado: `data/latest.json` (máquina) e `data/latest.md` (leitura rápida).
 
 ## Rodar manualmente
 GitHub → **Actions** → *Coleta diária de clima* → **Run workflow** (opcionalmente com uma data).
+
+## Relatório em PDF
+```
+python -m relatorio.base data/latest.json base.json        # tabelas e números a partir da coleta
+# (completar os campos [PREENCHER] com a pesquisa do dia)
+python -m relatorio.gerar_relatorio base.json Squadra_Clima_Hidrologia_AAAA-MM-DD.pdf
+```
