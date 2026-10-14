@@ -186,7 +186,7 @@ def main():
     if "setor" in etapas:
         for nome, func in {"ear": setor.ons_ear, "ena": setor.ons_ena, "carga": setor.ons_carga,
                            "pld": setor.ccee_pld, "cmo": setor.ons_cmo,
-                           "eolica": setor.ons_eolica}.items():
+                           "eolica": setor.ons_eolica, "eolica_prev_ons": setor.ons_previsao_eolica}.items():
             try:
                 latest[nome] = func(hoje.year)
                 status[nome] = "ok"

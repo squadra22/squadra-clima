@@ -174,3 +174,62 @@ def ons_eolica(ano, dias=15):
             "diario": {d.isoformat(): {k: round(float(v), 0) for k, v in r.items() if not pd.isna(v)}
                        for d, r in diario.iterrows()},
             "media_30d": {k: round(float(v), 0) for k, v in m30.items()}}
+
+
+def _prog_eolica_dia(dia):
+    """Programação diária do ONS (previsão eólica usada na programação), somada por subsistema.
+
+    Retorna None se o arquivo do dia ainda não foi publicado.
+    """
+    url = f"{ONS}/programacao_diaria/PROGRAMACAO_DIARIA_{dia:%Y_%m_%d}.csv"
+    try:
+        df = _csv(url)
+    except Exception:  # noqa
+        return None
+    ct, cs, cp, cv = (_col(df, "tip_geracao"), _col(df, "id_subsistema"), _col(df, "num_patamar"),
+                      _col(df, "geracaoprogramada"))
+    df = df[df[ct].astype(str).str.upper().str.contains("EOL|EÓL")]
+    df[cv] = pd.to_numeric(df[cv], errors="coerce")
+    g = df.groupby([cs, cp])[cv].sum().reset_index()
+    out = {}
+    for s, gs in g.groupby(cs):
+        gs = gs.sort_values(cp)
+        mw = [round(float(v), 0) for v in gs[cv]]
+        passo_h = 24 / len(mw) if len(mw) else 0.5
+        out[_sub(s)] = {"curva_mw": mw, "passo_h": passo_h,
+                        "gwh": round(sum(mw) * passo_h / 1000, 1), "mwmed": round(sum(mw) / len(mw), 0)}
+    return {"dia": dia.isoformat(), "subsistemas": out}
+
+
+def ons_previsao_eolica(ano):
+    """Previsão eólica do ONS para o próximo dia publicado (D+1, senão D) e verificação de D-1."""
+    hoje = pd.Timestamp.utcnow().tz_localize(None).date()
+    prev = None
+    for d in (hoje + pd.Timedelta(days=1), hoje):
+        prev = _prog_eolica_dia(d)
+        if prev:
+            break
+    if not prev:
+        raise RuntimeError("programação diária do ONS indisponível para D e D+1")
+    # verificação: programado x verificado do último dia completo do balanço horário
+    verif = None
+    try:
+        dfb = _csv(f"{ONS}/balanco_energia_subsistema_ho/BALANCO_ENERGIA_SUBSISTEMA_{ano}.csv")
+        cd, cs, cv = _col(dfb, "din_instante"), _col(dfb, "id_subsistema"), _col(dfb, "eolica")
+        dfb[cd] = pd.to_datetime(dfb[cd])
+        dfb[cv] = pd.to_numeric(dfb[cv], errors="coerce")
+        cont = dfb.groupby(dfb[cd].dt.date)[cd].nunique()
+        dias_completos = [d for d, k in cont.items() if k >= 24]
+        if dias_completos:
+            dv = max(dias_completos)
+            p = _prog_eolica_dia(dv)
+            real = dfb[dfb[cd].dt.date == dv].groupby(cs)[cv].sum() / 1000  # MWh -> GWh (dados horários)
+            if p:
+                verif = {"dia": dv.isoformat(), "subsistemas": {}}
+                for s, x in p["subsistemas"].items():
+                    rv = next((float(v) for k, v in real.items() if _sub(k) == s), None)
+                    verif["subsistemas"][s] = {"previsto_gwh": x["gwh"], "verificado_gwh": round(rv, 1) if rv else None,
+                                               "erro_pct": round(100 * (x["gwh"] / rv - 1), 1) if rv else None}
+    except Exception:  # noqa
+        pass
+    return {"previsao": prev, "verificacao": verif}

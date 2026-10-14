@@ -158,33 +158,36 @@ def sec_preco(L):
 
 def sec_eolica(L, pasta):
     E = L.get("eolica") or {}
+    P = L.get("eolica_prev_ons") or {}
     imgs, linhas = [], []
-    f1 = graficos.eolica_realizada(E, os.path.join(pasta, "eolica_realizada.png")) if E else None
+    f1 = graficos.eolica_realizada(E, os.path.join(pasta, "eolica_realizada.png"), P) if E else None
     if f1:
         imgs.append({"caminho": f1, "legenda": f"Geração eólica verificada por hora, ONS (balanço de energia), até "
-                     f"{E['ate'][8:10]}/{E['ate'][5:7]} {E['ate'][11:16]}. A linha tracejada é a média dos últimos 30 dias."})
-    # tabela: geração média dos últimos 7 dias x média de 30 dias
-    if E.get("diario"):
-        todos = sorted(E["diario"])
-        if E.get("ate", "")[11:13] not in ("23", "") and len(todos) > 1:
-            todos = todos[:-1]  # último dia ainda incompleto
-        dias = todos[-7:]
-        for sub in ("Nordeste", "Sul"):
-            vals = [E["diario"][d].get(sub) for d in dias if E["diario"][d].get(sub) is not None]
-            m7 = sum(vals) / len(vals) if vals else None
-            m30 = (E.get("media_30d") or {}).get(sub)
-            ult = E["diario"][dias[-1]].get(sub) if dias else None
-            var = (100 * (m7 / m30 - 1)) if (m7 and m30) else None
-            linhas.append([sub, n(ult), n(m7), n(m30), n(var, 0, True) + "%" if var is not None else "n/d"])
+                     f"{E['ate'][8:10]}/{E['ate'][5:7]} {E['ate'][11:16]}. Linha cinza tracejada: média dos últimos 30 dias. Linha laranja: geração eólica prevista pelo ONS na programação diária de "
+                     f"{br((P.get('previsao') or {}).get('dia'))} (soma das usinas programadas)."})
+    prev = (P.get("previsao") or {}).get("subsistemas", {})
+    ver = (P.get("verificacao") or {}).get("subsistemas", {})
+    for sub in ("Nordeste", "Sul"):
+        x, v = prev.get(sub, {}), ver.get(sub, {})
+        m30 = (E.get("media_30d") or {}).get(sub)
+        linhas.append([sub, n(x.get("gwh"), 1), n(x.get("mwmed")), n(m30 * 24 / 1000, 1) if m30 else "n/d",
+                       n(v.get("previsto_gwh"), 1), n(v.get("verificado_gwh"), 1),
+                       n(v.get("erro_pct"), 1, True) + "%" if v.get("erro_pct") is not None else "n/d"])
     tabelas = []
     if linhas:
-        tabelas.append({"titulo": "Geração eólica verificada (MWmed)",
-                        "colunas": ["Subsistema", "Último dia completo", "Média 7 dias", "Média 30 dias", "7d x 30d"],
-                        "larguras": [1.4, 1.3, 1.2, 1.2, 1], "linhas": linhas})
+        dprev = br((P.get("previsao") or {}).get("dia"))
+        dver = br((P.get("verificacao") or {}).get("dia"))
+        tabelas.append({"titulo": f"Previsão eólica do ONS para {dprev} e verificação de {dver}",
+                        "colunas": ["Subsistema", f"Previsão {dprev} (GWh)", "MWmed", "Média 30 dias (GWh/dia)",
+                                    f"Previsto {dver} (GWh)", f"Verificado {dver} (GWh)", "Erro da previsão"],
+                        "larguras": [1.2, 1.2, 0.9, 1.3, 1.2, 1.3, 1.1], "linhas": linhas,
+                        "nota": "Previsão = soma da geração eólica programada pelo ONS (Programação Diária, dados abertos), "
+                                "que considera as usinas despachadas centralizadamente; a geração verificada do balanço "
+                                "de energia inclui todas as usinas, então parte do 'erro' é diferença de cobertura."})
     if not imgs and not tabelas:
-        return {"titulo": "Eólica: geração verificada", "paragrafos": ["Dados de eólica indisponíveis nesta coleta."]}
-    return {"titulo": "Eólica: geração verificada", "imagens": imgs, "tabelas": tabelas,
-            "bullets": ["[PREENCHER: leitura da eólica — desempenho recente x média de 30 dias no NE e no Sul, perspectiva dos boletins para os próximos dias e efeito no PLD/spreads]"]}
+        return {"titulo": "Eólica: previsão do ONS e geração verificada", "paragrafos": ["Dados de eólica indisponíveis nesta coleta."]}
+    return {"titulo": "Eólica: previsão do ONS e geração verificada", "imagens": imgs, "tabelas": tabelas,
+            "bullets": ["[PREENCHER: leitura da eólica — previsão do ONS para o dia (GWh) x média de 30 dias, acerto da previsão de ontem, perspectiva dos boletins para os próximos dias e efeito no PLD/spreads]"]}
 
 
 def kpis(L):

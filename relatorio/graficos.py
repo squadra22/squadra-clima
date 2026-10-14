@@ -25,17 +25,31 @@ def _estilo(ax):
     ax.set_axisbelow(True)
 
 
-def eolica_realizada(E, destino):
+COR_PREV = "#eb6834"
+
+
+def eolica_realizada(E, destino, P=None, dias=7):
+    """Verificado horário (últimos `dias`) + curva prevista pelo ONS (programação diária), em GWmed."""
     serie = E.get("serie_horaria") or []
     if not serie:
         return None
-    ts = [dt.datetime.strptime(p["t"], "%Y-%m-%dT%H:%M") for p in serie]
+    ts_all = [dt.datetime.strptime(p["t"], "%Y-%m-%dT%H:%M") for p in serie]
+    corte = ts_all[-1] - dt.timedelta(days=dias)
+    pares = [(t, p) for t, p in zip(ts_all, serie) if t > corte]
+    ts, serie = [t for t, _ in pares], [p for _, p in pares]
+    prev = (P or {}).get("previsao") or {}
     fig, axs = plt.subplots(1, 2, figsize=(7.2, 2.3), dpi=200)
     for ax, sub in zip(axs, ("Nordeste", "Sul")):
         _estilo(ax)
         y = [p.get(sub) for p in serie]
         y = [v / 1000 if v is not None else None for v in y]  # MWmed -> GWmed
-        ax.plot(ts, y, color=COR_SUB, linewidth=1.2)
+        ax.plot(ts, y, color=COR_SUB, linewidth=1.2, label="Verificado (ONS)")
+        ps = (prev.get("subsistemas") or {}).get(sub)
+        if ps:
+            d0 = dt.datetime.fromisoformat(prev["dia"])
+            tp = [d0 + dt.timedelta(hours=ps["passo_h"] * (i + 0.5)) for i in range(len(ps["curva_mw"]))]
+            ax.plot(tp, [v / 1000 for v in ps["curva_mw"]], color=COR_PREV, linewidth=1.4,
+                    linestyle=(0, (4, 1.5)), label="Previsão ONS (programação)")
         m30 = (E.get("media_30d") or {}).get(sub)
         if m30:
             ax.axhline(m30 / 1000, color=TXT2, linewidth=0.9, linestyle=(0, (3, 2)))
@@ -44,10 +58,13 @@ def eolica_realizada(E, destino):
                         ha="right", fontsize=7, color=TXT2,
                         bbox=dict(boxstyle="round,pad=0.2", fc=SURF, ec="none", alpha=0.9))
         ax.set_title(f"{sub} · GWmed", fontsize=8.5, color=TXT, loc="left", fontweight="bold")
-        ax.xaxis.set_major_locator(mdates.DayLocator(interval=3))
+        ax.xaxis.set_major_locator(mdates.DayLocator(interval=2))
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%d/%m"))
         ax.set_ylim(bottom=0)
-    fig.tight_layout(w_pad=2)
+    h, l = axs[0].get_legend_handles_labels()
+    fig.legend(h, l, loc="upper right", ncol=2, fontsize=7.5, frameon=False, labelcolor=TXT,
+               bbox_to_anchor=(0.995, 1.02))
+    fig.tight_layout(rect=(0, 0, 1, 0.9), w_pad=2)
     fig.savefig(destino, facecolor=SURF)
     plt.close(fig)
     return destino
