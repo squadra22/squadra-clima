@@ -1,4 +1,4 @@
-name: Coleta diária de clima
+name: Coleta diária de clima e eólica
 
 on:
   schedule:
