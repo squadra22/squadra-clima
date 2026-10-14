@@ -171,7 +171,10 @@ def sec_eolica(L, pasta):
                      f"(contornos aproximados). Rodadas: {rods}."})
     # tabela: geração média dos últimos 7 dias x média de 30 dias
     if E.get("diario"):
-        dias = sorted(E["diario"])[-8:-1] or sorted(E["diario"])[-7:]
+        todos = sorted(E["diario"])
+        if E.get("ate", "")[11:13] not in ("23", "") and len(todos) > 1:
+            todos = todos[:-1]  # último dia ainda incompleto
+        dias = todos[-7:]
         for sub in ("Nordeste", "Sul"):
             vals = [E["diario"][d].get(sub) for d in dias if E["diario"][d].get(sub) is not None]
             m7 = sum(vals) / len(vals) if vals else None

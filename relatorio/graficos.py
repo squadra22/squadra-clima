@@ -39,8 +39,10 @@ def eolica_realizada(E, destino):
         m30 = (E.get("media_30d") or {}).get(sub)
         if m30:
             ax.axhline(m30 / 1000, color=TXT2, linewidth=0.9, linestyle=(0, (3, 2)))
-            ax.annotate(f"média 30 dias {m30 / 1000:.1f}".replace(".", ","), xy=(ts[0], m30 / 1000),
-                        xytext=(2, 3), textcoords="offset points", fontsize=7, color=TXT2)
+            ax.annotate((f"média 30 dias: {m30 / 1000:.2f}" if m30 < 1000 else f"média 30 dias: {m30 / 1000:.1f}").replace(".", ","), xy=(1.0, m30 / 1000),
+                        xycoords=("axes fraction", "data"), xytext=(0, 4), textcoords="offset points",
+                        ha="right", fontsize=7, color=TXT2,
+                        bbox=dict(boxstyle="round,pad=0.2", fc=SURF, ec="none", alpha=0.9))
         ax.set_title(f"{sub} · GWmed", fontsize=8.5, color=TXT, loc="left", fontweight="bold")
         ax.xaxis.set_major_locator(mdates.DayLocator(interval=3))
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%d/%m"))
