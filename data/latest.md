@@ -1,5 +1,5 @@
 # Coleta squadra-clima — 2026-10-14
-Gerado em 2026-10-14T19:30 UTC
+Gerado em 2026-10-14T19:53 UTC
 
 ## Status das fontes
 - **gfs**: ok (rodada 2026101400)
@@ -18,6 +18,7 @@ Gerado em 2026-10-14T19:30 UTC
 - **vento_ecmwf**: ok (rodada 2026101400)
 - **vento_aifs**: ok (rodada 2026101400)
 - **eolica**: ok
+- **eolica_prev_ons**: ok
 
 ## ENOS (CPC, semana 07OCT2026)
 Niño 1+2 +5.2 · Niño 3 +4.1 · Niño 3.4 +3.3 (+0.1 na semana) · Niño 4 +1.3 °C
