@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-10-14T17:26",
+ "gerado_em_utc": "2026-10-14T17:31",
  "data_ref": "2026-10-14",
  "previsoes": {
   "gfs": {
@@ -473,101 +473,194 @@
   "bacias": {
    "Jacuí": {
     "obs": 0.8,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 1.5,
+    "gefs": 1.6,
+    "ecmwf": 1.5,
+    "aifs": 3.4,
+    "media_modelos": 2.0,
+    "desvio": -1.2
    },
    "Uruguai": {
     "obs": 6.3,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 4.5,
+    "gefs": 6.0,
+    "ecmwf": 4.7,
+    "aifs": 6.3,
+    "media_modelos": 5.4,
+    "desvio": 0.9
    },
    "Iguaçu": {
     "obs": 15.3,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 16.7,
+    "gefs": 19.5,
+    "ecmwf": 17.5,
+    "aifs": 14.2,
+    "media_modelos": 17.0,
+    "desvio": -1.7
    },
    "Baixo Paraná": {
     "obs": 8.5,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 14.5,
+    "gefs": 14.8,
+    "ecmwf": 20.6,
+    "aifs": 20.5,
+    "media_modelos": 17.6,
+    "desvio": -9.1
    },
    "Alto Paraná": {
     "obs": 18.4,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 5.7,
+    "gefs": 6.9,
+    "ecmwf": 10.9,
+    "aifs": 15.1,
+    "media_modelos": 9.7,
+    "desvio": 8.7
    },
    "Paranapanema": {
     "obs": 25.4,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 14.1,
+    "gefs": 13.0,
+    "ecmwf": 18.7,
+    "aifs": 17.0,
+    "media_modelos": 15.7,
+    "desvio": 9.7
    },
    "Tietê": {
     "obs": 13.9,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 3.5,
+    "gefs": 4.3,
+    "ecmwf": 7.5,
+    "aifs": 8.7,
+    "media_modelos": 6.0,
+    "desvio": 7.9
    },
    "Baixo Grande": {
     "obs": 17.2,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.4,
+    "gefs": 0.4,
+    "ecmwf": 3.1,
+    "aifs": 6.6,
+    "media_modelos": 2.6,
+    "desvio": 14.6
    },
    "Alto Grande": {
     "obs": 5.1,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 3.1,
+    "gefs": 2.7,
+    "ecmwf": 3.7,
+    "aifs": 5.1,
+    "media_modelos": 3.6,
+    "desvio": 1.5
    },
    "Baixo Paranaíba": {
     "obs": 3.1,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.1,
+    "gefs": 0.1,
+    "ecmwf": 6.0,
+    "aifs": 4.0,
+    "media_modelos": 2.5,
+    "desvio": 0.6
    },
    "Alto Paranaíba": {
     "obs": 4.4,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.2,
+    "gefs": 0.2,
+    "ecmwf": 5.8,
+    "aifs": 4.2,
+    "media_modelos": 2.6,
+    "desvio": 1.8
    },
    "Alto São Francisco": {
     "obs": 7.9,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.3,
+    "gefs": 0.2,
+    "ecmwf": 2.1,
+    "aifs": 5.0,
+    "media_modelos": 1.9,
+    "desvio": 6.0
    },
    "Alto Tocantins": {
     "obs": 1.0,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.1,
+    "gefs": 0.0,
+    "ecmwf": 0.9,
+    "aifs": 1.1,
+    "media_modelos": 0.5,
+    "desvio": 0.5
    },
    "Madeira": {
     "obs": 0.3,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.6,
+    "gefs": 1.1,
+    "ecmwf": 2.2,
+    "aifs": 1.4,
+    "media_modelos": 1.3,
+    "desvio": -1.0
    },
    "Médio São Francisco": {
     "obs": 0.1,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.0,
+    "gefs": 0.0,
+    "ecmwf": 0.1,
+    "aifs": 0.1,
+    "media_modelos": 0.1,
+    "desvio": 0.0
    },
    "Baixo São Francisco": {
     "obs": 0.0,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.0,
+    "gefs": 0.0,
+    "ecmwf": 0.0,
+    "aifs": 0.0,
+    "media_modelos": 0.0,
+    "desvio": 0.0
    },
    "Baixo Tocantins": {
     "obs": 0.4,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.0,
+    "gefs": 0.0,
+    "ecmwf": 0.5,
+    "aifs": 0.2,
+    "media_modelos": 0.2,
+    "desvio": 0.2
    },
    "Araguaia": {
     "obs": 0.5,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.0,
+    "gefs": 0.0,
+    "ecmwf": 0.7,
+    "aifs": 0.7,
+    "media_modelos": 0.3,
+    "desvio": 0.2
    },
    "Xingu": {
     "obs": 0.1,
-    "media_modelos": null,
-    "desvio": null
+    "gfs": 0.3,
+    "gefs": 0.4,
+    "ecmwf": 1.0,
+    "aifs": 1.1,
+    "media_modelos": 0.7,
+    "desvio": -0.6
    }
   },
-  "erro_por_modelo": {}
+  "erro_por_modelo": {
+   "gfs": {
+    "vies_medio": -3.3,
+    "erro_abs_medio": 4.2
+   },
+   "gefs": {
+    "vies_medio": -3.0,
+    "erro_abs_medio": 4.3
+   },
+   "ecmwf": {
+    "vies_medio": -1.1,
+    "erro_abs_medio": 3.5
+   },
+   "aifs": {
+    "vies_medio": -0.7,
+    "erro_abs_medio": 2.6
+   }
+  }
  },
  "ear": {
   "Nordeste": {
@@ -649,11 +742,33 @@
   "ecmwf": "ok (rodada 2026101400)",
   "ecmwf_ens": "ok (rodada 2026101400)",
   "aifs": "ok (rodada 2026101400)",
-  "observado": "ok (14 dia(s) novo(s))",
+  "observado": "ok (0 dia(s) novo(s))",
   "ear": "ok",
   "ena": "ok",
   "carga": "ok",
-  "pld": "erro: Expecting value: line 1 column 1 (char 0)",
-  "enso": "ok"
+  "pld": "erro: HTTP 403 sem JSON em https://dadosabertos.ccee.org.br/api/3/action/package_show?id=pld_horario: '<meta charset=\"UTF-8\"><title>Acesso bloqueado</title><link rel=icon href=data:,>\\n<style>body{font:13px Arial;color:#555;max-width:580px;margin:12px auto;padding:10px}b{color:#0d0a6e}i{color:#888;font-'",
+  "enso": "ok",
+  "cmo": "ok"
+ },
+ "cmo": {
+  "data": "2026-10-14",
+  "submercados": {
+   "Norte": {
+    "media": 102.62,
+    "max": 418.27
+   },
+   "Nordeste": {
+    "media": 79.13,
+    "max": 416.29
+   },
+   "Sul": {
+    "media": 79.12,
+    "max": 416.3
+   },
+   "SE/CO": {
+    "media": 79.13,
+    "max": 416.3
+   }
+  }
  }
 }
