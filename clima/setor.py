@@ -72,16 +72,23 @@ def ons_carga(ano):
 CCEE = "https://dadosabertos.ccee.org.br/api/3/action"
 
 
+def _json(url, params):
+    r = requests.get(url, params=params, headers={**UA, "Accept": "application/json"}, timeout=60)
+    try:
+        return r.json()
+    except ValueError:
+        raise RuntimeError(f"HTTP {r.status_code} sem JSON em {r.url}: {r.text[:200]!r}")
+
+
 def ccee_pld(ano):
     """PLD horário mais recente (média diária por submercado) via API CKAN da CCEE."""
-    pk = requests.get(f"{CCEE}/package_show", params={"id": "pld_horario"}, headers=UA, timeout=60).json()
+    pk = _json(f"{CCEE}/package_show", {"id": "pld_horario"})
     recursos = [r for r in pk["result"]["resources"] if str(ano) in (r.get("name", "") + r.get("url", ""))
                 and r.get("datastore_active")]
     if not recursos:
         raise RuntimeError("recurso PLD horário do ano não encontrado")
     rid = recursos[-1]["id"]
-    rows = requests.get(f"{CCEE}/datastore_search", params={"resource_id": rid, "limit": 2000, "sort": "_id desc"},
-                        headers=UA, timeout=60).json()["result"]["records"]
+    rows = _json(f"{CCEE}/datastore_search", {"resource_id": rid, "limit": 2000, "sort": "_id desc"})["result"]["records"]
     df = pd.DataFrame(rows)
     cs = next(c for c in df.columns if "SUBMERCADO" in c.upper())
     cv = next(c for c in df.columns if "PLD" in c.upper())
@@ -114,3 +121,23 @@ def enso():
     ult, ant = parse(linhas[-1]), parse(linhas[-2])
     ult["var_nino34"] = round(ult["nino34"] - ant["nino34"], 1)
     return ult
+
+
+def ons_cmo(ano):
+    """CMO semi-horário do ONS (média do último dia por subsistema) — referência quando o PLD não vem."""
+    erros = []
+    for ds, arq in (("cmo_semihorario", f"CMO_SEMIHORARIO_{ano}.csv"), ("cmo_tm", f"CMO_SEMIHORARIO_{ano}.csv")):
+        try:
+            df = _csv(f"{ONS}/{ds}/{arq}")
+            break
+        except Exception as e:  # noqa
+            erros.append(str(e))
+    else:
+        raise RuntimeError("; ".join(erros))
+    cd, cs, cv = _col(df, "din_instante"), _col(df, "id_subsistema"), _col(df, "cmo")
+    df[cd] = pd.to_datetime(df[cd])
+    dia = df[cd].dt.date.max()
+    d = df[df[cd].dt.date == dia]
+    return {"data": dia.isoformat(), "submercados": {_sub(s): {"media": round(float(g[cv].mean()), 2),
+                                                               "max": round(float(g[cv].max()), 2)}
+                                                     for s, g in d.groupby(cs)}}

@@ -128,6 +128,17 @@ def main():
                 except Exception as e:  # noqa
                     status[chave] = f"erro: {e}"
                     traceback.print_exc()
+            # garante o arquivo da rodada de ontem (necessário para a verificação D-1)
+            for ontem in (hoje - dt.timedelta(days=1), hoje - dt.timedelta(days=2)):
+              for chave in ("gfs", "gefs", "ecmwf", "aifs"):
+                alvo = os.path.join(P_PREV, f"{ontem.strftime('%Y%m%d')}00_{chave}.json")
+                if not os.path.exists(alvo):
+                    try:
+                        res = MODELOS[chave](tmp, masc, ontem)
+                        if res["rodada"].startswith(ontem.strftime("%Y%m%d")):
+                            _w(alvo, res)
+                    except Exception:  # noqa
+                        traceback.print_exc()
             latest["previsoes"] = {
                 k: {"modelo": v["modelo"], "rodada": v["rodada"],
                     "semana1": B.agregar_regioes(v.get("semana1", {})),
@@ -162,7 +173,7 @@ def main():
 
     if "setor" in etapas:
         for nome, func in {"ear": setor.ons_ear, "ena": setor.ons_ena, "carga": setor.ons_carga,
-                           "pld": setor.ccee_pld}.items():
+                           "pld": setor.ccee_pld, "cmo": setor.ons_cmo}.items():
             try:
                 latest[nome] = func(hoje.year)
                 status[nome] = "ok"
@@ -217,6 +228,9 @@ def resumo_md(L):
     if isinstance(L.get("pld"), dict):
         out += ["", f"## PLD ({L['pld'].get('referencia')})"] + [
             f"- {s}: média {x['media']} R$/MWh" for s, x in L["pld"].get("submercados", {}).items()]
+    if isinstance(L.get("cmo"), dict):
+        out += ["", f"## CMO ONS ({L['cmo'].get('data')})"] + [
+            f"- {s}: média {x['media']} R$/MWh" for s, x in L["cmo"].get("submercados", {}).items()]
     return "\n".join(out) + "\n"
 
 

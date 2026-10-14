@@ -108,7 +108,7 @@ def ecmwf_ens(tmp, masc, hoje):
     for d in _datas_tentativa(hoje):
         try:
             f = os.path.join(tmp, f"ens_{d}.grib2")
-            _ecmwf_retrieve("ifs", ["cf", "pf"], [12, 180, 348], f, int(d))
+            _ecmwf_retrieve("ifs", "pf", [12, 180, 348], f, int(d))
             return _resumo_ens(ler_mensagens(f), d + "00", masc, "ECMWF ENS")
         except Exception as e:  # noqa
             erro = e
