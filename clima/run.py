@@ -19,6 +19,7 @@ from . import bacias as B
 from .modelos import MODELOS
 from .observado import observado, dias_para_coletar
 from . import setor
+from .vento import VENTO
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(RAIZ, "data")
@@ -105,7 +106,7 @@ def verificacao(dia_obs):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", help="data de referência (AAAA-MM-DD, padrão: hoje UTC)")
-    ap.add_argument("--so", default="modelos,observado,setor")
+    ap.add_argument("--so", default="modelos,vento,observado,setor")
     a = ap.parse_args()
     hoje = dt.date.fromisoformat(a.data) if a.data else dt.datetime.utcnow().date()
     etapas = set(a.so.split(","))
@@ -151,6 +152,17 @@ def main():
                     "semana1_bacias": v.get("semana1", {}), "semana2_bacias": v.get("semana2", {})}
                 for k, v in prev.items()}
 
+        if "vento" in etapas:
+            vento = {}
+            for chave, func in VENTO.items():
+                try:
+                    vento[chave] = func(tmp, hoje)
+                    status[f"vento_{chave}"] = f"ok (rodada {vento[chave]['rodada']})"
+                except Exception as e:  # noqa
+                    status[f"vento_{chave}"] = f"erro: {e}"
+                    traceback.print_exc()
+            latest["vento_previsto"] = vento
+
         if "observado" in etapas:
             novos = 0
             for d in dias_para_coletar(hoje, P_OBS):
@@ -173,7 +185,8 @@ def main():
 
     if "setor" in etapas:
         for nome, func in {"ear": setor.ons_ear, "ena": setor.ons_ena, "carga": setor.ons_carga,
-                           "pld": setor.ccee_pld, "cmo": setor.ons_cmo}.items():
+                           "pld": setor.ccee_pld, "cmo": setor.ons_cmo,
+                           "eolica": setor.ons_eolica}.items():
             try:
                 latest[nome] = func(hoje.year)
                 status[nome] = "ok"

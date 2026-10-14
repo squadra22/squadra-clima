@@ -10,7 +10,11 @@ import datetime as dt
 import json
 import sys
 
+import os
+
 from clima.bacias import GRUPOS, REGIOES
+from clima.vento import REGIOES_EOLICAS
+from . import graficos
 
 DIAS = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo"]
 MODS = [("gfs", "GFS"), ("gefs", "GEFS"), ("ecmwf", "ECMWF"), ("aifs", "AIFS")]
@@ -153,6 +157,52 @@ def sec_preco(L):
     return {"titulo": "Preço e carga", "bullets": b}
 
 
+def sec_eolica(L, pasta):
+    E, V = L.get("eolica") or {}, L.get("vento_previsto") or {}
+    imgs, linhas = [], []
+    f1 = graficos.eolica_realizada(E, os.path.join(pasta, "eolica_realizada.png")) if E else None
+    if f1:
+        imgs.append({"caminho": f1, "legenda": f"Geração eólica verificada por hora, ONS (balanço de energia), até "
+                     f"{E['ate'][8:10]}/{E['ate'][5:7]} {E['ate'][11:16]}. A linha tracejada é a média dos últimos 30 dias."})
+    f2 = graficos.vento_previsto(V, os.path.join(pasta, "vento_previsto.png")) if V else None
+    if f2:
+        rods = "; ".join(f"{m['modelo']} {rodada_txt(m['rodada'])}" for m in V.values())
+        imgs.append({"caminho": f2, "legenda": f"Velocidade média diária do vento a 100 m nas regiões dos parques "
+                     f"(contornos aproximados). Rodadas: {rods}."})
+    # tabela: geração média dos últimos 7 dias x média de 30 dias
+    if E.get("diario"):
+        dias = sorted(E["diario"])[-8:-1] or sorted(E["diario"])[-7:]
+        for sub in ("Nordeste", "Sul"):
+            vals = [E["diario"][d].get(sub) for d in dias if E["diario"][d].get(sub) is not None]
+            m7 = sum(vals) / len(vals) if vals else None
+            m30 = (E.get("media_30d") or {}).get(sub)
+            ult = E["diario"][dias[-1]].get(sub) if dias else None
+            var = (100 * (m7 / m30 - 1)) if (m7 and m30) else None
+            linhas.append([sub, n(ult), n(m7), n(m30), n(var, 0, True) + "%" if var is not None else "n/d"])
+    tabelas = []
+    if linhas:
+        tabelas.append({"titulo": "Geração eólica verificada (MWmed)",
+                        "colunas": ["Subsistema", "Último dia completo", "Média 7 dias", "Média 30 dias", "7d x 30d"],
+                        "larguras": [1.4, 1.3, 1.2, 1.2, 1], "linhas": linhas})
+    if V:
+        cols, ordem = ["Região"], [k for k in ("gfs", "ecmwf", "aifs") if k in V]
+        cols += [V[k]["modelo"] for k in ordem]
+        lv = []
+        for reg in REGIOES_EOLICAS:
+            row = [reg]
+            for k in ordem:
+                ds = sorted(V[k]["diario"])[1:8]
+                v = [V[k]["diario"][d][reg] for d in ds if reg in V[k]["diario"][d]]
+                row.append(n(sum(v) / len(v), 1) + " m/s" if v else "n/d")
+            lv.append(row)
+        tabelas.append({"titulo": "Vento médio previsto a 100 m, próximos 7 dias", "colunas": cols, "linhas": lv,
+                        "larguras": [2.2] + [1.2] * len(ordem)})
+    if not imgs and not tabelas:
+        return {"titulo": "Eólica: geração verificada e vento previsto", "paragrafos": ["Dados de eólica indisponíveis nesta coleta."]}
+    return {"titulo": "Eólica: geração verificada e vento previsto", "imagens": imgs, "tabelas": tabelas,
+            "bullets": ["[PREENCHER: leitura da eólica — desempenho recente x média, se os modelos indicam vento acima ou abaixo nos próximos dias no NE (interior x litoral) e no Sul, e o efeito no PLD/spreads]"]}
+
+
 def kpis(L):
     e = L.get("enso") or {}
     ena = (L.get("ena") or {}).get("SE/CO", {})
@@ -172,13 +222,13 @@ def kpis(L):
     return k
 
 
-def montar(L):
+def montar(L, pasta="."):
     hoje = dt.date.fromisoformat(L["data_ref"])
     return {
         "data": hoje.strftime("%d/%m/%Y"), "dia_semana": DIAS[hoje.weekday()], "edicao": "",
         "manchete": "[PREENCHER: 1–3 frases — o que mudou desde ontem e por que importa]",
         "kpis": kpis(L),
-        "secoes": [sec_enos(L), sec_verificacao(L), sec_modelos(L), sec_curto_prazo(), sec_hidro(L), sec_preco(L)],
+        "secoes": [sec_enos(L), sec_verificacao(L), sec_modelos(L), sec_curto_prazo(), sec_eolica(L, pasta), sec_hidro(L), sec_preco(L)],
         "leitura_trading": ["[PREENCHER: 3–5 itens por submercado; diferenciar fato de interpretação]"],
         "fontes": [
             {"titulo": "Coleta squadra-clima: GFS/GEFS (NOAA), ECMWF IFS/ENS/AIFS (ECMWF Open Data, CC BY 4.0), "
@@ -191,5 +241,5 @@ if __name__ == "__main__":
     with open(sys.argv[1], encoding="utf-8") as fh:
         L = json.load(fh)
     with open(sys.argv[2], "w", encoding="utf-8") as fh:
-        json.dump(montar(L), fh, ensure_ascii=False, indent=1)
+        json.dump(montar(L, os.path.dirname(os.path.abspath(sys.argv[2]))), fh, ensure_ascii=False, indent=1)
     print("ok:", sys.argv[2])

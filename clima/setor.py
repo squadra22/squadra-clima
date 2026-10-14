@@ -141,3 +141,36 @@ def ons_cmo(ano):
     return {"data": dia.isoformat(), "submercados": {_sub(s): {"media": round(float(g[cv].mean()), 2),
                                                                "max": round(float(g[cv].max()), 2)}
                                                      for s, g in d.groupby(cs)}}
+
+
+def ons_eolica(ano, dias=15):
+    """Geração eólica verificada (ONS, balanço de energia horário por subsistema): NE e Sul.
+
+    Retorna série horária dos últimos `dias` dias (MWmed) e médias diárias, mais a média dos 30 dias.
+    """
+    dfs = []
+    hoje = pd.Timestamp.utcnow().tz_localize(None)
+    anos = [ano] if hoje.dayofyear > dias + 31 else [ano - 1, ano]
+    for a in anos:
+        try:
+            dfs.append(_csv(f"{ONS}/balanco_energia_subsistema_ho/BALANCO_ENERGIA_SUBSISTEMA_{a}.csv"))
+        except Exception:  # noqa
+            if a == ano:
+                raise
+    df = pd.concat(dfs, ignore_index=True)
+    cd, cs, cv = _col(df, "din_instante"), _col(df, "id_subsistema"), _col(df, "eolica")
+    df[cd] = pd.to_datetime(df[cd])
+    df[cv] = pd.to_numeric(df[cv], errors="coerce")
+    df["_sub"] = df[cs].map(_sub)
+    df = df[df["_sub"].isin(["Nordeste", "Sul"])]
+    ult = df[cd].max()
+    rec = df[df[cd] > ult - pd.Timedelta(days=dias)]
+    piv = rec.pivot_table(index=cd, columns="_sub", values=cv, aggfunc="mean").sort_index()
+    serie = [{"t": t.strftime("%Y-%m-%dT%H:%M"), **{k: (None if pd.isna(v) else round(float(v), 0)) for k, v in row.items()}}
+             for t, row in piv.iterrows()]
+    diario = (rec.assign(_d=rec[cd].dt.date).groupby(["_d", "_sub"])[cv].mean().unstack())
+    m30 = df[df[cd] > ult - pd.Timedelta(days=30)].groupby("_sub")[cv].mean()
+    return {"ate": ult.strftime("%Y-%m-%dT%H:%M"), "serie_horaria": serie,
+            "diario": {d.isoformat(): {k: round(float(v), 0) for k, v in r.items() if not pd.isna(v)}
+                       for d, r in diario.iterrows()},
+            "media_30d": {k: round(float(v), 0) for k, v in m30.items()}}

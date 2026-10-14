@@ -264,6 +264,15 @@ def montar(conteudo, saida):
             if tb.get("titulo"):
                 bloco += [Spacer(1, 3), Paragraph(f"<b>{esc(tb['titulo'])}</b>", S["p"])]
             bloco += [Spacer(1, 3)] + tabela(tb, larg) + [Spacer(1, 4)]; vazio = False
+        for im in sec.get("imagens", []):
+            if os.path.exists(im.get("caminho", "")):
+                from reportlab.platypus import Image as RLImage
+                from reportlab.lib.utils import ImageReader
+                iw, ih = ImageReader(im["caminho"]).getSize()
+                bloco += [Spacer(1, 3), RLImage(im["caminho"], width=larg, height=larg * ih / iw)]
+                if im.get("legenda"):
+                    bloco += [Spacer(1, 2), Paragraph(md(im["legenda"]), S["nota"])]
+                bloco.append(Spacer(1, 4)); vazio = False
         for b in sec.get("bullets", []):
             bloco += [Paragraph(md(b), S["bul"], bulletText="•"), Spacer(1, 2)]; vazio = False
         if vazio:
