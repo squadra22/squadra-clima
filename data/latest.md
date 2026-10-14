@@ -1,5 +1,5 @@
 # Coleta squadra-clima — 2026-10-14
-Gerado em 2026-10-14T17:31 UTC
+Gerado em 2026-10-14T17:55 UTC
 
 ## Status das fontes
 - **gfs**: ok (rodada 2026101400)
@@ -14,6 +14,10 @@ Gerado em 2026-10-14T17:31 UTC
 - **pld**: erro: HTTP 403 sem JSON em https://dadosabertos.ccee.org.br/api/3/action/package_show?id=pld_horario: '<meta charset="UTF-8"><title>Acesso bloqueado</title><link rel=icon href=data:,>\n<style>body{font:13px Arial;color:#555;max-width:580px;margin:12px auto;padding:10px}b{color:#0d0a6e}i{color:#888;font-'
 - **enso**: ok
 - **cmo**: ok
+- **vento_gfs**: ok (rodada 2026101400)
+- **vento_ecmwf**: ok (rodada 2026101400)
+- **vento_aifs**: ok (rodada 2026101400)
+- **eolica**: ok
 
 ## ENOS (CPC, semana 07OCT2026)
 Niño 1+2 +5.2 · Niño 3 +4.1 · Niño 3.4 +3.3 (+0.1 na semana) · Niño 4 +1.3 °C
