@@ -1,5 +1,5 @@
 # Coleta squadra-clima — 2026-10-16
-Gerado em 2026-10-16T17:03 UTC
+Gerado em 2026-10-16T22:23 UTC
 
 ## Status das fontes
 - **gfs**: ok (rodada 2026101600)
@@ -7,7 +7,7 @@ Gerado em 2026-10-16T17:03 UTC
 - **ecmwf**: ok (rodada 2026101600)
 - **ecmwf_ens**: ok (rodada 2026101600)
 - **aifs**: ok (rodada 2026101600)
-- **observado**: ok (1 dia(s) novo(s))
+- **observado**: ok (0 dia(s) novo(s))
 - **ear**: ok
 - **ena**: ok
 - **carga**: ok
@@ -69,8 +69,8 @@ Niño 1+2 +5.2 · Niño 3 +4.1 · Niño 3.4 +3.3 (+0.1 na semana) · Niño 4 +1.
 - Sul: {"data": "2026-10-15", "mwmed": 34229.0, "pct_mlt": 249.7, "pct_mlt_mes": 244.2}
 - SE/CO: {"data": "2026-10-15", "mwmed": 43699.0, "pct_mlt": 184.4, "pct_mlt_mes": 138.1}
 
-## CMO ONS (2026-10-16)
-- Norte: média 252.01 R$/MWh
-- Nordeste: média 226.5 R$/MWh
-- Sul: média 226.47 R$/MWh
-- SE/CO: média 226.51 R$/MWh
+## CMO ONS (2026-10-17)
+- Norte: média 35.2 R$/MWh
+- Nordeste: média 10.27 R$/MWh
+- Sul: média 9.14 R$/MWh
+- SE/CO: média 10.31 R$/MWh
