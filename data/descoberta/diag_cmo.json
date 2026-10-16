@@ -1,0 +1,17 @@
+{
+ "head_status": 404,
+ "head_headers": {
+  "Server": "AmazonS3",
+  "x-amz-request-id": "WG95MW7SZZ46VEST",
+  "x-amz-id-2": "bEKDe2LTYjhRPeOlE2kXL8nBc/3AdYIAHSolf+RTQjGWbTboawh9nY6e8g2NOBUgFbJIjVhmhO8Wls/4Kj+rB+TvcO6iZ5LD",
+  "Content-Type": "application/xml",
+  "Transfer-Encoding": "chunked",
+  "Date": "Fri, 16 Oct 2026 22:22:05 GMT"
+ },
+ "get_status": 404,
+ "get_bytes": 339,
+ "primeiras_linhas": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>dataset/cmo_semihorario/CMO_SEMIHORARIO_2026.csv</Key><RequestId>WG926NSABFD650X0</RequestId><HostId>u30oTmInpnHQEW121DO0jCGd8o4xpOBLHcsG3tiD8jVYBBnZdz5NfL7N118wmuAd8fpyOV6Z0NUY62o2IDxIHUW10j1x1w7s</HostId></Error>",
+ "ultimas_linhas": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>dataset/cmo_semihorario/CMO_SEMIHORARIO_2026.csv</Key><RequestId>WG926NSABFD650X0</RequestId><HostId>u30oTmInpnHQEW121DO0jCGd8o4xpOBLHcsG3tiD8jVYBBnZdz5NfL7N118wmuAd8fpyOV6Z0NUY62o2IDxIHUW10j1x1w7s</HostId></Error>",
+ "analisar_2026-10-16_erro": "Traceback (most recent call last):\n  File \"/home/runner/work/squadra-clima/squadra-clima/ferramentas/diag_cmo.py\", line 16, in <module>\n    md, cont, comp, res, cur = M.analisar(r.content, d)\n                               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/squadra-clima/squadra-clima/clima/monitor_cmo.py\", line 71, in analisar\n    cd = next(c for c in df.columns if \"din_instante\" in c.lower())\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nStopIteration\n",
+ "analisar_2026-10-17_erro": "Traceback (most recent call last):\n  File \"/home/runner/work/squadra-clima/squadra-clima/ferramentas/diag_cmo.py\", line 16, in <module>\n    md, cont, comp, res, cur = M.analisar(r.content, d)\n                               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/squadra-clima/squadra-clima/clima/monitor_cmo.py\", line 71, in analisar\n    cd = next(c for c in df.columns if \"din_instante\" in c.lower())\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nStopIteration\n"
+}
