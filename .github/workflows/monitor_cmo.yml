@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "25 16 * * *"   # 13:25 BRT — começa a consultar a cada 5 min
     - cron: "40 17 * * *"   # 14:40 BRT — reserva, caso o agendamento anterior falhe (sai se já registrado)
+    - cron: "10 22 * * *"   # 19:10 BRT — segunda janela, até 23:45 (o ONS pode publicar perto das 19h)
   workflow_dispatch:
   push:
     paths:
@@ -32,8 +33,10 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install pandas requests matplotlib
-      - name: Consulta a cada 5 minutos até o CMO de D+1 sair (limite 19:15 BRT)
+      - name: Consulta a cada 5 minutos até o CMO de D+1 sair
         run: |
           git config user.name "squadra-clima-bot"
           git config user.email "actions@users.noreply.github.com"
-          python -m clima.monitor_cmo --intervalo 300 --ate 19:15
+          H=$(date +%H)
+          if [ "$H" -ge 19 ]; then ATE="23:45"; else ATE="19:15"; fi
+          python -m clima.monitor_cmo --intervalo 300 --ate "$ATE"

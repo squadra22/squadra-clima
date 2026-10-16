@@ -161,6 +161,9 @@ def avisar(dia, det, lm, resumo, completo, horario=None):
                        cwd=RAIZ, capture_output=True, text=True)
     url = r.stdout.strip()
     print("aviso:", url or r.stderr)
+    _append_csv("avisos.csv", {"dia_cmo": dia.isoformat(), "enviado_brt": agora().strftime("%Y-%m-%d %H:%M"),
+                               "issue": url, "erro": "" if url else r.stderr.strip()[:300]},
+                ["dia_cmo", "enviado_brt", "issue", "erro"])
     if url:
         subprocess.run(["gh", "issue", "close", url], cwd=RAIZ, check=False)
 
