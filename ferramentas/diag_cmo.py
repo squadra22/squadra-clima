@@ -21,3 +21,5 @@ except Exception as e:
     out["get_erro"] = repr(e)
 os.makedirs("data/descoberta", exist_ok=True)
 json.dump(out, open("data/descoberta/diag_cmo.json", "w"), ensure_ascii=False, indent=1, default=str)
+
+# rerun

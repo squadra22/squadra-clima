@@ -29,7 +29,7 @@ import pandas as pd
 import requests
 
 BRT = ZoneInfo("America/Sao_Paulo")
-URL = "https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/cmo_semihorario/CMO_SEMIHORARIO_{ano}.csv"
+URL = "https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/cmo_tm/CMO_SEMIHORARIO_{ano}.csv"
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PASTA = os.path.join(RAIZ, "data", "cmo_publicacao")
 SUBS = {"SE": "SE/CO", "S": "Sul", "NE": "Nordeste", "N": "Norte"}
@@ -179,12 +179,13 @@ def main():
         print(f"CMO de {alvo} já registrado completo; nada a fazer.")
         return
     url = URL.format(ano=alvo.year)
-    etag_ant, parcial_registrado = None, False
+    etag_ant, parcial_registrado, erros_seguidos = None, False, 0
     print(f"monitorando CMO de {alvo} até {limite:%H:%M} BRT, a cada {a.intervalo}s")
     while True:
         t = agora()
         try:
             h = requests.head(url, headers=UA, timeout=60)
+            h.raise_for_status()
             etag, lm = h.headers.get("ETag"), _brt(h.headers.get("Last-Modified", ""))
             if etag and etag != etag_ant:
                 r = requests.get(url, headers=UA, timeout=180)
@@ -231,6 +232,15 @@ def main():
                         return
         except Exception as e:  # noqa
             print(t.strftime("%H:%M"), "erro:", e, file=sys.stderr)
+            erros_seguidos += 1
+            if erros_seguidos in (1, 3, 10):
+                _append_csv("log.csv", {"consulta_brt": t.strftime("%Y-%m-%d %H:%M:%S"), "last_modified_brt": "",
+                                        "etag": "", "ultimo_dia_no_arquivo": "ERRO",
+                                        "meias_horas_d1": repr(e)[:300]},
+                            ["consulta_brt", "last_modified_brt", "etag", "ultimo_dia_no_arquivo", "meias_horas_d1"])
+                git_salvar(f"Monitor CMO: erro na consulta ({erros_seguidos}x)")
+        else:
+            erros_seguidos = 0
         if agora() + dt.timedelta(seconds=a.intervalo) > limite:
             _append_csv("historico.csv" if not parcial_registrado else "log.csv",
                         {"dia_cmo": alvo.isoformat(), "detectado_brt": "", "last_modified_brt": "",
