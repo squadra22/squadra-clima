@@ -1,5 +1,5 @@
 # Coleta squadra-clima — 2026-10-16
-Gerado em 2026-10-16T10:06 UTC
+Gerado em 2026-10-16T17:03 UTC
 
 ## Status das fontes
 - **gfs**: ok (rodada 2026101600)
@@ -23,28 +23,28 @@ Gerado em 2026-10-16T10:06 UTC
 ## ENOS (CPC, semana 07OCT2026)
 Niño 1+2 +5.2 · Niño 3 +4.1 · Niño 3.4 +3.3 (+0.1 na semana) · Niño 4 +1.3 °C
 
-## Chuva observada 2026-10-15 x prevista (rodada 2026101400) — mm
+## Chuva observada 2026-10-16 x prevista (rodada 2026101500) — mm
 | Bacia | Obs | GFS | GEFS | ECMWF | AIFS | Desvio |
 |---|---|---|---|---|---|---|
-| Jacuí | 0.6 | 1.4 | 1.5 | 2.4 | 6.8 | -2.4 |
-| Uruguai | 3.9 | 5.3 | 8.4 | 5.6 | 9 | -3.2 |
-| Iguaçu | 4.4 | 28.3 | 16.6 | 10.5 | 9.2 | -11.8 |
-| Baixo Paraná | 4.3 | 9.7 | 6.5 | 6.4 | 9.2 | -3.7 |
-| Alto Paraná | 23 | 19.7 | 14.4 | 11.3 | 18 | 7.1 |
-| Paranapanema | 9.6 | 19.5 | 27.2 | 28.3 | 16.1 | -13.2 |
-| Tietê | 11.9 | 17.3 | 18.9 | 12.7 | 9.6 | -2.7 |
-| Baixo Grande | 22.3 | 5.9 | 5.7 | 10.1 | 8 | 14.9 |
-| Alto Grande | 2.4 | 13.2 | 14.2 | 3.6 | 6.6 | -7 |
-| Baixo Paranaíba | 14.9 | 3.2 | 2.1 | 9 | 12.8 | 8.1 |
-| Alto Paranaíba | 16.3 | 2.9 | 2.1 | 11.5 | 16.1 | 8.1 |
-| Alto São Francisco | 2.1 | 5.2 | 4.4 | 4.8 | 8.9 | -3.7 |
-| Alto Tocantins | 8.2 | 0.4 | 0.3 | 5.6 | 6.5 | 5 |
-| Madeira | 3.7 | 3.3 | 3.7 | 10.3 | 6 | -2.1 |
-| Médio São Francisco | 1 | 0.2 | 0.1 | 1.1 | 0.7 | 0.5 |
+| Jacuí | 0.8 | 1.1 | 1.6 | 2.8 | 4.8 | -1.8 |
+| Uruguai | 2.5 | 4.8 | 6.6 | 5.3 | 8 | -3.7 |
+| Iguaçu | 7.9 | 11.6 | 12.7 | 11 | 11 | -3.7 |
+| Baixo Paraná | 0.3 | 1.9 | 1.7 | 1.9 | 2.8 | -1.8 |
+| Alto Paraná | 19 | 9.2 | 9.9 | 13.8 | 15.9 | 6.8 |
+| Paranapanema | 11.7 | 13.1 | 10.4 | 12.1 | 9 | 0.5 |
+| Tietê | 10.2 | 21.7 | 17.6 | 22.6 | 7.8 | -7.2 |
+| Baixo Grande | 15.7 | 14 | 18.3 | 13.3 | 7.5 | 2.4 |
+| Alto Grande | 5.3 | 18.9 | 18.5 | 9.5 | 7.9 | -8.4 |
+| Baixo Paranaíba | 2.8 | 14.1 | 13.4 | 13.1 | 7.6 | -9.3 |
+| Alto Paranaíba | 0.8 | 17.6 | 18.5 | 4.9 | 3.9 | -10.4 |
+| Alto São Francisco | 3.4 | 7.6 | 9.1 | 8.6 | 5.2 | -4.2 |
+| Alto Tocantins | 10.8 | 5.1 | 5.2 | 4.1 | 10.4 | 4.6 |
+| Madeira | 7.2 | 3.9 | 3.3 | 7.7 | 7.9 | 1.5 |
+| Médio São Francisco | 3.8 | 2 | 1.9 | 3 | 3.9 | 1.1 |
 | Baixo São Francisco | 0 | 0 | 0 | 0 | 0 | 0 |
-| Baixo Tocantins | 0 | 0 | 0 | 0.9 | 0.3 | -0.3 |
-| Araguaia | 18.1 | 0.6 | 0.5 | 6.5 | 8.1 | 14.2 |
-| Xingu | 9.6 | 0.3 | 0.2 | 4.3 | 5.4 | 7.1 |
+| Baixo Tocantins | 1.1 | 0 | 0 | 1.7 | 2.2 | 0.1 |
+| Araguaia | 7.8 | 3.2 | 3 | 6.2 | 6.9 | 3 |
+| Xingu | 4.5 | 2 | 1.6 | 2.3 | 4.9 | 1.8 |
 
 ## Previsão por região — semana 1 (dias 1–7) / semana 2 (dias 8–14), mm
 | Região | GFS | GEFS (média) | ECMWF IFS | ECMWF ENS | ECMWF AIFS |
@@ -58,16 +58,16 @@ Niño 1+2 +5.2 · Niño 3 +4.1 · Niño 3.4 +3.3 (+0.1 na semana) · Niño 4 +1.
 | Nordeste (São Francisco) | 10.9 / 28 | 9.9 / 9.1 | 15.9 / n/d | 19.2 / 20 | 13.3 / 9.5 |
 
 ## EAR (%)
-- Nordeste: {"data": "2026-10-14", "pct": 65.1, "var_7d": -1.6}
-- Norte: {"data": "2026-10-14", "pct": 68.1, "var_7d": -1.9}
-- SE/CO: {"data": "2026-10-14", "pct": 55.4, "var_7d": -0.5}
-- Sul: {"data": "2026-10-14", "pct": 81.3, "var_7d": 0.7}
+- Nordeste: {"data": "2026-10-15", "pct": 64.9, "var_7d": -1.6}
+- Norte: {"data": "2026-10-15", "pct": 67.5, "var_7d": -2.1}
+- SE/CO: {"data": "2026-10-15", "pct": 55.4, "var_7d": -0.5}
+- Sul: {"data": "2026-10-15", "pct": 81.3, "var_7d": 0.4}
 
 ## ENA (% MLT)
-- Norte: {"data": "2026-10-14", "mwmed": 990.0, "pct_mlt": 41.7, "pct_mlt_mes": 45.3}
-- Nordeste: {"data": "2026-10-14", "mwmed": 1622.0, "pct_mlt": 51.1, "pct_mlt_mes": 61.2}
-- Sul: {"data": "2026-10-14", "mwmed": 36906.0, "pct_mlt": 269.3, "pct_mlt_mes": 243.7}
-- SE/CO: {"data": "2026-10-14", "mwmed": 38554.0, "pct_mlt": 162.6, "pct_mlt_mes": 131.9}
+- Norte: {"data": "2026-10-15", "mwmed": 996.0, "pct_mlt": 42.0, "pct_mlt_mes": 45.4}
+- Nordeste: {"data": "2026-10-15", "mwmed": 1597.0, "pct_mlt": 50.8, "pct_mlt_mes": 60.5}
+- Sul: {"data": "2026-10-15", "mwmed": 34229.0, "pct_mlt": 249.7, "pct_mlt_mes": 244.2}
+- SE/CO: {"data": "2026-10-15", "mwmed": 43699.0, "pct_mlt": 184.4, "pct_mlt_mes": 138.1}
 
 ## CMO ONS (2026-10-16)
 - Norte: média 252.01 R$/MWh

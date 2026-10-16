@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-10-16T10:06",
+ "gerado_em_utc": "2026-10-16T17:03",
  "data_ref": "2026-10-16",
  "previsoes": {
   "gfs": {
@@ -342,97 +342,97 @@
  },
  "observado_ultimo_dia": {
   "fonte": "MERGE/CPTEC",
-  "dia": "2026-10-15",
+  "dia": "2026-10-16",
   "bacias": {
-   "Jacuí": 0.6,
-   "Uruguai": 3.9,
-   "Iguaçu": 4.4,
-   "Baixo Paraná": 4.3,
-   "Alto Paraná": 23.0,
-   "Paranapanema": 9.6,
-   "Tietê": 11.9,
-   "Alto Grande": 2.4,
-   "Baixo Grande": 22.3,
-   "Alto Paranaíba": 16.3,
-   "Baixo Paranaíba": 14.9,
-   "Alto São Francisco": 2.1,
-   "Médio São Francisco": 1.0,
+   "Jacuí": 0.8,
+   "Uruguai": 2.5,
+   "Iguaçu": 7.9,
+   "Baixo Paraná": 0.3,
+   "Alto Paraná": 19.0,
+   "Paranapanema": 11.7,
+   "Tietê": 10.2,
+   "Alto Grande": 5.3,
+   "Baixo Grande": 15.7,
+   "Alto Paranaíba": 0.8,
+   "Baixo Paranaíba": 2.8,
+   "Alto São Francisco": 3.4,
+   "Médio São Francisco": 3.8,
    "Baixo São Francisco": 0.0,
-   "Alto Tocantins": 8.2,
-   "Araguaia": 18.1,
-   "Baixo Tocantins": 0.0,
-   "Xingu": 9.6,
-   "Madeira": 3.7
+   "Alto Tocantins": 10.8,
+   "Araguaia": 7.8,
+   "Baixo Tocantins": 1.1,
+   "Xingu": 4.5,
+   "Madeira": 7.2
   }
  },
  "acumulado_mes": {
-  "dias": 15,
-  "ate": "2026-10-15",
+  "dias": 16,
+  "ate": "2026-10-16",
   "bacias": {
    "Jacuí": {
-    "mm": 89.0,
+    "mm": 89.8,
     "clima_mes": 184.0,
-    "pct_clima": 48.0
+    "pct_clima": 49.0
    },
    "Uruguai": {
-    "mm": 126.1,
+    "mm": 128.6,
     "clima_mes": 200.0,
-    "pct_clima": 63.0
+    "pct_clima": 64.0
    },
    "Iguaçu": {
-    "mm": 199.6,
+    "mm": 207.5,
     "clima_mes": 204.0,
-    "pct_clima": 98.0
+    "pct_clima": 102.0
    },
    "Baixo Paraná": {
-    "mm": 186.8,
+    "mm": 187.1,
     "clima_mes": 160.0,
     "pct_clima": 117.0
    },
    "Alto Paraná": {
-    "mm": 159.7,
+    "mm": 178.7,
     "clima_mes": 95.0,
-    "pct_clima": 168.0
+    "pct_clima": 188.0
    },
    "Paranapanema": {
-    "mm": 105.8,
+    "mm": 117.5,
     "clima_mes": 135.0,
-    "pct_clima": 78.0
+    "pct_clima": 87.0
    },
    "Tietê": {
-    "mm": 67.0,
+    "mm": 77.2,
     "clima_mes": 98.0,
-    "pct_clima": 68.0
+    "pct_clima": 79.0
    },
    "Alto Grande": {
-    "mm": 91.5,
+    "mm": 96.8,
     "clima_mes": 98.0,
-    "pct_clima": 93.0
+    "pct_clima": 99.0
    },
    "Baixo Grande": {
-    "mm": 83.5,
+    "mm": 99.2,
     "clima_mes": 97.0,
-    "pct_clima": 86.0
+    "pct_clima": 102.0
    },
    "Alto Paranaíba": {
-    "mm": 71.8,
+    "mm": 72.6,
     "clima_mes": 85.0,
-    "pct_clima": 84.0
+    "pct_clima": 85.0
    },
    "Baixo Paranaíba": {
-    "mm": 66.7,
+    "mm": 69.5,
     "clima_mes": 87.0,
-    "pct_clima": 77.0
+    "pct_clima": 80.0
    },
    "Alto São Francisco": {
-    "mm": 52.7,
+    "mm": 56.1,
     "clima_mes": 82.0,
-    "pct_clima": 64.0
+    "pct_clima": 68.0
    },
    "Médio São Francisco": {
-    "mm": 10.9,
+    "mm": 14.7,
     "clima_mes": 47.0,
-    "pct_clima": 23.0
+    "pct_clima": 31.0
    },
    "Baixo São Francisco": {
     "mm": 0.2,
@@ -440,171 +440,171 @@
     "pct_clima": 2.0
    },
    "Alto Tocantins": {
-    "mm": 31.0,
+    "mm": 41.8,
     "clima_mes": 94.0,
-    "pct_clima": 33.0
+    "pct_clima": 44.0
    },
    "Araguaia": {
-    "mm": 63.2,
+    "mm": 71.0,
     "clima_mes": 88.0,
-    "pct_clima": 72.0
+    "pct_clima": 81.0
    },
    "Baixo Tocantins": {
-    "mm": 8.0,
+    "mm": 9.1,
     "clima_mes": 74.0,
-    "pct_clima": 11.0
+    "pct_clima": 12.0
    },
    "Xingu": {
-    "mm": 44.4,
+    "mm": 48.9,
     "clima_mes": 98.0,
-    "pct_clima": 45.0
+    "pct_clima": 50.0
    },
    "Madeira": {
-    "mm": 31.0,
+    "mm": 38.2,
     "clima_mes": 85.0,
-    "pct_clima": 36.0
+    "pct_clima": 45.0
    }
   }
  },
  "verificacao_d1": {
-  "dia": "2026-10-15",
+  "dia": "2026-10-16",
   "fonte_obs": "MERGE/CPTEC",
-  "rodada_prevista": "2026101400",
+  "rodada_prevista": "2026101500",
   "bacias": {
    "Jacuí": {
-    "obs": 0.6,
-    "gfs": 1.4,
-    "gefs": 1.5,
-    "ecmwf": 2.4,
-    "aifs": 6.8,
-    "media_modelos": 3.0,
-    "desvio": -2.4
+    "obs": 0.8,
+    "gfs": 1.1,
+    "gefs": 1.6,
+    "ecmwf": 2.8,
+    "aifs": 4.8,
+    "media_modelos": 2.6,
+    "desvio": -1.8
    },
    "Uruguai": {
-    "obs": 3.9,
-    "gfs": 5.3,
-    "gefs": 8.4,
-    "ecmwf": 5.6,
-    "aifs": 9.0,
-    "media_modelos": 7.1,
-    "desvio": -3.2
+    "obs": 2.5,
+    "gfs": 4.8,
+    "gefs": 6.6,
+    "ecmwf": 5.3,
+    "aifs": 8.0,
+    "media_modelos": 6.2,
+    "desvio": -3.7
    },
    "Iguaçu": {
-    "obs": 4.4,
-    "gfs": 28.3,
-    "gefs": 16.6,
-    "ecmwf": 10.5,
-    "aifs": 9.2,
-    "media_modelos": 16.2,
-    "desvio": -11.8
+    "obs": 7.9,
+    "gfs": 11.6,
+    "gefs": 12.7,
+    "ecmwf": 11.0,
+    "aifs": 11.0,
+    "media_modelos": 11.6,
+    "desvio": -3.7
    },
    "Baixo Paraná": {
-    "obs": 4.3,
-    "gfs": 9.7,
-    "gefs": 6.5,
-    "ecmwf": 6.4,
-    "aifs": 9.2,
-    "media_modelos": 8.0,
-    "desvio": -3.7
+    "obs": 0.3,
+    "gfs": 1.9,
+    "gefs": 1.7,
+    "ecmwf": 1.9,
+    "aifs": 2.8,
+    "media_modelos": 2.1,
+    "desvio": -1.8
    },
    "Alto Paraná": {
-    "obs": 23.0,
-    "gfs": 19.7,
-    "gefs": 14.4,
-    "ecmwf": 11.3,
-    "aifs": 18.0,
-    "media_modelos": 15.9,
-    "desvio": 7.1
+    "obs": 19.0,
+    "gfs": 9.2,
+    "gefs": 9.9,
+    "ecmwf": 13.8,
+    "aifs": 15.9,
+    "media_modelos": 12.2,
+    "desvio": 6.8
    },
    "Paranapanema": {
-    "obs": 9.6,
-    "gfs": 19.5,
-    "gefs": 27.2,
-    "ecmwf": 28.3,
-    "aifs": 16.1,
-    "media_modelos": 22.8,
-    "desvio": -13.2
+    "obs": 11.7,
+    "gfs": 13.1,
+    "gefs": 10.4,
+    "ecmwf": 12.1,
+    "aifs": 9.0,
+    "media_modelos": 11.2,
+    "desvio": 0.5
    },
    "Tietê": {
-    "obs": 11.9,
-    "gfs": 17.3,
-    "gefs": 18.9,
-    "ecmwf": 12.7,
-    "aifs": 9.6,
-    "media_modelos": 14.6,
-    "desvio": -2.7
+    "obs": 10.2,
+    "gfs": 21.7,
+    "gefs": 17.6,
+    "ecmwf": 22.6,
+    "aifs": 7.8,
+    "media_modelos": 17.4,
+    "desvio": -7.2
    },
    "Baixo Grande": {
-    "obs": 22.3,
-    "gfs": 5.9,
-    "gefs": 5.7,
-    "ecmwf": 10.1,
-    "aifs": 8.0,
-    "media_modelos": 7.4,
-    "desvio": 14.9
+    "obs": 15.7,
+    "gfs": 14.0,
+    "gefs": 18.3,
+    "ecmwf": 13.3,
+    "aifs": 7.5,
+    "media_modelos": 13.3,
+    "desvio": 2.4
    },
    "Alto Grande": {
-    "obs": 2.4,
-    "gfs": 13.2,
-    "gefs": 14.2,
-    "ecmwf": 3.6,
-    "aifs": 6.6,
-    "media_modelos": 9.4,
-    "desvio": -7.0
+    "obs": 5.3,
+    "gfs": 18.9,
+    "gefs": 18.5,
+    "ecmwf": 9.5,
+    "aifs": 7.9,
+    "media_modelos": 13.7,
+    "desvio": -8.4
    },
    "Baixo Paranaíba": {
-    "obs": 14.9,
-    "gfs": 3.2,
-    "gefs": 2.1,
-    "ecmwf": 9.0,
-    "aifs": 12.8,
-    "media_modelos": 6.8,
-    "desvio": 8.1
+    "obs": 2.8,
+    "gfs": 14.1,
+    "gefs": 13.4,
+    "ecmwf": 13.1,
+    "aifs": 7.6,
+    "media_modelos": 12.1,
+    "desvio": -9.3
    },
    "Alto Paranaíba": {
-    "obs": 16.3,
-    "gfs": 2.9,
-    "gefs": 2.1,
-    "ecmwf": 11.5,
-    "aifs": 16.1,
-    "media_modelos": 8.2,
-    "desvio": 8.1
+    "obs": 0.8,
+    "gfs": 17.6,
+    "gefs": 18.5,
+    "ecmwf": 4.9,
+    "aifs": 3.9,
+    "media_modelos": 11.2,
+    "desvio": -10.4
    },
    "Alto São Francisco": {
-    "obs": 2.1,
-    "gfs": 5.2,
-    "gefs": 4.4,
-    "ecmwf": 4.8,
-    "aifs": 8.9,
-    "media_modelos": 5.8,
-    "desvio": -3.7
+    "obs": 3.4,
+    "gfs": 7.6,
+    "gefs": 9.1,
+    "ecmwf": 8.6,
+    "aifs": 5.2,
+    "media_modelos": 7.6,
+    "desvio": -4.2
    },
    "Alto Tocantins": {
-    "obs": 8.2,
-    "gfs": 0.4,
-    "gefs": 0.3,
-    "ecmwf": 5.6,
-    "aifs": 6.5,
-    "media_modelos": 3.2,
-    "desvio": 5.0
+    "obs": 10.8,
+    "gfs": 5.1,
+    "gefs": 5.2,
+    "ecmwf": 4.1,
+    "aifs": 10.4,
+    "media_modelos": 6.2,
+    "desvio": 4.6
    },
    "Madeira": {
-    "obs": 3.7,
-    "gfs": 3.3,
-    "gefs": 3.7,
-    "ecmwf": 10.3,
-    "aifs": 6.0,
-    "media_modelos": 5.8,
-    "desvio": -2.1
+    "obs": 7.2,
+    "gfs": 3.9,
+    "gefs": 3.3,
+    "ecmwf": 7.7,
+    "aifs": 7.9,
+    "media_modelos": 5.7,
+    "desvio": 1.5
    },
    "Médio São Francisco": {
-    "obs": 1.0,
-    "gfs": 0.2,
-    "gefs": 0.1,
-    "ecmwf": 1.1,
-    "aifs": 0.7,
-    "media_modelos": 0.5,
-    "desvio": 0.5
+    "obs": 3.8,
+    "gfs": 2.0,
+    "gefs": 1.9,
+    "ecmwf": 3.0,
+    "aifs": 3.9,
+    "media_modelos": 2.7,
+    "desvio": 1.1
    },
    "Baixo São Francisco": {
     "obs": 0.0,
@@ -616,98 +616,98 @@
     "desvio": 0.0
    },
    "Baixo Tocantins": {
-    "obs": 0.0,
+    "obs": 1.1,
     "gfs": 0.0,
     "gefs": 0.0,
-    "ecmwf": 0.9,
-    "aifs": 0.3,
-    "media_modelos": 0.3,
-    "desvio": -0.3
+    "ecmwf": 1.7,
+    "aifs": 2.2,
+    "media_modelos": 1.0,
+    "desvio": 0.1
    },
    "Araguaia": {
-    "obs": 18.1,
-    "gfs": 0.6,
-    "gefs": 0.5,
-    "ecmwf": 6.5,
-    "aifs": 8.1,
-    "media_modelos": 3.9,
-    "desvio": 14.2
+    "obs": 7.8,
+    "gfs": 3.2,
+    "gefs": 3.0,
+    "ecmwf": 6.2,
+    "aifs": 6.9,
+    "media_modelos": 4.8,
+    "desvio": 3.0
    },
    "Xingu": {
-    "obs": 9.6,
-    "gfs": 0.3,
-    "gefs": 0.2,
-    "ecmwf": 4.3,
-    "aifs": 5.4,
-    "media_modelos": 2.5,
-    "desvio": 7.1
+    "obs": 4.5,
+    "gfs": 2.0,
+    "gefs": 1.6,
+    "ecmwf": 2.3,
+    "aifs": 4.9,
+    "media_modelos": 2.7,
+    "desvio": 1.8
    }
   },
   "erro_por_modelo": {
    "gfs": {
-    "vies_medio": -1.0,
-    "erro_abs_medio": 7.4
-   },
-   "gefs": {
-    "vies_medio": -1.6,
-    "erro_abs_medio": 7.7
-   },
-   "ecmwf": {
-    "vies_medio": -0.6,
+    "vies_medio": 1.9,
     "erro_abs_medio": 5.1
    },
+   "gefs": {
+    "vies_medio": 2.0,
+    "erro_abs_medio": 5.2
+   },
+   "ecmwf": {
+    "vies_medio": 1.5,
+    "erro_abs_medio": 3.5
+   },
    "aifs": {
-    "vies_medio": 0.1,
-    "erro_abs_medio": 4.3
+    "vies_medio": 0.6,
+    "erro_abs_medio": 2.5
    }
   }
  },
  "ear": {
   "Nordeste": {
-   "data": "2026-10-14",
-   "pct": 65.1,
+   "data": "2026-10-15",
+   "pct": 64.9,
    "var_7d": -1.6
   },
   "Norte": {
-   "data": "2026-10-14",
-   "pct": 68.1,
-   "var_7d": -1.9
+   "data": "2026-10-15",
+   "pct": 67.5,
+   "var_7d": -2.1
   },
   "SE/CO": {
-   "data": "2026-10-14",
+   "data": "2026-10-15",
    "pct": 55.4,
    "var_7d": -0.5
   },
   "Sul": {
-   "data": "2026-10-14",
+   "data": "2026-10-15",
    "pct": 81.3,
-   "var_7d": 0.7
+   "var_7d": 0.4
   }
  },
  "ena": {
   "Norte": {
-   "data": "2026-10-14",
-   "mwmed": 990.0,
-   "pct_mlt": 41.7,
-   "pct_mlt_mes": 45.3
+   "data": "2026-10-15",
+   "mwmed": 996.0,
+   "pct_mlt": 42.0,
+   "pct_mlt_mes": 45.4
   },
   "Nordeste": {
-   "data": "2026-10-14",
-   "mwmed": 1622.0,
-   "pct_mlt": 51.1,
-   "pct_mlt_mes": 61.2
+   "data": "2026-10-15",
+   "mwmed": 1597.0,
+   "pct_mlt": 50.8,
+   "pct_mlt_mes": 60.5
   },
   "Sul": {
-   "data": "2026-10-14",
-   "mwmed": 36906.0,
-   "pct_mlt": 269.3,
-   "pct_mlt_mes": 243.7
+   "data": "2026-10-15",
+   "mwmed": 34229.0,
+   "pct_mlt": 249.7,
+   "pct_mlt_mes": 244.2
   },
   "SE/CO": {
-   "data": "2026-10-14",
-   "mwmed": 38554.0,
-   "pct_mlt": 162.6,
-   "pct_mlt_mes": 131.9
+   "data": "2026-10-15",
+   "mwmed": 43699.0,
+   "pct_mlt": 184.4,
+   "pct_mlt_mes": 138.1
   }
  },
  "carga": {
@@ -717,7 +717,7 @@
   },
   "Nordeste": {
    "data": "2026-10-14",
-   "mwmed": 15720.0
+   "mwmed": 15722.0
   },
   "Sul": {
    "data": "2026-10-14",
@@ -2120,27 +2120,27 @@
    },
    {
     "t": "2026-10-01T00:00",
-    "Nordeste": 19628.0,
+    "Nordeste": 19629.0,
     "Sul": 302.0
    },
    {
     "t": "2026-10-01T01:00",
-    "Nordeste": 19049.0,
+    "Nordeste": 19050.0,
     "Sul": 350.0
    },
    {
     "t": "2026-10-01T02:00",
-    "Nordeste": 18665.0,
+    "Nordeste": 18686.0,
     "Sul": 395.0
    },
    {
     "t": "2026-10-01T03:00",
-    "Nordeste": 18617.0,
+    "Nordeste": 18618.0,
     "Sul": 421.0
    },
    {
     "t": "2026-10-01T04:00",
-    "Nordeste": 17737.0,
+    "Nordeste": 17738.0,
     "Sul": 441.0
    },
    {
@@ -2175,7 +2175,7 @@
    },
    {
     "t": "2026-10-01T11:00",
-    "Nordeste": 8902.0,
+    "Nordeste": 8903.0,
     "Sul": 246.0
    },
    {
@@ -2200,17 +2200,17 @@
    },
    {
     "t": "2026-10-01T16:00",
-    "Nordeste": 10674.0,
+    "Nordeste": 10675.0,
     "Sul": 378.0
    },
    {
     "t": "2026-10-01T17:00",
-    "Nordeste": 13123.0,
+    "Nordeste": 13124.0,
     "Sul": 333.0
    },
    {
     "t": "2026-10-01T18:00",
-    "Nordeste": 14917.0,
+    "Nordeste": 14918.0,
     "Sul": 363.0
    },
    {
@@ -2220,7 +2220,7 @@
    },
    {
     "t": "2026-10-01T20:00",
-    "Nordeste": 15684.0,
+    "Nordeste": 15685.0,
     "Sul": 262.0
    },
    {
@@ -2235,12 +2235,12 @@
    },
    {
     "t": "2026-10-01T23:00",
-    "Nordeste": 16655.0,
+    "Nordeste": 16656.0,
     "Sul": 318.0
    },
    {
     "t": "2026-10-02T00:00",
-    "Nordeste": 17203.0,
+    "Nordeste": 17204.0,
     "Sul": 327.0
    },
    {
@@ -2250,27 +2250,27 @@
    },
    {
     "t": "2026-10-02T02:00",
-    "Nordeste": 16212.0,
+    "Nordeste": 16213.0,
     "Sul": 244.0
    },
    {
     "t": "2026-10-02T03:00",
-    "Nordeste": 15497.0,
+    "Nordeste": 15498.0,
     "Sul": 225.0
    },
    {
     "t": "2026-10-02T04:00",
-    "Nordeste": 15117.0,
+    "Nordeste": 15118.0,
     "Sul": 240.0
    },
    {
     "t": "2026-10-02T05:00",
-    "Nordeste": 14655.0,
+    "Nordeste": 14656.0,
     "Sul": 267.0
    },
    {
     "t": "2026-10-02T06:00",
-    "Nordeste": 12849.0,
+    "Nordeste": 12850.0,
     "Sul": 242.0
    },
    {
@@ -2320,7 +2320,7 @@
    },
    {
     "t": "2026-10-02T16:00",
-    "Nordeste": 10319.0,
+    "Nordeste": 10320.0,
     "Sul": 113.0
    },
    {
@@ -2340,7 +2340,7 @@
    },
    {
     "t": "2026-10-02T20:00",
-    "Nordeste": 16197.0,
+    "Nordeste": 16198.0,
     "Sul": 316.0
    },
    {
@@ -2355,7 +2355,7 @@
    },
    {
     "t": "2026-10-02T23:00",
-    "Nordeste": 14138.0,
+    "Nordeste": 14139.0,
     "Sul": 584.0
    },
    {
@@ -2375,12 +2375,12 @@
    },
    {
     "t": "2026-10-03T03:00",
-    "Nordeste": 11136.0,
+    "Nordeste": 11137.0,
     "Sul": 827.0
    },
    {
     "t": "2026-10-03T04:00",
-    "Nordeste": 11451.0,
+    "Nordeste": 11452.0,
     "Sul": 813.0
    },
    {
@@ -2390,12 +2390,12 @@
    },
    {
     "t": "2026-10-03T06:00",
-    "Nordeste": 11118.0,
+    "Nordeste": 11119.0,
     "Sul": 736.0
    },
    {
     "t": "2026-10-03T07:00",
-    "Nordeste": 13024.0,
+    "Nordeste": 13025.0,
     "Sul": 797.0
    },
    {
@@ -2410,7 +2410,7 @@
    },
    {
     "t": "2026-10-03T10:00",
-    "Nordeste": 5477.0,
+    "Nordeste": 5478.0,
     "Sul": 160.0
    },
    {
@@ -2420,17 +2420,17 @@
    },
    {
     "t": "2026-10-03T12:00",
-    "Nordeste": 4936.0,
+    "Nordeste": 4937.0,
     "Sul": 150.0
    },
    {
     "t": "2026-10-03T13:00",
-    "Nordeste": 5174.0,
+    "Nordeste": 5175.0,
     "Sul": 358.0
    },
    {
     "t": "2026-10-03T14:00",
-    "Nordeste": 7209.0,
+    "Nordeste": 7210.0,
     "Sul": 472.0
    },
    {
@@ -2445,37 +2445,37 @@
    },
    {
     "t": "2026-10-03T17:00",
-    "Nordeste": 14332.0,
+    "Nordeste": 14333.0,
     "Sul": 567.0
    },
    {
     "t": "2026-10-03T18:00",
-    "Nordeste": 16283.0,
+    "Nordeste": 16284.0,
     "Sul": 635.0
    },
    {
     "t": "2026-10-03T19:00",
     "Nordeste": 18468.0,
-    "Sul": 517.0
+    "Sul": 516.0
    },
    {
     "t": "2026-10-03T20:00",
-    "Nordeste": 19129.0,
-    "Sul": 465.0
+    "Nordeste": 19130.0,
+    "Sul": 464.0
    },
    {
     "t": "2026-10-03T21:00",
-    "Nordeste": 19442.0,
+    "Nordeste": 19443.0,
     "Sul": 438.0
    },
    {
     "t": "2026-10-03T22:00",
-    "Nordeste": 20439.0,
+    "Nordeste": 20440.0,
     "Sul": 477.0
    },
    {
     "t": "2026-10-03T23:00",
-    "Nordeste": 21271.0,
+    "Nordeste": 21272.0,
     "Sul": 465.0
    },
    {
@@ -2485,12 +2485,12 @@
    },
    {
     "t": "2026-10-04T01:00",
-    "Nordeste": 22114.0,
+    "Nordeste": 22115.0,
     "Sul": 267.0
    },
    {
     "t": "2026-10-04T02:00",
-    "Nordeste": 21939.0,
+    "Nordeste": 21940.0,
     "Sul": 333.0
    },
    {
@@ -2510,7 +2510,7 @@
    },
    {
     "t": "2026-10-04T06:00",
-    "Nordeste": 16562.0,
+    "Nordeste": 16563.0,
     "Sul": 326.0
    },
    {
@@ -2525,7 +2525,7 @@
    },
    {
     "t": "2026-10-04T09:00",
-    "Nordeste": 3081.0,
+    "Nordeste": 3082.0,
     "Sul": 33.0
    },
    {
@@ -2540,7 +2540,7 @@
    },
    {
     "t": "2026-10-04T12:00",
-    "Nordeste": 2488.0,
+    "Nordeste": 2489.0,
     "Sul": 28.0
    },
    {
@@ -2555,7 +2555,7 @@
    },
    {
     "t": "2026-10-04T15:00",
-    "Nordeste": 6557.0,
+    "Nordeste": 6558.0,
     "Sul": 124.0
    },
    {
@@ -2570,7 +2570,7 @@
    },
    {
     "t": "2026-10-04T18:00",
-    "Nordeste": 17687.0,
+    "Nordeste": 17688.0,
     "Sul": 176.0
    },
    {
@@ -2720,157 +2720,157 @@
    },
    {
     "t": "2026-10-06T00:00",
-    "Nordeste": 20536.0,
+    "Nordeste": 20486.0,
     "Sul": 771.0
    },
    {
     "t": "2026-10-06T01:00",
-    "Nordeste": 21396.0,
+    "Nordeste": 21349.0,
     "Sul": 747.0
    },
    {
     "t": "2026-10-06T02:00",
-    "Nordeste": 21354.0,
+    "Nordeste": 21305.0,
     "Sul": 697.0
    },
    {
     "t": "2026-10-06T03:00",
-    "Nordeste": 21360.0,
+    "Nordeste": 21315.0,
     "Sul": 625.0
    },
    {
     "t": "2026-10-06T04:00",
-    "Nordeste": 21348.0,
+    "Nordeste": 21303.0,
     "Sul": 665.0
    },
    {
     "t": "2026-10-06T05:00",
-    "Nordeste": 21010.0,
+    "Nordeste": 20965.0,
     "Sul": 674.0
    },
    {
     "t": "2026-10-06T06:00",
-    "Nordeste": 19896.0,
+    "Nordeste": 19858.0,
     "Sul": 596.0
    },
    {
     "t": "2026-10-06T07:00",
-    "Nordeste": 17946.0,
+    "Nordeste": 17919.0,
     "Sul": 491.0
    },
    {
     "t": "2026-10-06T08:00",
-    "Nordeste": 14774.0,
+    "Nordeste": 14755.0,
     "Sul": 369.0
    },
    {
     "t": "2026-10-06T09:00",
-    "Nordeste": 10409.0,
+    "Nordeste": 10402.0,
     "Sul": 246.0
    },
    {
     "t": "2026-10-06T10:00",
-    "Nordeste": 9164.0,
+    "Nordeste": 9160.0,
     "Sul": 244.0
    },
    {
     "t": "2026-10-06T11:00",
-    "Nordeste": 8857.0,
+    "Nordeste": 8856.0,
     "Sul": 246.0
    },
    {
     "t": "2026-10-06T12:00",
-    "Nordeste": 6903.0,
+    "Nordeste": 6906.0,
     "Sul": 249.0
    },
    {
     "t": "2026-10-06T13:00",
-    "Nordeste": 8605.0,
+    "Nordeste": 8602.0,
     "Sul": 268.0
    },
    {
     "t": "2026-10-06T14:00",
-    "Nordeste": 9883.0,
+    "Nordeste": 9875.0,
     "Sul": 337.0
    },
    {
     "t": "2026-10-06T15:00",
-    "Nordeste": 11094.0,
+    "Nordeste": 11078.0,
     "Sul": 381.0
    },
    {
     "t": "2026-10-06T16:00",
-    "Nordeste": 14029.0,
+    "Nordeste": 13987.0,
     "Sul": 394.0
    },
    {
     "t": "2026-10-06T17:00",
-    "Nordeste": 16032.0,
+    "Nordeste": 15983.0,
     "Sul": 494.0
    },
    {
     "t": "2026-10-06T18:00",
-    "Nordeste": 16061.0,
+    "Nordeste": 16009.0,
     "Sul": 642.0
    },
    {
     "t": "2026-10-06T19:00",
-    "Nordeste": 17615.0,
+    "Nordeste": 17563.0,
     "Sul": 551.0
    },
    {
     "t": "2026-10-06T20:00",
-    "Nordeste": 18774.0,
+    "Nordeste": 18721.0,
     "Sul": 575.0
    },
    {
     "t": "2026-10-06T21:00",
-    "Nordeste": 19700.0,
+    "Nordeste": 19647.0,
     "Sul": 636.0
    },
    {
     "t": "2026-10-06T22:00",
-    "Nordeste": 21197.0,
+    "Nordeste": 21153.0,
     "Sul": 705.0
    },
    {
     "t": "2026-10-06T23:00",
-    "Nordeste": 22082.0,
+    "Nordeste": 22047.0,
     "Sul": 675.0
    },
    {
     "t": "2026-10-07T00:00",
-    "Nordeste": 21989.0,
+    "Nordeste": 21984.0,
     "Sul": 672.0
    },
    {
     "t": "2026-10-07T01:00",
-    "Nordeste": 22033.0,
+    "Nordeste": 22029.0,
     "Sul": 675.0
    },
    {
     "t": "2026-10-07T02:00",
-    "Nordeste": 21966.0,
+    "Nordeste": 21960.0,
     "Sul": 628.0
    },
    {
     "t": "2026-10-07T03:00",
-    "Nordeste": 21744.0,
+    "Nordeste": 21738.0,
     "Sul": 503.0
    },
    {
     "t": "2026-10-07T04:00",
-    "Nordeste": 21516.0,
+    "Nordeste": 21510.0,
     "Sul": 397.0
    },
    {
     "t": "2026-10-07T05:00",
-    "Nordeste": 21531.0,
+    "Nordeste": 21525.0,
     "Sul": 363.0
    },
    {
     "t": "2026-10-07T06:00",
-    "Nordeste": 19730.0,
+    "Nordeste": 19727.0,
     "Sul": 380.0
    },
    {
@@ -2960,277 +2960,277 @@
    },
    {
     "t": "2026-10-08T00:00",
-    "Nordeste": 21582.0,
-    "Sul": 678.0
+    "Nordeste": 21605.0,
+    "Sul": 679.0
    },
    {
     "t": "2026-10-08T01:00",
-    "Nordeste": 21565.0,
-    "Sul": 658.0
+    "Nordeste": 21589.0,
+    "Sul": 659.0
    },
    {
     "t": "2026-10-08T02:00",
-    "Nordeste": 21447.0,
-    "Sul": 739.0
+    "Nordeste": 21476.0,
+    "Sul": 740.0
    },
    {
     "t": "2026-10-08T03:00",
-    "Nordeste": 21370.0,
+    "Nordeste": 21398.0,
     "Sul": 590.0
    },
    {
     "t": "2026-10-08T04:00",
-    "Nordeste": 21441.0,
+    "Nordeste": 21466.0,
     "Sul": 505.0
    },
    {
     "t": "2026-10-08T05:00",
-    "Nordeste": 21358.0,
+    "Nordeste": 21377.0,
     "Sul": 612.0
    },
    {
     "t": "2026-10-08T06:00",
-    "Nordeste": 19297.0,
+    "Nordeste": 19306.0,
     "Sul": 608.0
    },
    {
     "t": "2026-10-08T07:00",
-    "Nordeste": 14795.0,
+    "Nordeste": 14786.0,
     "Sul": 375.0
    },
    {
     "t": "2026-10-08T08:00",
-    "Nordeste": 10685.0,
-    "Sul": 166.0
+    "Nordeste": 10679.0,
+    "Sul": 165.0
    },
    {
     "t": "2026-10-08T09:00",
-    "Nordeste": 8081.0,
+    "Nordeste": 8071.0,
     "Sul": 138.0
    },
    {
     "t": "2026-10-08T10:00",
-    "Nordeste": 6695.0,
+    "Nordeste": 6680.0,
     "Sul": 140.0
    },
    {
     "t": "2026-10-08T11:00",
-    "Nordeste": 5859.0,
+    "Nordeste": 5832.0,
     "Sul": 135.0
    },
    {
     "t": "2026-10-08T12:00",
-    "Nordeste": 4195.0,
+    "Nordeste": 4173.0,
     "Sul": 173.0
    },
    {
     "t": "2026-10-08T13:00",
-    "Nordeste": 4737.0,
+    "Nordeste": 4726.0,
     "Sul": 323.0
    },
    {
     "t": "2026-10-08T14:00",
-    "Nordeste": 6853.0,
+    "Nordeste": 6845.0,
     "Sul": 336.0
    },
    {
     "t": "2026-10-08T15:00",
-    "Nordeste": 8618.0,
+    "Nordeste": 8606.0,
     "Sul": 306.0
    },
    {
     "t": "2026-10-08T16:00",
-    "Nordeste": 10808.0,
+    "Nordeste": 10802.0,
     "Sul": 370.0
    },
    {
     "t": "2026-10-08T17:00",
-    "Nordeste": 12584.0,
+    "Nordeste": 12603.0,
     "Sul": 337.0
    },
    {
     "t": "2026-10-08T18:00",
-    "Nordeste": 14949.0,
+    "Nordeste": 14976.0,
     "Sul": 260.0
    },
    {
     "t": "2026-10-08T19:00",
-    "Nordeste": 16924.0,
+    "Nordeste": 16957.0,
     "Sul": 285.0
    },
    {
     "t": "2026-10-08T20:00",
-    "Nordeste": 17485.0,
+    "Nordeste": 17524.0,
     "Sul": 276.0
    },
    {
     "t": "2026-10-08T21:00",
-    "Nordeste": 18024.0,
+    "Nordeste": 18065.0,
     "Sul": 305.0
    },
    {
     "t": "2026-10-08T22:00",
-    "Nordeste": 18293.0,
-    "Sul": 286.0
+    "Nordeste": 18329.0,
+    "Sul": 287.0
    },
    {
     "t": "2026-10-08T23:00",
-    "Nordeste": 18700.0,
+    "Nordeste": 18734.0,
     "Sul": 207.0
    },
    {
     "t": "2026-10-09T00:00",
-    "Nordeste": 19491.0,
-    "Sul": 222.0
+    "Nordeste": 19500.0,
+    "Sul": 223.0
    },
    {
     "t": "2026-10-09T01:00",
-    "Nordeste": 20121.0,
-    "Sul": 299.0
+    "Nordeste": 20114.0,
+    "Sul": 300.0
    },
    {
     "t": "2026-10-09T02:00",
-    "Nordeste": 20322.0,
+    "Nordeste": 20359.0,
     "Sul": 286.0
    },
    {
     "t": "2026-10-09T03:00",
-    "Nordeste": 20217.0,
-    "Sul": 330.0
+    "Nordeste": 20242.0,
+    "Sul": 329.0
    },
    {
     "t": "2026-10-09T04:00",
-    "Nordeste": 20236.0,
-    "Sul": 313.0
+    "Nordeste": 20278.0,
+    "Sul": 312.0
    },
    {
     "t": "2026-10-09T05:00",
-    "Nordeste": 20210.0,
+    "Nordeste": 20254.0,
     "Sul": 318.0
    },
    {
     "t": "2026-10-09T06:00",
-    "Nordeste": 18683.0,
+    "Nordeste": 18728.0,
     "Sul": 295.0
    },
    {
     "t": "2026-10-09T07:00",
-    "Nordeste": 16342.0,
+    "Nordeste": 16336.0,
     "Sul": 207.0
    },
    {
     "t": "2026-10-09T08:00",
-    "Nordeste": 13352.0,
+    "Nordeste": 13354.0,
     "Sul": 153.0
    },
    {
     "t": "2026-10-09T09:00",
-    "Nordeste": 12099.0,
+    "Nordeste": 12107.0,
     "Sul": 165.0
    },
    {
     "t": "2026-10-09T10:00",
-    "Nordeste": 10642.0,
-    "Sul": 181.0
+    "Nordeste": 10656.0,
+    "Sul": 180.0
    },
    {
     "t": "2026-10-09T11:00",
-    "Nordeste": 7540.0,
+    "Nordeste": 7544.0,
     "Sul": 165.0
    },
    {
     "t": "2026-10-09T12:00",
-    "Nordeste": 5874.0,
-    "Sul": 150.0
+    "Nordeste": 5878.0,
+    "Sul": 149.0
    },
    {
     "t": "2026-10-09T13:00",
-    "Nordeste": 6707.0,
+    "Nordeste": 6716.0,
     "Sul": 183.0
    },
    {
     "t": "2026-10-09T14:00",
-    "Nordeste": 8126.0,
+    "Nordeste": 8137.0,
     "Sul": 203.0
    },
    {
     "t": "2026-10-09T15:00",
-    "Nordeste": 9744.0,
+    "Nordeste": 9757.0,
     "Sul": 265.0
    },
    {
     "t": "2026-10-09T16:00",
-    "Nordeste": 11165.0,
-    "Sul": 282.0
+    "Nordeste": 11191.0,
+    "Sul": 281.0
    },
    {
     "t": "2026-10-09T17:00",
-    "Nordeste": 13783.0,
+    "Nordeste": 13833.0,
     "Sul": 286.0
    },
    {
     "t": "2026-10-09T18:00",
-    "Nordeste": 16271.0,
+    "Nordeste": 16327.0,
     "Sul": 441.0
    },
    {
     "t": "2026-10-09T19:00",
-    "Nordeste": 18396.0,
+    "Nordeste": 18443.0,
     "Sul": 430.0
    },
    {
     "t": "2026-10-09T20:00",
-    "Nordeste": 19556.0,
+    "Nordeste": 19598.0,
     "Sul": 377.0
    },
    {
     "t": "2026-10-09T21:00",
-    "Nordeste": 19674.0,
+    "Nordeste": 19715.0,
     "Sul": 312.0
    },
    {
     "t": "2026-10-09T22:00",
-    "Nordeste": 19622.0,
-    "Sul": 299.0
+    "Nordeste": 19664.0,
+    "Sul": 300.0
    },
    {
     "t": "2026-10-09T23:00",
-    "Nordeste": 20484.0,
+    "Nordeste": 20525.0,
     "Sul": 357.0
    },
    {
     "t": "2026-10-10T00:00",
-    "Nordeste": 21036.0,
+    "Nordeste": 21040.0,
     "Sul": 411.0
    },
    {
     "t": "2026-10-10T01:00",
-    "Nordeste": 20694.0,
+    "Nordeste": 20700.0,
     "Sul": 476.0
    },
    {
     "t": "2026-10-10T02:00",
-    "Nordeste": 20332.0,
+    "Nordeste": 20338.0,
     "Sul": 442.0
    },
    {
     "t": "2026-10-10T03:00",
-    "Nordeste": 19649.0,
+    "Nordeste": 19658.0,
     "Sul": 440.0
    },
    {
     "t": "2026-10-10T04:00",
-    "Nordeste": 19505.0,
+    "Nordeste": 19516.0,
     "Sul": 454.0
    },
    {
     "t": "2026-10-10T05:00",
-    "Nordeste": 19526.0,
+    "Nordeste": 19537.0,
     "Sul": 349.0
    },
    {
     "t": "2026-10-10T06:00",
-    "Nordeste": 17200.0,
+    "Nordeste": 17208.0,
     "Sul": 219.0
    },
    {
@@ -3240,112 +3240,112 @@
    },
    {
     "t": "2026-10-10T08:00",
-    "Nordeste": 8969.0,
+    "Nordeste": 8972.0,
     "Sul": 180.0
    },
    {
     "t": "2026-10-10T09:00",
-    "Nordeste": 6759.0,
+    "Nordeste": 6762.0,
     "Sul": 160.0
    },
    {
     "t": "2026-10-10T10:00",
-    "Nordeste": 5443.0,
+    "Nordeste": 5446.0,
     "Sul": 99.0
    },
    {
     "t": "2026-10-10T11:00",
-    "Nordeste": 4327.0,
+    "Nordeste": 4330.0,
     "Sul": 104.0
    },
    {
     "t": "2026-10-10T12:00",
-    "Nordeste": 4097.0,
+    "Nordeste": 4099.0,
     "Sul": 94.0
    },
    {
     "t": "2026-10-10T13:00",
-    "Nordeste": 4605.0,
+    "Nordeste": 4607.0,
     "Sul": 103.0
    },
    {
     "t": "2026-10-10T14:00",
-    "Nordeste": 6349.0,
+    "Nordeste": 6355.0,
     "Sul": 147.0
    },
    {
     "t": "2026-10-10T15:00",
-    "Nordeste": 9420.0,
+    "Nordeste": 9434.0,
     "Sul": 201.0
    },
    {
     "t": "2026-10-10T16:00",
-    "Nordeste": 12820.0,
+    "Nordeste": 12884.0,
     "Sul": 238.0
    },
    {
     "t": "2026-10-10T17:00",
-    "Nordeste": 15364.0,
+    "Nordeste": 15383.0,
     "Sul": 203.0
    },
    {
     "t": "2026-10-10T18:00",
-    "Nordeste": 17122.0,
+    "Nordeste": 17132.0,
     "Sul": 200.0
    },
    {
     "t": "2026-10-10T19:00",
-    "Nordeste": 18751.0,
+    "Nordeste": 18763.0,
     "Sul": 160.0
    },
    {
     "t": "2026-10-10T20:00",
-    "Nordeste": 19398.0,
+    "Nordeste": 19402.0,
     "Sul": 172.0
    },
    {
     "t": "2026-10-10T21:00",
-    "Nordeste": 20213.0,
+    "Nordeste": 20219.0,
     "Sul": 204.0
    },
    {
     "t": "2026-10-10T22:00",
-    "Nordeste": 21197.0,
+    "Nordeste": 21200.0,
     "Sul": 198.0
    },
    {
     "t": "2026-10-10T23:00",
-    "Nordeste": 21342.0,
+    "Nordeste": 21348.0,
     "Sul": 197.0
    },
    {
     "t": "2026-10-11T00:00",
-    "Nordeste": 21345.0,
+    "Nordeste": 21349.0,
     "Sul": 138.0
    },
    {
     "t": "2026-10-11T01:00",
-    "Nordeste": 21189.0,
+    "Nordeste": 21196.0,
     "Sul": 162.0
    },
    {
     "t": "2026-10-11T02:00",
-    "Nordeste": 21148.0,
+    "Nordeste": 21160.0,
     "Sul": 254.0
    },
    {
     "t": "2026-10-11T03:00",
-    "Nordeste": 21115.0,
+    "Nordeste": 21126.0,
     "Sul": 253.0
    },
    {
     "t": "2026-10-11T04:00",
-    "Nordeste": 21038.0,
+    "Nordeste": 21049.0,
     "Sul": 260.0
    },
    {
     "t": "2026-10-11T05:00",
-    "Nordeste": 20522.0,
+    "Nordeste": 20534.0,
     "Sul": 322.0
    },
    {
@@ -3355,267 +3355,267 @@
    },
    {
     "t": "2026-10-11T07:00",
-    "Nordeste": 10798.0,
+    "Nordeste": 10800.0,
     "Sul": 145.0
    },
    {
     "t": "2026-10-11T08:00",
-    "Nordeste": 6322.0,
+    "Nordeste": 6324.0,
     "Sul": 91.0
    },
    {
     "t": "2026-10-11T09:00",
-    "Nordeste": 4455.0,
+    "Nordeste": 4458.0,
     "Sul": 51.0
    },
    {
     "t": "2026-10-11T10:00",
-    "Nordeste": 3288.0,
+    "Nordeste": 3293.0,
     "Sul": 47.0
    },
    {
     "t": "2026-10-11T11:00",
-    "Nordeste": 3172.0,
+    "Nordeste": 3176.0,
     "Sul": 37.0
    },
    {
     "t": "2026-10-11T12:00",
-    "Nordeste": 3219.0,
+    "Nordeste": 3223.0,
     "Sul": 38.0
    },
    {
     "t": "2026-10-11T13:00",
-    "Nordeste": 3624.0,
+    "Nordeste": 3630.0,
     "Sul": 91.0
    },
    {
     "t": "2026-10-11T14:00",
-    "Nordeste": 5137.0,
+    "Nordeste": 5146.0,
     "Sul": 100.0
    },
    {
     "t": "2026-10-11T15:00",
-    "Nordeste": 7084.0,
+    "Nordeste": 7096.0,
     "Sul": 108.0
    },
    {
     "t": "2026-10-11T16:00",
-    "Nordeste": 10869.0,
+    "Nordeste": 10881.0,
     "Sul": 153.0
    },
    {
     "t": "2026-10-11T17:00",
-    "Nordeste": 14962.0,
+    "Nordeste": 14977.0,
     "Sul": 193.0
    },
    {
     "t": "2026-10-11T18:00",
-    "Nordeste": 16631.0,
+    "Nordeste": 16639.0,
     "Sul": 167.0
    },
    {
     "t": "2026-10-11T19:00",
-    "Nordeste": 17454.0,
+    "Nordeste": 17459.0,
     "Sul": 150.0
    },
    {
     "t": "2026-10-11T20:00",
-    "Nordeste": 18768.0,
+    "Nordeste": 18771.0,
     "Sul": 166.0
    },
    {
     "t": "2026-10-11T21:00",
-    "Nordeste": 19408.0,
+    "Nordeste": 19410.0,
     "Sul": 198.0
    },
    {
     "t": "2026-10-11T22:00",
-    "Nordeste": 20286.0,
+    "Nordeste": 20288.0,
     "Sul": 207.0
    },
    {
     "t": "2026-10-11T23:00",
-    "Nordeste": 20711.0,
+    "Nordeste": 20712.0,
     "Sul": 265.0
    },
    {
     "t": "2026-10-12T00:00",
-    "Nordeste": 20935.0,
+    "Nordeste": 20979.0,
     "Sul": 386.0
    },
    {
     "t": "2026-10-12T01:00",
-    "Nordeste": 21122.0,
+    "Nordeste": 21149.0,
     "Sul": 385.0
    },
    {
     "t": "2026-10-12T02:00",
-    "Nordeste": 20859.0,
+    "Nordeste": 20889.0,
     "Sul": 340.0
    },
    {
     "t": "2026-10-12T03:00",
-    "Nordeste": 20350.0,
+    "Nordeste": 20384.0,
     "Sul": 333.0
    },
    {
     "t": "2026-10-12T04:00",
-    "Nordeste": 20136.0,
+    "Nordeste": 20174.0,
     "Sul": 301.0
    },
    {
     "t": "2026-10-12T05:00",
-    "Nordeste": 19550.0,
+    "Nordeste": 19579.0,
     "Sul": 397.0
    },
    {
     "t": "2026-10-12T06:00",
-    "Nordeste": 15796.0,
+    "Nordeste": 15788.0,
     "Sul": 331.0
    },
    {
     "t": "2026-10-12T07:00",
-    "Nordeste": 9905.0,
+    "Nordeste": 9893.0,
     "Sul": 212.0
    },
    {
     "t": "2026-10-12T08:00",
-    "Nordeste": 6608.0,
+    "Nordeste": 6592.0,
     "Sul": 123.0
    },
    {
     "t": "2026-10-12T09:00",
-    "Nordeste": 4459.0,
+    "Nordeste": 4442.0,
     "Sul": 81.0
    },
    {
     "t": "2026-10-12T10:00",
-    "Nordeste": 3791.0,
+    "Nordeste": 3773.0,
     "Sul": 82.0
    },
    {
     "t": "2026-10-12T11:00",
-    "Nordeste": 3447.0,
+    "Nordeste": 3429.0,
     "Sul": 87.0
    },
    {
     "t": "2026-10-12T12:00",
-    "Nordeste": 3616.0,
+    "Nordeste": 3601.0,
     "Sul": 98.0
    },
    {
     "t": "2026-10-12T13:00",
-    "Nordeste": 4328.0,
+    "Nordeste": 4320.0,
     "Sul": 133.0
    },
    {
     "t": "2026-10-12T14:00",
-    "Nordeste": 5899.0,
+    "Nordeste": 5897.0,
     "Sul": 165.0
    },
    {
     "t": "2026-10-12T15:00",
-    "Nordeste": 8312.0,
+    "Nordeste": 8314.0,
     "Sul": 230.0
    },
    {
     "t": "2026-10-12T16:00",
-    "Nordeste": 12173.0,
+    "Nordeste": 12187.0,
     "Sul": 393.0
    },
    {
     "t": "2026-10-12T17:00",
-    "Nordeste": 15089.0,
+    "Nordeste": 15123.0,
     "Sul": 359.0
    },
    {
     "t": "2026-10-12T18:00",
-    "Nordeste": 16396.0,
+    "Nordeste": 16445.0,
     "Sul": 254.0
    },
    {
     "t": "2026-10-12T19:00",
-    "Nordeste": 18294.0,
+    "Nordeste": 18341.0,
     "Sul": 211.0
    },
    {
     "t": "2026-10-12T20:00",
-    "Nordeste": 18562.0,
+    "Nordeste": 18609.0,
     "Sul": 362.0
    },
    {
     "t": "2026-10-12T21:00",
-    "Nordeste": 19102.0,
+    "Nordeste": 19153.0,
     "Sul": 505.0
    },
    {
     "t": "2026-10-12T22:00",
-    "Nordeste": 19999.0,
+    "Nordeste": 20052.0,
     "Sul": 374.0
    },
    {
     "t": "2026-10-12T23:00",
-    "Nordeste": 20785.0,
+    "Nordeste": 20836.0,
     "Sul": 378.0
    },
    {
     "t": "2026-10-13T00:00",
-    "Nordeste": 21190.0,
+    "Nordeste": 21193.0,
     "Sul": 486.0
    },
    {
     "t": "2026-10-13T01:00",
-    "Nordeste": 20925.0,
+    "Nordeste": 20928.0,
     "Sul": 358.0
    },
    {
     "t": "2026-10-13T02:00",
-    "Nordeste": 20527.0,
+    "Nordeste": 20530.0,
     "Sul": 337.0
    },
    {
     "t": "2026-10-13T03:00",
-    "Nordeste": 20136.0,
+    "Nordeste": 20140.0,
     "Sul": 288.0
    },
    {
     "t": "2026-10-13T04:00",
-    "Nordeste": 20105.0,
+    "Nordeste": 20108.0,
     "Sul": 360.0
    },
    {
     "t": "2026-10-13T05:00",
-    "Nordeste": 19924.0,
+    "Nordeste": 19927.0,
     "Sul": 272.0
    },
    {
     "t": "2026-10-13T06:00",
-    "Nordeste": 18451.0,
+    "Nordeste": 18452.0,
     "Sul": 245.0
    },
    {
     "t": "2026-10-13T07:00",
-    "Nordeste": 16521.0,
+    "Nordeste": 16520.0,
     "Sul": 278.0
    },
    {
     "t": "2026-10-13T08:00",
-    "Nordeste": 14023.0,
+    "Nordeste": 14024.0,
     "Sul": 233.0
    },
    {
     "t": "2026-10-13T09:00",
-    "Nordeste": 10133.0,
+    "Nordeste": 10134.0,
     "Sul": 238.0
    },
    {
     "t": "2026-10-13T10:00",
-    "Nordeste": 8416.0,
+    "Nordeste": 8417.0,
     "Sul": 256.0
    },
    {
     "t": "2026-10-13T11:00",
-    "Nordeste": 7776.0,
+    "Nordeste": 7777.0,
     "Sul": 294.0
    },
    {
@@ -3640,42 +3640,42 @@
    },
    {
     "t": "2026-10-13T16:00",
-    "Nordeste": 11199.0,
+    "Nordeste": 11201.0,
     "Sul": 331.0
    },
    {
     "t": "2026-10-13T17:00",
-    "Nordeste": 13535.0,
+    "Nordeste": 13536.0,
     "Sul": 310.0
    },
    {
     "t": "2026-10-13T18:00",
-    "Nordeste": 15222.0,
+    "Nordeste": 15224.0,
     "Sul": 306.0
    },
    {
     "t": "2026-10-13T19:00",
-    "Nordeste": 17187.0,
+    "Nordeste": 17189.0,
     "Sul": 375.0
    },
    {
     "t": "2026-10-13T20:00",
-    "Nordeste": 17275.0,
+    "Nordeste": 17277.0,
     "Sul": 418.0
    },
    {
     "t": "2026-10-13T21:00",
-    "Nordeste": 17004.0,
+    "Nordeste": 17007.0,
     "Sul": 362.0
    },
    {
     "t": "2026-10-13T22:00",
-    "Nordeste": 17482.0,
+    "Nordeste": 17484.0,
     "Sul": 372.0
    },
    {
     "t": "2026-10-13T23:00",
-    "Nordeste": 17739.0,
+    "Nordeste": 17740.0,
     "Sul": 442.0
    },
    {
@@ -3710,7 +3710,7 @@
    },
    {
     "t": "2026-10-14T06:00",
-    "Nordeste": 15351.0,
+    "Nordeste": 15350.0,
     "Sul": 250.0
    },
    {
@@ -3725,22 +3725,22 @@
    },
    {
     "t": "2026-10-14T09:00",
-    "Nordeste": 8871.0,
+    "Nordeste": 8880.0,
     "Sul": 172.0
    },
    {
     "t": "2026-10-14T10:00",
-    "Nordeste": 6443.0,
+    "Nordeste": 6458.0,
     "Sul": 188.0
    },
    {
     "t": "2026-10-14T11:00",
-    "Nordeste": 5366.0,
+    "Nordeste": 5378.0,
     "Sul": 207.0
    },
    {
     "t": "2026-10-14T12:00",
-    "Nordeste": 5435.0,
+    "Nordeste": 5440.0,
     "Sul": 321.0
    },
    {
@@ -3760,7 +3760,7 @@
    },
    {
     "t": "2026-10-14T16:00",
-    "Nordeste": 9284.0,
+    "Nordeste": 9293.0,
     "Sul": 224.0
    },
    {
@@ -3805,11 +3805,11 @@
     "Sul": 340.0
    },
    "2026-10-01": {
-    "Nordeste": 14095.0,
+    "Nordeste": 14097.0,
     "Sul": 320.0
    },
    "2026-10-02": {
-    "Nordeste": 11999.0,
+    "Nordeste": 12000.0,
     "Sul": 229.0
    },
    "2026-10-03": {
@@ -3817,7 +3817,7 @@
     "Sul": 559.0
    },
    "2026-10-04": {
-    "Nordeste": 13573.0,
+    "Nordeste": 13574.0,
     "Sul": 234.0
    },
    "2026-10-05": {
@@ -3825,44 +3825,44 @@
     "Sul": 440.0
    },
    "2026-10-06": {
-    "Nordeste": 16251.0,
+    "Nordeste": 16219.0,
     "Sul": 512.0
    },
    "2026-10-07": {
-    "Nordeste": 15777.0,
+    "Nordeste": 15776.0,
     "Sul": 487.0
    },
    "2026-10-08": {
-    "Nordeste": 14431.0,
+    "Nordeste": 14442.0,
     "Sul": 367.0
    },
    "2026-10-09": {
-    "Nordeste": 15361.0,
+    "Nordeste": 15386.0,
     "Sul": 272.0
    },
    "2026-10-10": {
-    "Nordeste": 14419.0,
+    "Nordeste": 14428.0,
     "Sul": 235.0
    },
    "2026-10-11": {
-    "Nordeste": 13725.0,
+    "Nordeste": 13731.0,
     "Sul": 161.0
    },
    "2026-10-12": {
-    "Nordeste": 13730.0,
+    "Nordeste": 13748.0,
     "Sul": 272.0
    },
    "2026-10-13": {
-    "Nordeste": 14973.0,
+    "Nordeste": 14974.0,
     "Sul": 329.0
    },
    "2026-10-14": {
-    "Nordeste": 12833.0,
+    "Nordeste": 12835.0,
     "Sul": 266.0
    }
   },
   "media_30d": {
-   "Nordeste": 14243.0,
+   "Nordeste": 14245.0,
    "Sul": 351.0
   }
  },
