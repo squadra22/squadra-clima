@@ -1,12 +1,12 @@
-# Coleta squadra-clima — 2026-10-16
-Gerado em 2026-10-16T22:23 UTC
+# Coleta squadra-clima — 2026-10-17
+Gerado em 2026-10-17T09:59 UTC
 
 ## Status das fontes
-- **gfs**: ok (rodada 2026101600)
-- **gefs**: ok (rodada 2026101600)
-- **ecmwf**: ok (rodada 2026101600)
-- **ecmwf_ens**: ok (rodada 2026101600)
-- **aifs**: ok (rodada 2026101600)
+- **gfs**: ok (rodada 2026101700)
+- **gefs**: ok (rodada 2026101700)
+- **ecmwf**: ok (rodada 2026101700)
+- **ecmwf_ens**: ok (rodada 2026101700)
+- **aifs**: ok (rodada 2026101700)
 - **observado**: ok (0 dia(s) novo(s))
 - **ear**: ok
 - **ena**: ok
@@ -49,13 +49,13 @@ Niño 1+2 +5.2 · Niño 3 +4.1 · Niño 3.4 +3.3 (+0.1 na semana) · Niño 4 +1.
 ## Previsão por região — semana 1 (dias 1–7) / semana 2 (dias 8–14), mm
 | Região | GFS | GEFS (média) | ECMWF IFS | ECMWF ENS | ECMWF AIFS |
 |---|---|---|---|---|---|
-| Sul (Iguaçu/Uruguai/Jacuí) | 24.5 / 30.8 | 24.2 / 35.4 | 34.2 / n/d | 31.1 / 64.9 | 35.2 / 72.8 |
-| SE fio d'água (Paraná/Paranapanema/Tietê) | 35.8 / 66.3 | 33.1 / 56.1 | 52.2 / n/d | 44.4 / 86.6 | 31.3 / 68.7 |
-| SE cabeceiras (Grande/Paranaíba/Alto SF) | 43 / 56.9 | 34.6 / 59.5 | 30.1 / n/d | 30 / 56 | 26.3 / 50.3 |
-| Alto Tocantins | 21.9 / 33 | 14.9 / 19.8 | 20.9 / n/d | 22.8 / 35.8 | 14.4 / 36 |
-| Madeira | 16.6 / 33.1 | 16.1 / 27.7 | 25.6 / n/d | 29.3 / 42.9 | 28.5 / 29.3 |
-| Norte (Tocantins/Xingu) | 14 / 25.5 | 14.6 / 13.6 | 23.9 / n/d | 26.3 / 23 | 19.1 / 23.3 |
-| Nordeste (São Francisco) | 10.9 / 28 | 9.9 / 9.1 | 15.9 / n/d | 19.2 / 20 | 13.3 / 9.5 |
+| Sul (Iguaçu/Uruguai/Jacuí) | 10.9 / 62.3 | 22.2 / 50.5 | 39.7 / n/d | 42.5 / 60.5 | 28.7 / 65 |
+| SE fio d'água (Paraná/Paranapanema/Tietê) | 42.7 / 101.7 | 36.4 / 56.1 | 48.5 / n/d | 47.2 / 79.8 | 39 / 68.2 |
+| SE cabeceiras (Grande/Paranaíba/Alto SF) | 41 / 83 | 33.4 / 56.6 | 17.7 / n/d | 19.2 / 62.3 | 19.1 / 64.3 |
+| Alto Tocantins | 9.1 / 31.5 | 8 / 28 | 18.2 / n/d | 18 / 48.9 | 12.4 / 46.6 |
+| Madeira | 16.1 / 32.7 | 14.7 / 24.2 | 31 / n/d | 30.9 / 41.2 | 26.7 / 57.1 |
+| Norte (Tocantins/Xingu) | 8.9 / 22 | 9.6 / 17.6 | 25.2 / n/d | 26 / 31.4 | 19.3 / 28.9 |
+| Nordeste (São Francisco) | 7.8 / 9.9 | 6.8 / 14.5 | 14.8 / n/d | 15.1 / 27.2 | 12.4 / 17.4 |
 
 ## EAR (%)
 - Nordeste: {"data": "2026-10-15", "pct": 64.9, "var_7d": -1.6}
