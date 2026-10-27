@@ -1,12 +1,12 @@
-# Coleta squadra-clima — 2026-10-26
-Gerado em 2026-10-26T10:19 UTC
+# Coleta squadra-clima — 2026-10-27
+Gerado em 2026-10-27T10:16 UTC
 
 ## Status das fontes
-- **gfs**: ok (rodada 2026102600)
-- **gefs**: ok (rodada 2026102600)
-- **ecmwf**: ok (rodada 2026102600)
-- **ecmwf_ens**: ok (rodada 2026102600)
-- **aifs**: ok (rodada 2026102600)
+- **gfs**: ok (rodada 2026102700)
+- **gefs**: ok (rodada 2026102700)
+- **ecmwf**: ok (rodada 2026102700)
+- **ecmwf_ens**: ok (rodada 2026102700)
+- **aifs**: ok (rodada 2026102700)
 - **observado**: ok (1 dia(s) novo(s))
 - **ear**: ok
 - **ena**: ok
@@ -23,54 +23,54 @@ Gerado em 2026-10-26T10:19 UTC
 ## ENOS (CPC, semana 21OCT2026)
 Niño 1+2 +5.2 · Niño 3 +4.3 · Niño 3.4 +3.4 (+0.1 na semana) · Niño 4 +1.1 °C
 
-## Chuva observada 2026-10-25 x prevista (rodada 2026102400) — mm
+## Chuva observada 2026-10-26 x prevista (rodada 2026102500) — mm
 | Bacia | Obs | GFS | GEFS | ECMWF | AIFS | Desvio |
 |---|---|---|---|---|---|---|
-| Jacuí | 5.3 | 27 | 19.6 | 21 | 11.8 | -14.5 |
-| Uruguai | 18.9 | 44.5 | 39.2 | 35.3 | 23.1 | -16.6 |
-| Iguaçu | 54.8 | 49.3 | 34.5 | 49.5 | 40.6 | 11.3 |
-| Baixo Paraná | 7 | 7.7 | 11.2 | 19.9 | 23.2 | -8.5 |
-| Alto Paraná | 11.3 | 2.9 | 3.6 | 11.5 | 13.1 | 3.5 |
-| Paranapanema | 37.6 | 20.3 | 15.7 | 33.1 | 39 | 10.6 |
-| Tietê | 44.5 | 9.9 | 6.7 | 19.1 | 25.5 | 29.2 |
-| Baixo Grande | 7.5 | 0.2 | 0.1 | 3.5 | 4.6 | 5.4 |
-| Alto Grande | 18.4 | 1.9 | 1.7 | 2.6 | 9 | 14.6 |
-| Baixo Paranaíba | 0.2 | 0 | 0 | 0.2 | 0.4 | 0 |
-| Alto Paranaíba | 0.6 | 0.3 | 0.1 | 0.7 | 0.3 | 0.2 |
-| Alto São Francisco | 0.2 | 1.2 | 0.6 | 1.1 | 0.7 | -0.7 |
-| Alto Tocantins | 0.3 | 0.1 | 0 | 0.7 | 0.2 | 0.1 |
-| Madeira | 0.4 | 0.6 | 0.8 | 0.6 | 0.5 | -0.2 |
-| Médio São Francisco | 0.1 | 0.5 | 0.1 | 0.1 | 0.1 | -0.1 |
+| Jacuí | 3.3 | 3.7 | 4 | 5.5 | 5.1 | -1.3 |
+| Uruguai | 0.5 | 1.1 | 1.7 | 1.2 | 1.6 | -0.9 |
+| Iguaçu | 0.4 | 1.3 | 1.8 | 2.1 | 1.8 | -1.4 |
+| Baixo Paraná | 0 | 0.1 | 0.2 | 0 | 0.2 | -0.1 |
+| Alto Paraná | 10.6 | 2.8 | 2.9 | 9.5 | 7.9 | 4.8 |
+| Paranapanema | 1.5 | 7.3 | 11.4 | 12.2 | 7.6 | -8.1 |
+| Tietê | 6.8 | 14.8 | 14.4 | 19 | 13.7 | -8.7 |
+| Baixo Grande | 18.5 | 1.5 | 2.8 | 15.9 | 15.6 | 9.6 |
+| Alto Grande | 16.6 | 3.9 | 6.3 | 16.1 | 18 | 5.5 |
+| Baixo Paranaíba | 6.9 | 1.4 | 2.1 | 5.7 | 6.5 | 3 |
+| Alto Paranaíba | 4.4 | 0.4 | 1.4 | 7.4 | 7.8 | 0.2 |
+| Alto São Francisco | 7.9 | 0.3 | 0.5 | 7.1 | 7.3 | 4.1 |
+| Alto Tocantins | 5.1 | 0.5 | 0.5 | 4.5 | 8.4 | 1.6 |
+| Madeira | 7.3 | 1.8 | 1.9 | 7 | 6.6 | 3 |
+| Médio São Francisco | 7.6 | 0.6 | 0.3 | 4.7 | 4.2 | 5.1 |
 | Baixo São Francisco | 0 | 0 | 0 | 0 | 0 | 0 |
-| Baixo Tocantins | 0 | 0 | 0 | 0.7 | 0.2 | -0.2 |
-| Araguaia | 0 | 0 | 0 | 0.2 | 0.1 | -0.1 |
-| Xingu | 0.6 | 0 | 0 | 0.1 | 0.1 | 0.5 |
+| Baixo Tocantins | 3.6 | 0.8 | 1.1 | 6.2 | 5.3 | 0.3 |
+| Araguaia | 10 | 0.5 | 0.9 | 4.8 | 7 | 6.7 |
+| Xingu | 8.3 | 0.6 | 0.8 | 3.4 | 7.2 | 5.3 |
 
 ## Previsão por região — semana 1 (dias 1–7) / semana 2 (dias 8–14), mm
 | Região | GFS | GEFS (média) | ECMWF IFS | ECMWF ENS | ECMWF AIFS |
 |---|---|---|---|---|---|
-| Sul (Iguaçu/Uruguai/Jacuí) | 13.5 / 71.4 | 23 / 64.5 | 21 / n/d | 17.4 / 77 | 13 / 70.4 |
-| SE fio d'água (Paraná/Paranapanema/Tietê) | 42.4 / 74.1 | 42.9 / 58.8 | 30.6 / n/d | 31.6 / 52 | 29.4 / 46 |
-| SE cabeceiras (Grande/Paranaíba/Alto SF) | 51.7 / 73 | 63.5 / 51.2 | 71.7 / n/d | 70.5 / 47 | 59.2 / 35.2 |
-| Alto Tocantins | 49.4 / 11.4 | 45.2 / 15.9 | 54.3 / n/d | 55.7 / 34.9 | 49.6 / 25.8 |
-| Madeira | 21.8 / 27.2 | 22.4 / 17.8 | 59.7 / n/d | 49.1 / 38.3 | 47.4 / 30.5 |
-| Norte (Tocantins/Xingu) | 24.4 / 9.7 | 24.1 / 7.8 | 39.2 / n/d | 40.1 / 27.4 | 33.8 / 16.5 |
-| Nordeste (São Francisco) | 20.2 / 3.3 | 22.1 / 7.2 | 24.1 / n/d | 25.4 / 13.8 | 19.4 / 7.9 |
+| Sul (Iguaçu/Uruguai/Jacuí) | 14.5 / 55.7 | 25.5 / 58.9 | 20.7 / n/d | 24.5 / 75.4 | 23.8 / 29.2 |
+| SE fio d'água (Paraná/Paranapanema/Tietê) | 44.5 / 47.2 | 45.2 / 52.8 | 33 / n/d | 38.5 / 61.7 | 44.9 / 46 |
+| SE cabeceiras (Grande/Paranaíba/Alto SF) | 73.8 / 111.9 | 70.7 / 56.8 | 65 / n/d | 63 / 57.9 | 65.4 / 34.6 |
+| Alto Tocantins | 32.4 / 24 | 37.9 / 10.4 | 43.4 / n/d | 43.1 / 34 | 38.3 / 30 |
+| Madeira | 21 / 26 | 20.8 / 18 | 50.5 / n/d | 44.8 / 40.6 | 37.5 / 33.4 |
+| Norte (Tocantins/Xingu) | 20.7 / 17.7 | 18.9 / 6.1 | 33 / n/d | 33 / 27.7 | 28.5 / 17.6 |
+| Nordeste (São Francisco) | 18.9 / 10.1 | 19.4 / 4.7 | 19.8 / n/d | 20.5 / 13.2 | 16.8 / 13.2 |
 
 ## EAR (%)
-- Nordeste: {"data": "2026-10-24", "pct": 62.6, "var_7d": -1.7}
-- Norte: {"data": "2026-10-24", "pct": 64.0, "var_7d": -2.4}
-- SE/CO: {"data": "2026-10-24", "pct": 54.4, "var_7d": -0.7}
-- Sul: {"data": "2026-10-24", "pct": 81.6, "var_7d": 0.7}
+- Nordeste: {"data": "2026-10-25", "pct": 62.5, "var_7d": -1.3}
+- Norte: {"data": "2026-10-25", "pct": 63.4, "var_7d": -2.5}
+- SE/CO: {"data": "2026-10-25", "pct": 54.7, "var_7d": -0.3}
+- Sul: {"data": "2026-10-25", "pct": 82.7, "var_7d": 2.0}
 
 ## ENA (% MLT)
-- Norte: {"data": "2026-10-24", "mwmed": 1126.0, "pct_mlt": 47.4, "pct_mlt_mes": 44.1}
-- Nordeste: {"data": "2026-10-24", "mwmed": 1888.0, "pct_mlt": 59.5, "pct_mlt_mes": 58.0}
-- Sul: {"data": "2026-10-24", "mwmed": 36949.0, "pct_mlt": 269.6, "pct_mlt_mes": 223.2}
-- SE/CO: {"data": "2026-10-24", "mwmed": 38242.0, "pct_mlt": 161.2, "pct_mlt_mes": 150.1}
+- Norte: {"data": "2026-10-25", "mwmed": 1109.0, "pct_mlt": 46.7, "pct_mlt_mes": 44.1}
+- Nordeste: {"data": "2026-10-25", "mwmed": 1907.0, "pct_mlt": 60.1, "pct_mlt_mes": 58.1}
+- Sul: {"data": "2026-10-25", "mwmed": 50210.0, "pct_mlt": 366.3, "pct_mlt_mes": 228.5}
+- SE/CO: {"data": "2026-10-25", "mwmed": 41925.0, "pct_mlt": 176.8, "pct_mlt_mes": 151.8}
 
-## CMO ONS (2026-10-26)
-- Norte: média 64.36 R$/MWh
-- Nordeste: média 29.27 R$/MWh
-- Sul: média 26.74 R$/MWh
-- SE/CO: média 29.34 R$/MWh
+## CMO ONS (2026-10-27)
+- Norte: média 78.9 R$/MWh
+- Nordeste: média 43.28 R$/MWh
+- Sul: média 41.83 R$/MWh
+- SE/CO: média 45.5 R$/MWh
