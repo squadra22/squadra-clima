@@ -1,42 +1,42 @@
 {
- "dia": "2026-11-07",
- "dia_cmo": "2026-11-07",
- "detectado_brt": "2026-11-06 19:04",
- "last_modified_brt": "2026-11-06 19:01",
+ "dia": "2026-11-08",
+ "dia_cmo": "2026-11-08",
+ "detectado_brt": "2026-11-07 19:02",
+ "last_modified_brt": "2026-11-07 19:00",
  "completo": "sim",
  "meias_horas": "{\"Norte\": 48, \"Nordeste\": 48, \"Sul\": 48, \"SE/CO\": 48}",
- "media_SE/CO": 17.86,
- "max_SE/CO": 44.44,
- "media_Sul": 8.94,
- "max_Sul": 33.74,
- "media_Nordeste": 16.86,
- "max_Nordeste": 58.47,
- "media_Norte": 49.14,
- "max_Norte": 99.96,
+ "media_SE/CO": 14.73,
+ "max_SE/CO": 32.11,
+ "media_Sul": 8.28,
+ "max_Sul": 32.1,
+ "media_Nordeste": 14.37,
+ "max_Nordeste": 32.1,
+ "media_Norte": 49.28,
+ "max_Norte": 103.95,
  "resumo": {
   "Norte": {
-   "media": 49.14,
-   "max": 99.96,
-   "min": 13.22,
+   "media": 49.28,
+   "max": 103.95,
+   "min": 12.4,
    "hora_max": "23:30"
   },
   "Nordeste": {
-   "media": 16.86,
-   "max": 58.47,
+   "media": 14.37,
+   "max": 32.1,
    "min": 0.0,
    "hora_max": "18:30"
   },
   "Sul": {
-   "media": 8.94,
-   "max": 33.74,
+   "media": 8.28,
+   "max": 32.1,
    "min": 0.0,
    "hora_max": "18:30"
   },
   "SE/CO": {
-   "media": 17.86,
-   "max": 44.44,
+   "media": 14.73,
+   "max": 32.11,
    "min": 0.0,
-   "hora_max": "19:00"
+   "hora_max": "18:30"
   }
  }
 }
