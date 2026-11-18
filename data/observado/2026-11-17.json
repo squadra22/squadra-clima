@@ -1,0 +1,25 @@
+{
+ "fonte": "CPC Unified Gauge (NOAA)",
+ "dia": "2026-11-17",
+ "bacias": {
+  "Jacuí": 0.5,
+  "Uruguai": 2.3,
+  "Iguaçu": 0.0,
+  "Baixo Paraná": 2.2,
+  "Alto Paraná": 0.9,
+  "Paranapanema": 0.1,
+  "Tietê": 2.0,
+  "Alto Grande": 8.0,
+  "Baixo Grande": 6.1,
+  "Alto Paranaíba": 7.5,
+  "Baixo Paranaíba": 2.1,
+  "Alto São Francisco": 5.9,
+  "Médio São Francisco": 8.9,
+  "Baixo São Francisco": 12.1,
+  "Alto Tocantins": 13.6,
+  "Araguaia": 25.4,
+  "Baixo Tocantins": 9.1,
+  "Xingu": 27.2,
+  "Madeira": 1.1
+ }
+}
