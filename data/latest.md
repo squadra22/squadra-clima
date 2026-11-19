@@ -1,13 +1,13 @@
-# Coleta squadra-clima — 2026-11-18
-Gerado em 2026-11-18T18:21 UTC
+# Coleta squadra-clima — 2026-11-19
+Gerado em 2026-11-19T18:37 UTC
 
 ## Status das fontes
-- **gfs**: ok (rodada 2026111800)
-- **gefs**: ok (rodada 2026111800)
-- **ecmwf**: ok (rodada 2026111800)
-- **ecmwf_ens**: ok (rodada 2026111800)
-- **aifs**: ok (rodada 2026111800)
-- **observado**: ok (1 dia(s) novo(s))
+- **gfs**: ok (rodada 2026111900)
+- **gefs**: ok (rodada 2026111900)
+- **ecmwf**: ok (rodada 2026111900)
+- **ecmwf_ens**: ok (rodada 2026111900)
+- **aifs**: ok (rodada 2026111900)
+- **observado**: ok (2 dia(s) novo(s))
 - **ear**: ok
 - **ena**: ok
 - **carga**: ok
@@ -23,54 +23,54 @@ Gerado em 2026-11-18T18:21 UTC
 ## ENOS (CPC, semana 11NOV2026)
 Niño 1+2 +5.4 · Niño 3 +4.3 · Niño 3.4 +3.2 (-0.1 na semana) · Niño 4 +1.3 °C
 
-## Chuva observada 2026-11-17 x prevista (rodada 2026111600) — mm
+## Chuva observada 2026-11-19 x prevista (rodada 2026111800) — mm
 | Bacia | Obs | GFS | GEFS | ECMWF | AIFS | Desvio |
 |---|---|---|---|---|---|---|
-| Jacuí | 0.5 | 1.3 | 2.1 | 0.9 | 1 | -0.8 |
-| Uruguai | 2.3 | 1 | 1.7 | 3.9 | 3.2 | -0.2 |
-| Iguaçu | 0 | 0.8 | 1.4 | 1.8 | 1.1 | -1.3 |
-| Baixo Paraná | 2.2 | 2.2 | 3.1 | 8.9 | 4 | -2.4 |
-| Alto Paraná | 0.9 | 4.5 | 5.4 | 2.7 | 2.4 | -2.9 |
-| Paranapanema | 0.1 | 2.3 | 1.8 | 1 | 0.7 | -1.3 |
-| Tietê | 2 | 1.7 | 1.7 | 1.6 | 1.4 | 0.4 |
-| Baixo Grande | 6.1 | 5.1 | 5.5 | 4.5 | 4.5 | 1.2 |
-| Alto Grande | 8 | 6.3 | 8 | 9.4 | 9.7 | -0.4 |
-| Baixo Paranaíba | 2.1 | 8.5 | 11 | 4.5 | 3.9 | -4.9 |
-| Alto Paranaíba | 7.5 | 6.5 | 10.1 | 9.6 | 9.6 | -1.5 |
-| Alto São Francisco | 5.9 | 7.2 | 10.6 | 9.1 | 13 | -4.1 |
-| Alto Tocantins | 13.6 | 17.9 | 28 | 28.2 | 24.8 | -11.1 |
-| Madeira | 1.1 | 0.3 | 0.5 | 3.1 | 2.8 | -0.6 |
-| Médio São Francisco | 8.9 | 18.8 | 22.2 | 19.4 | 14.9 | -9.9 |
-| Baixo São Francisco | 12.1 | 5.2 | 9 | 17.4 | 12.5 | 1.1 |
-| Baixo Tocantins | 9.1 | 20.2 | 14.4 | 13.8 | 13.9 | -6.5 |
-| Araguaia | 25.4 | 21.2 | 18.9 | 19.8 | 20.4 | 5.3 |
-| Xingu | 27.2 | 8.6 | 10.4 | 20.6 | 16.6 | 13.1 |
+| Jacuí | 0.1 | 6.3 | 8.5 | 10.8 | 6.8 | -8 |
+| Uruguai | 3.8 | 14.4 | 11.6 | 10.1 | 6.7 | -6.9 |
+| Iguaçu | 1.5 | 17.5 | 10.5 | 10.5 | 4.5 | -9.3 |
+| Baixo Paraná | 7.8 | 21.9 | 18.9 | 10.3 | 10.3 | -7.5 |
+| Alto Paraná | 0.7 | 11.1 | 7.4 | 7 | 3 | -6.4 |
+| Paranapanema | 0.5 | 5.3 | 5.6 | 4.3 | 1.8 | -3.7 |
+| Tietê | 4.9 | 4.1 | 4.7 | 4.8 | 2.4 | 0.9 |
+| Baixo Grande | 5.9 | 10.1 | 10.2 | 5.1 | 5 | -1.7 |
+| Alto Grande | 12.1 | 14.1 | 13.9 | 9.9 | 10.5 | 0 |
+| Baixo Paranaíba | 1 | 14.2 | 10.1 | 3.6 | 3.1 | -6.8 |
+| Alto Paranaíba | 3.2 | 14.2 | 12.6 | 6.7 | 8.3 | -7.2 |
+| Alto São Francisco | 12.3 | 15.6 | 15.9 | 14.5 | 14.2 | -2.8 |
+| Alto Tocantins | 3.4 | 6.9 | 9.1 | 5.2 | 6.9 | -3.6 |
+| Madeira | 0.9 | 0.8 | 0.9 | 4 | 3.4 | -1.4 |
+| Médio São Francisco | 7.5 | 7.5 | 8.5 | 10 | 8 | -1 |
+| Baixo São Francisco | 2.3 | 2.1 | 1.1 | 3.1 | 3.2 | -0.1 |
+| Baixo Tocantins | 1.4 | 3.2 | 3.4 | 2.7 | 4.2 | -2 |
+| Araguaia | 4.6 | 6.4 | 8.2 | 4.8 | 6.4 | -1.8 |
+| Xingu | 1.1 | 2.9 | 5 | 4.4 | 6.3 | -3.6 |
 
 ## Previsão por região — semana 1 (dias 1–7) / semana 2 (dias 8–14), mm
 | Região | GFS | GEFS (média) | ECMWF IFS | ECMWF ENS | ECMWF AIFS |
 |---|---|---|---|---|---|
-| Sul (Iguaçu/Uruguai/Jacuí) | 95.3 / 48.8 | 85.8 / 38.2 | 109.8 / n/d | 106.5 / 21.2 | 75.2 / 8 |
-| SE fio d'água (Paraná/Paranapanema/Tietê) | 83 / 73.8 | 79.5 / 57.3 | 63.8 / n/d | 70.6 / 46.3 | 61.9 / 33.6 |
-| SE cabeceiras (Grande/Paranaíba/Alto SF) | 68.9 / 102.5 | 77.1 / 111.5 | 57.6 / n/d | 56.8 / 104.4 | 67.1 / 96.7 |
-| Alto Tocantins | 50.7 / 19.3 | 66.9 / 45 | 61.4 / n/d | 55.2 / 57.7 | 69.2 / 32.4 |
-| Madeira | 16.8 / 58.7 | 18.8 / 42.6 | 29.8 / n/d | 34.3 / 68 | 34.7 / 85.6 |
-| Norte (Tocantins/Xingu) | 24.7 / 16 | 29.7 / 28.1 | 42.2 / n/d | 38.6 / 54.5 | 44 / 36.2 |
-| Nordeste (São Francisco) | 27.4 / 8.4 | 34.8 / 15.6 | 38.4 / n/d | 33.2 / 20.1 | 34.6 / 6.3 |
+| Sul (Iguaçu/Uruguai/Jacuí) | 99.9 / 33.2 | 82.2 / 28.9 | 106.1 / n/d | 96.5 / 15 | 73.1 / 26.2 |
+| SE fio d'água (Paraná/Paranapanema/Tietê) | 84.5 / 42.9 | 95.8 / 44.9 | 81 / n/d | 85.3 / 34 | 76.2 / 41 |
+| SE cabeceiras (Grande/Paranaíba/Alto SF) | 63.6 / 43.9 | 85.2 / 88.1 | 63.9 / n/d | 73.3 / 102.4 | 72.4 / 73.1 |
+| Alto Tocantins | 48.9 / 15.6 | 64.6 / 37.5 | 50.8 / n/d | 54.3 / 47 | 64.3 / 10.6 |
+| Madeira | 30.8 / 59.1 | 28.4 / 36.7 | 53.8 / n/d | 56.1 / 58.3 | 51.6 / 80.9 |
+| Norte (Tocantins/Xingu) | 26.3 / 22.6 | 30.5 / 31.2 | 45.4 / n/d | 40.2 / 48.9 | 43.2 / 23.1 |
+| Nordeste (São Francisco) | 25.7 / 5.8 | 35.4 / 14.7 | 28.7 / n/d | 28.2 / 15.4 | 29.1 / 0.5 |
 
 ## EAR (%)
-- Nordeste: {"data": "2026-11-17", "pct": 58.7, "var_7d": -1.5}
-- Norte: {"data": "2026-11-17", "pct": 52.2, "var_7d": -5.0}
-- SE/CO: {"data": "2026-11-17", "pct": 55.1, "var_7d": -0.1}
-- Sul: {"data": "2026-11-17", "pct": 81.5, "var_7d": -1.5}
+- Nordeste: {"data": "2026-11-18", "pct": 58.8, "var_7d": -1.2}
+- Norte: {"data": "2026-11-18", "pct": 51.6, "var_7d": -5.1}
+- SE/CO: {"data": "2026-11-18", "pct": 55.2, "var_7d": -0.0}
+- Sul: {"data": "2026-11-18", "pct": 81.3, "var_7d": -1.4}
 
 ## ENA (% MLT)
-- Norte: {"data": "2026-11-17", "mwmed": 2793.0, "pct_mlt": 68.5, "pct_mlt_mes": 44.0}
-- Nordeste: {"data": "2026-11-17", "mwmed": 3184.0, "pct_mlt": 64.0, "pct_mlt_mes": 48.3}
-- Sul: {"data": "2026-11-17", "mwmed": 19912.0, "pct_mlt": 203.0, "pct_mlt_mes": 342.0}
-- SE/CO: {"data": "2026-11-17", "mwmed": 42375.0, "pct_mlt": 133.3, "pct_mlt_mes": 147.9}
+- Norte: {"data": "2026-11-18", "mwmed": 2256.0, "pct_mlt": 55.3, "pct_mlt_mes": 43.2}
+- Nordeste: {"data": "2026-11-18", "mwmed": 3307.0, "pct_mlt": 66.5, "pct_mlt_mes": 49.2}
+- Sul: {"data": "2026-11-18", "mwmed": 18945.0, "pct_mlt": 193.1, "pct_mlt_mes": 334.8}
+- SE/CO: {"data": "2026-11-18", "mwmed": 42889.0, "pct_mlt": 134.9, "pct_mlt_mes": 146.6}
 
-## CMO ONS (2026-11-18)
-- Norte: média 120.39 R$/MWh
-- Nordeste: média 79.77 R$/MWh
-- Sul: média 78.65 R$/MWh
-- SE/CO: média 79.81 R$/MWh
+## CMO ONS (2026-11-19)
+- Norte: média 164.1 R$/MWh
+- Nordeste: média 113.43 R$/MWh
+- Sul: média 109.69 R$/MWh
+- SE/CO: média 207.4 R$/MWh
