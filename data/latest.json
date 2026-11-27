@@ -1,146 +1,146 @@
 {
- "gerado_em_utc": "2026-11-26T19:15",
- "data_ref": "2026-11-26",
+ "gerado_em_utc": "2026-11-27T19:09",
+ "data_ref": "2026-11-27",
  "previsoes": {
   "gfs": {
    "modelo": "GFS",
-   "rodada": "2026112600",
+   "rodada": "2026112700",
    "semana1": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 44.4,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 66.6,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 63.9,
-    "Alto Tocantins": 19.3,
-    "Madeira": 54.8,
-    "Norte (Tocantins/Xingu)": 16.6,
-    "Nordeste (São Francisco)": 3.6
+    "Sul (Iguaçu/Uruguai/Jacuí)": 58.5,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 80.5,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 69.6,
+    "Alto Tocantins": 9.4,
+    "Madeira": 70.0,
+    "Norte (Tocantins/Xingu)": 13.1,
+    "Nordeste (São Francisco)": 2.8
    },
    "semana2": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 52.6,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 82.9,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 94.6,
-    "Alto Tocantins": 95.2,
-    "Madeira": 76.2,
-    "Norte (Tocantins/Xingu)": 62.5,
-    "Nordeste (São Francisco)": 41.1
+    "Sul (Iguaçu/Uruguai/Jacuí)": 45.7,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 79.5,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 100.3,
+    "Alto Tocantins": 53.9,
+    "Madeira": 38.4,
+    "Norte (Tocantins/Xingu)": 47.5,
+    "Nordeste (São Francisco)": 28.2
    },
    "semana1_bacias": {
-    "Jacuí": 23.2,
-    "Uruguai": 52.5,
-    "Iguaçu": 57.5,
-    "Baixo Paraná": 65.6,
-    "Alto Paraná": 89.7,
-    "Paranapanema": 46.1,
-    "Tietê": 65.0,
-    "Alto Grande": 78.0,
-    "Baixo Grande": 65.8,
-    "Alto Paranaíba": 55.7,
-    "Baixo Paranaíba": 56.9,
-    "Alto São Francisco": 63.2,
-    "Médio São Francisco": 2.5,
-    "Baixo São Francisco": 4.8,
-    "Alto Tocantins": 19.3,
-    "Araguaia": 20.9,
-    "Baixo Tocantins": 4.5,
-    "Xingu": 24.3,
-    "Madeira": 54.8
+    "Jacuí": 33.2,
+    "Uruguai": 59.4,
+    "Iguaçu": 82.9,
+    "Baixo Paraná": 97.1,
+    "Alto Paraná": 88.8,
+    "Paranapanema": 45.3,
+    "Tietê": 90.7,
+    "Alto Grande": 121.9,
+    "Baixo Grande": 36.1,
+    "Alto Paranaíba": 55.4,
+    "Baixo Paranaíba": 71.5,
+    "Alto São Francisco": 62.9,
+    "Médio São Francisco": 2.9,
+    "Baixo São Francisco": 2.8,
+    "Alto Tocantins": 9.4,
+    "Araguaia": 17.2,
+    "Baixo Tocantins": 5.7,
+    "Xingu": 16.5,
+    "Madeira": 70.0
    },
    "semana2_bacias": {
-    "Jacuí": 43.3,
-    "Uruguai": 40.8,
-    "Iguaçu": 73.6,
-    "Baixo Paraná": 73.4,
-    "Alto Paraná": 51.7,
-    "Paranapanema": 98.0,
-    "Tietê": 108.4,
-    "Alto Grande": 113.6,
-    "Baixo Grande": 91.4,
-    "Alto Paranaíba": 91.7,
-    "Baixo Paranaíba": 82.0,
-    "Alto São Francisco": 94.3,
-    "Médio São Francisco": 68.2,
-    "Baixo São Francisco": 13.9,
-    "Alto Tocantins": 95.2,
-    "Araguaia": 68.4,
-    "Baixo Tocantins": 48.9,
-    "Xingu": 70.1,
-    "Madeira": 76.2
+    "Jacuí": 21.0,
+    "Uruguai": 44.5,
+    "Iguaçu": 71.7,
+    "Baixo Paraná": 63.0,
+    "Alto Paraná": 98.7,
+    "Paranapanema": 65.8,
+    "Tietê": 90.3,
+    "Alto Grande": 110.6,
+    "Baixo Grande": 94.3,
+    "Alto Paranaíba": 83.3,
+    "Baixo Paranaíba": 96.0,
+    "Alto São Francisco": 117.4,
+    "Médio São Francisco": 42.4,
+    "Baixo São Francisco": 14.1,
+    "Alto Tocantins": 53.9,
+    "Araguaia": 60.0,
+    "Baixo Tocantins": 35.2,
+    "Xingu": 47.4,
+    "Madeira": 38.4
    }
   },
   "gefs": {
    "modelo": "GEFS (média)",
-   "rodada": "2026112600",
+   "rodada": "2026112700",
    "semana1": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 47.3,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 59.1,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 88.6,
-    "Alto Tocantins": 21.0,
-    "Madeira": 60.9,
-    "Norte (Tocantins/Xingu)": 17.6,
-    "Nordeste (São Francisco)": 3.8
+    "Sul (Iguaçu/Uruguai/Jacuí)": 62.4,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 81.0,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 73.5,
+    "Alto Tocantins": 10.5,
+    "Madeira": 69.4,
+    "Norte (Tocantins/Xingu)": 16.8,
+    "Nordeste (São Francisco)": 3.7
    },
    "semana2": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 61.7,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 78.2,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 88.8,
-    "Alto Tocantins": 50.3,
-    "Madeira": 51.8,
-    "Norte (Tocantins/Xingu)": 39.8,
-    "Nordeste (São Francisco)": 22.6
+    "Sul (Iguaçu/Uruguai/Jacuí)": 62.2,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 81.2,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 96.5,
+    "Alto Tocantins": 49.0,
+    "Madeira": 53.3,
+    "Norte (Tocantins/Xingu)": 43.1,
+    "Nordeste (São Francisco)": 23.9
    },
    "semana1_bacias": {
-    "Jacuí": 33.1,
-    "Uruguai": 59.1,
-    "Iguaçu": 49.6,
-    "Baixo Paraná": 66.9,
-    "Alto Paraná": 67.2,
-    "Paranapanema": 42.1,
-    "Tietê": 60.3,
-    "Alto Grande": 105.3,
-    "Baixo Grande": 95.9,
-    "Alto Paranaíba": 80.0,
-    "Baixo Paranaíba": 75.5,
-    "Alto São Francisco": 86.3,
-    "Médio São Francisco": 6.3,
-    "Baixo São Francisco": 1.2,
-    "Alto Tocantins": 21.0,
-    "Araguaia": 23.6,
-    "Baixo Tocantins": 8.2,
-    "Xingu": 20.9,
-    "Madeira": 60.9
+    "Jacuí": 44.4,
+    "Uruguai": 70.5,
+    "Iguaçu": 72.2,
+    "Baixo Paraná": 78.2,
+    "Alto Paraná": 80.2,
+    "Paranapanema": 77.9,
+    "Tietê": 87.8,
+    "Alto Grande": 106.3,
+    "Baixo Grande": 88.1,
+    "Alto Paranaíba": 55.2,
+    "Baixo Paranaíba": 66.3,
+    "Alto São Francisco": 51.5,
+    "Médio São Francisco": 3.5,
+    "Baixo São Francisco": 3.9,
+    "Alto Tocantins": 10.5,
+    "Araguaia": 18.0,
+    "Baixo Tocantins": 9.6,
+    "Xingu": 22.7,
+    "Madeira": 69.4
    },
    "semana2_bacias": {
-    "Jacuí": 45.5,
-    "Uruguai": 60.4,
-    "Iguaçu": 79.1,
-    "Baixo Paraná": 73.1,
-    "Alto Paraná": 75.1,
-    "Paranapanema": 83.8,
-    "Tietê": 80.7,
-    "Alto Grande": 104.9,
-    "Baixo Grande": 91.4,
-    "Alto Paranaíba": 80.0,
-    "Baixo Paranaíba": 69.1,
-    "Alto São Francisco": 98.7,
-    "Médio São Francisco": 37.0,
-    "Baixo São Francisco": 8.3,
-    "Alto Tocantins": 50.3,
-    "Araguaia": 45.7,
-    "Baixo Tocantins": 34.0,
-    "Xingu": 39.6,
-    "Madeira": 51.8
+    "Jacuí": 41.3,
+    "Uruguai": 63.5,
+    "Iguaçu": 81.8,
+    "Baixo Paraná": 70.2,
+    "Alto Paraná": 78.7,
+    "Paranapanema": 89.5,
+    "Tietê": 86.5,
+    "Alto Grande": 111.0,
+    "Baixo Grande": 103.5,
+    "Alto Paranaíba": 87.5,
+    "Baixo Paranaíba": 80.7,
+    "Alto São Francisco": 99.9,
+    "Médio São Francisco": 38.2,
+    "Baixo São Francisco": 9.5,
+    "Alto Tocantins": 49.0,
+    "Araguaia": 45.8,
+    "Baixo Tocantins": 36.8,
+    "Xingu": 46.6,
+    "Madeira": 53.3
    }
   },
   "ecmwf": {
    "modelo": "ECMWF IFS",
-   "rodada": "2026112600",
+   "rodada": "2026112700",
    "semana1": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 52.3,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 70.1,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 67.1,
-    "Alto Tocantins": 8.7,
-    "Madeira": 93.7,
-    "Norte (Tocantins/Xingu)": 21.5,
-    "Nordeste (São Francisco)": 1.0
+    "Sul (Iguaçu/Uruguai/Jacuí)": 52.2,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 72.8,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 74.6,
+    "Alto Tocantins": 13.1,
+    "Madeira": 91.9,
+    "Norte (Tocantins/Xingu)": 26.4,
+    "Nordeste (São Francisco)": 1.5
    },
    "semana2": {
     "Sul (Iguaçu/Uruguai/Jacuí)": null,
@@ -152,287 +152,287 @@
     "Nordeste (São Francisco)": null
    },
    "semana1_bacias": {
-    "Jacuí": 24.1,
-    "Uruguai": 63.7,
-    "Iguaçu": 69.1,
-    "Baixo Paraná": 61.8,
-    "Alto Paraná": 70.1,
-    "Paranapanema": 51.1,
-    "Tietê": 97.5,
-    "Alto Grande": 83.9,
-    "Baixo Grande": 91.0,
-    "Alto Paranaíba": 50.0,
-    "Baixo Paranaíba": 76.5,
-    "Alto São Francisco": 34.3,
-    "Médio São Francisco": 0.8,
-    "Baixo São Francisco": 1.2,
-    "Alto Tocantins": 8.7,
-    "Araguaia": 21.7,
-    "Baixo Tocantins": 14.0,
-    "Xingu": 28.7,
-    "Madeira": 93.7
+    "Jacuí": 31.4,
+    "Uruguai": 66.5,
+    "Iguaçu": 58.8,
+    "Baixo Paraná": 72.8,
+    "Alto Paraná": 84.7,
+    "Paranapanema": 54.6,
+    "Tietê": 79.2,
+    "Alto Grande": 104.9,
+    "Baixo Grande": 105.4,
+    "Alto Paranaíba": 50.6,
+    "Baixo Paranaíba": 79.3,
+    "Alto São Francisco": 32.8,
+    "Médio São Francisco": 1.2,
+    "Baixo São Francisco": 1.8,
+    "Alto Tocantins": 13.1,
+    "Araguaia": 28.0,
+    "Baixo Tocantins": 17.7,
+    "Xingu": 33.5,
+    "Madeira": 91.9
    },
    "semana2_bacias": {}
   },
   "ecmwf_ens": {
    "modelo": "ECMWF ENS",
-   "rodada": "2026112600",
+   "rodada": "2026112700",
    "semana1": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 52.7,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 68.9,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 60.3,
-    "Alto Tocantins": 9.2,
-    "Madeira": 88.9,
-    "Norte (Tocantins/Xingu)": 22.2,
-    "Nordeste (São Francisco)": 1.8
+    "Sul (Iguaçu/Uruguai/Jacuí)": 54.8,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 76.7,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 67.4,
+    "Alto Tocantins": 14.7,
+    "Madeira": 86.0,
+    "Norte (Tocantins/Xingu)": 27.0,
+    "Nordeste (São Francisco)": 3.0
    },
    "semana2": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 39.8,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 63.2,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 89.9,
-    "Alto Tocantins": 63.6,
-    "Madeira": 82.0,
-    "Norte (Tocantins/Xingu)": 59.3,
-    "Nordeste (São Francisco)": 25.1
+    "Sul (Iguaçu/Uruguai/Jacuí)": 27.7,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 54.6,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 90.9,
+    "Alto Tocantins": 62.6,
+    "Madeira": 72.5,
+    "Norte (Tocantins/Xingu)": 58.4,
+    "Nordeste (São Francisco)": 26.2
    },
    "semana1_p10": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 33.1,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 44.8,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 41.8,
-    "Alto Tocantins": 4.0,
-    "Madeira": 70.3,
-    "Norte (Tocantins/Xingu)": 14.3,
-    "Nordeste (São Francisco)": 0.6
+    "Sul (Iguaçu/Uruguai/Jacuí)": 38.1,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 52.8,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 47.2,
+    "Alto Tocantins": 7.7,
+    "Madeira": 70.7,
+    "Norte (Tocantins/Xingu)": 18.0,
+    "Nordeste (São Francisco)": 0.7
    },
    "semana1_p90": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 74.2,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 94.5,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 83.3,
-    "Alto Tocantins": 15.2,
-    "Madeira": 106.7,
-    "Norte (Tocantins/Xingu)": 30.6,
-    "Nordeste (São Francisco)": 3.2
+    "Sul (Iguaçu/Uruguai/Jacuí)": 71.7,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 103.8,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 89.7,
+    "Alto Tocantins": 22.5,
+    "Madeira": 103.1,
+    "Norte (Tocantins/Xingu)": 37.0,
+    "Nordeste (São Francisco)": 5.8
    },
    "semana2_p10": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 13.7,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 33.4,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 54.9,
-    "Alto Tocantins": 37.5,
-    "Madeira": 58.6,
-    "Norte (Tocantins/Xingu)": 38.7,
-    "Nordeste (São Francisco)": 10.9
+    "Sul (Iguaçu/Uruguai/Jacuí)": 10.0,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 26.0,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 57.6,
+    "Alto Tocantins": 32.8,
+    "Madeira": 53.9,
+    "Norte (Tocantins/Xingu)": 31.0,
+    "Nordeste (São Francisco)": 8.7
    },
    "semana2_p90": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 70.6,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 103.3,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 124.9,
-    "Alto Tocantins": 83.7,
-    "Madeira": 108.5,
-    "Norte (Tocantins/Xingu)": 82.1,
-    "Nordeste (São Francisco)": 38.9
+    "Sul (Iguaçu/Uruguai/Jacuí)": 50.7,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 86.9,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 128.7,
+    "Alto Tocantins": 98.9,
+    "Madeira": 95.2,
+    "Norte (Tocantins/Xingu)": 85.0,
+    "Nordeste (São Francisco)": 46.2
    },
    "membros": 50,
    "semana1_bacias": {
-    "Jacuí": 29.7,
-    "Uruguai": 66.3,
-    "Iguaçu": 62.0,
-    "Baixo Paraná": 64.4,
-    "Alto Paraná": 71.3,
-    "Paranapanema": 56.1,
-    "Tietê": 83.7,
-    "Alto Grande": 77.0,
-    "Baixo Grande": 76.9,
-    "Alto Paranaíba": 40.6,
-    "Baixo Paranaíba": 66.9,
-    "Alto São Francisco": 39.9,
-    "Médio São Francisco": 2.0,
-    "Baixo São Francisco": 1.5,
-    "Alto Tocantins": 9.2,
-    "Araguaia": 23.7,
-    "Baixo Tocantins": 15.4,
-    "Xingu": 27.4,
-    "Madeira": 88.9
+    "Jacuí": 36.3,
+    "Uruguai": 68.5,
+    "Iguaçu": 59.5,
+    "Baixo Paraná": 72.6,
+    "Alto Paraná": 81.4,
+    "Paranapanema": 63.5,
+    "Tietê": 89.3,
+    "Alto Grande": 91.5,
+    "Baixo Grande": 92.4,
+    "Alto Paranaíba": 45.1,
+    "Baixo Paranaíba": 70.9,
+    "Alto São Francisco": 36.9,
+    "Médio São Francisco": 3.7,
+    "Baixo São Francisco": 2.3,
+    "Alto Tocantins": 14.7,
+    "Araguaia": 28.0,
+    "Baixo Tocantins": 21.2,
+    "Xingu": 31.8,
+    "Madeira": 86.0
    },
    "semana2_bacias": {
-    "Jacuí": 28.7,
-    "Uruguai": 37.7,
-    "Iguaçu": 53.1,
-    "Baixo Paraná": 48.4,
-    "Alto Paraná": 67.5,
-    "Paranapanema": 63.9,
-    "Tietê": 73.2,
-    "Alto Grande": 93.9,
-    "Baixo Grande": 89.4,
-    "Alto Paranaíba": 83.7,
-    "Baixo Paranaíba": 81.2,
-    "Alto São Francisco": 101.4,
-    "Médio São Francisco": 43.6,
-    "Baixo São Francisco": 6.6,
-    "Alto Tocantins": 63.6,
-    "Araguaia": 68.5,
-    "Baixo Tocantins": 49.1,
-    "Xingu": 60.2,
-    "Madeira": 82.0
+    "Jacuí": 21.6,
+    "Uruguai": 27.7,
+    "Iguaçu": 33.9,
+    "Baixo Paraná": 32.8,
+    "Alto Paraná": 59.8,
+    "Paranapanema": 59.5,
+    "Tietê": 66.5,
+    "Alto Grande": 96.8,
+    "Baixo Grande": 86.6,
+    "Alto Paranaíba": 83.9,
+    "Baixo Paranaíba": 80.4,
+    "Alto São Francisco": 106.7,
+    "Médio São Francisco": 46.2,
+    "Baixo São Francisco": 6.1,
+    "Alto Tocantins": 62.6,
+    "Araguaia": 65.6,
+    "Baixo Tocantins": 49.2,
+    "Xingu": 60.5,
+    "Madeira": 72.5
    }
   },
   "aifs": {
    "modelo": "ECMWF AIFS",
-   "rodada": "2026112600",
+   "rodada": "2026112700",
    "semana1": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 57.4,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 64.6,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 65.9,
-    "Alto Tocantins": 12.3,
-    "Madeira": 91.8,
-    "Norte (Tocantins/Xingu)": 22.9,
-    "Nordeste (São Francisco)": 0.4
+    "Sul (Iguaçu/Uruguai/Jacuí)": 44.2,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 61.4,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 64.7,
+    "Alto Tocantins": 13.7,
+    "Madeira": 99.3,
+    "Norte (Tocantins/Xingu)": 24.5,
+    "Nordeste (São Francisco)": 0.3
    },
    "semana2": {
-    "Sul (Iguaçu/Uruguai/Jacuí)": 20.2,
-    "SE fio d'água (Paraná/Paranapanema/Tietê)": 67.3,
-    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 96.5,
-    "Alto Tocantins": 29.1,
-    "Madeira": 90.4,
-    "Norte (Tocantins/Xingu)": 33.2,
-    "Nordeste (São Francisco)": 4.5
+    "Sul (Iguaçu/Uruguai/Jacuí)": 29.0,
+    "SE fio d'água (Paraná/Paranapanema/Tietê)": 65.0,
+    "SE cabeceiras (Grande/Paranaíba/Alto SF)": 64.8,
+    "Alto Tocantins": 21.4,
+    "Madeira": 56.5,
+    "Norte (Tocantins/Xingu)": 29.0,
+    "Nordeste (São Francisco)": 1.7
    },
    "semana1_bacias": {
-    "Jacuí": 40.3,
-    "Uruguai": 63.5,
-    "Iguaçu": 68.4,
-    "Baixo Paraná": 77.1,
-    "Alto Paraná": 66.5,
-    "Paranapanema": 49.3,
-    "Tietê": 65.6,
-    "Alto Grande": 80.4,
-    "Baixo Grande": 79.4,
-    "Alto Paranaíba": 53.3,
-    "Baixo Paranaíba": 68.2,
-    "Alto São Francisco": 48.2,
-    "Médio São Francisco": 0.7,
+    "Jacuí": 34.6,
+    "Uruguai": 48.8,
+    "Iguaçu": 49.2,
+    "Baixo Paraná": 63.9,
+    "Alto Paraná": 69.8,
+    "Paranapanema": 49.4,
+    "Tietê": 62.6,
+    "Alto Grande": 85.6,
+    "Baixo Grande": 81.6,
+    "Alto Paranaíba": 49.5,
+    "Baixo Paranaíba": 67.5,
+    "Alto São Francisco": 39.4,
+    "Médio São Francisco": 0.5,
     "Baixo São Francisco": 0.1,
-    "Alto Tocantins": 12.3,
-    "Araguaia": 28.8,
-    "Baixo Tocantins": 10.9,
-    "Xingu": 29.1,
-    "Madeira": 91.8
+    "Alto Tocantins": 13.7,
+    "Araguaia": 29.1,
+    "Baixo Tocantins": 15.5,
+    "Xingu": 28.9,
+    "Madeira": 99.3
    },
    "semana2_bacias": {
-    "Jacuí": 13.2,
-    "Uruguai": 18.4,
-    "Iguaçu": 28.9,
-    "Baixo Paraná": 22.6,
-    "Alto Paraná": 88.0,
-    "Paranapanema": 59.1,
-    "Tietê": 99.6,
-    "Alto Grande": 127.4,
-    "Baixo Grande": 121.6,
-    "Alto Paranaíba": 67.4,
-    "Baixo Paranaíba": 82.9,
-    "Alto São Francisco": 83.1,
-    "Médio São Francisco": 8.9,
-    "Baixo São Francisco": 0.0,
-    "Alto Tocantins": 29.1,
-    "Araguaia": 41.4,
-    "Baixo Tocantins": 19.8,
-    "Xingu": 38.4,
-    "Madeira": 90.4
+    "Jacuí": 24.4,
+    "Uruguai": 29.2,
+    "Iguaçu": 33.5,
+    "Baixo Paraná": 34.6,
+    "Alto Paraná": 80.8,
+    "Paranapanema": 64.3,
+    "Tietê": 80.5,
+    "Alto Grande": 82.8,
+    "Baixo Grande": 78.8,
+    "Alto Paranaíba": 54.7,
+    "Baixo Paranaíba": 60.4,
+    "Alto São Francisco": 47.5,
+    "Médio São Francisco": 3.2,
+    "Baixo São Francisco": 0.2,
+    "Alto Tocantins": 21.4,
+    "Araguaia": 32.0,
+    "Baixo Tocantins": 21.5,
+    "Xingu": 33.6,
+    "Madeira": 56.5
    }
   }
  },
  "observado_ultimo_dia": {
   "fonte": "MERGE/CPTEC",
-  "dia": "2026-11-26",
+  "dia": "2026-11-27",
   "bacias": {
    "Jacuí": 0.1,
-   "Uruguai": 0.3,
-   "Iguaçu": 1.4,
-   "Baixo Paraná": 4.8,
-   "Alto Paraná": 7.9,
-   "Paranapanema": 3.9,
-   "Tietê": 4.0,
-   "Alto Grande": 12.8,
-   "Baixo Grande": 7.8,
-   "Alto Paranaíba": 8.8,
-   "Baixo Paranaíba": 8.1,
-   "Alto São Francisco": 6.5,
-   "Médio São Francisco": 0.7,
+   "Uruguai": 1.3,
+   "Iguaçu": 1.0,
+   "Baixo Paraná": 0.3,
+   "Alto Paraná": 3.5,
+   "Paranapanema": 0.6,
+   "Tietê": 0.6,
+   "Alto Grande": 3.2,
+   "Baixo Grande": 2.2,
+   "Alto Paranaíba": 5.8,
+   "Baixo Paranaíba": 6.1,
+   "Alto São Francisco": 9.9,
+   "Médio São Francisco": 0.2,
    "Baixo São Francisco": 0.0,
-   "Alto Tocantins": 2.4,
-   "Araguaia": 6.1,
-   "Baixo Tocantins": 1.7,
-   "Xingu": 3.0,
-   "Madeira": 14.1
+   "Alto Tocantins": 0.9,
+   "Araguaia": 4.0,
+   "Baixo Tocantins": 0.8,
+   "Xingu": 5.7,
+   "Madeira": 8.4
   }
  },
  "acumulado_mes": {
-  "dias": 26,
-  "ate": "2026-11-26",
+  "dias": 27,
+  "ate": "2026-11-27",
   "bacias": {
    "Jacuí": {
-    "mm": 147.1,
+    "mm": 147.2,
     "clima_mes": 126.0,
     "pct_clima": 117.0
    },
    "Uruguai": {
-    "mm": 234.0,
+    "mm": 235.3,
     "clima_mes": 131.0,
-    "pct_clima": 179.0
+    "pct_clima": 180.0
    },
    "Iguaçu": {
-    "mm": 205.8,
+    "mm": 206.8,
     "clima_mes": 129.0,
     "pct_clima": 160.0
    },
    "Baixo Paraná": {
-    "mm": 212.9,
+    "mm": 213.2,
     "clima_mes": 130.0,
     "pct_clima": 164.0
    },
    "Alto Paraná": {
-    "mm": 161.4,
+    "mm": 164.9,
     "clima_mes": 115.0,
-    "pct_clima": 140.0
+    "pct_clima": 143.0
    },
    "Paranapanema": {
-    "mm": 158.8,
+    "mm": 159.4,
     "clima_mes": 113.0,
     "pct_clima": 141.0
    },
    "Tietê": {
-    "mm": 119.3,
+    "mm": 119.9,
     "clima_mes": 121.0,
     "pct_clima": 99.0
    },
    "Alto Grande": {
-    "mm": 147.4,
+    "mm": 150.6,
     "clima_mes": 158.0,
-    "pct_clima": 93.0
+    "pct_clima": 95.0
    },
    "Baixo Grande": {
-    "mm": 108.8,
+    "mm": 111.0,
     "clima_mes": 149.0,
-    "pct_clima": 73.0
+    "pct_clima": 74.0
    },
    "Alto Paranaíba": {
-    "mm": 139.1,
+    "mm": 144.9,
     "clima_mes": 177.0,
-    "pct_clima": 79.0
+    "pct_clima": 82.0
    },
    "Baixo Paranaíba": {
-    "mm": 157.7,
+    "mm": 163.8,
     "clima_mes": 159.0,
-    "pct_clima": 99.0
+    "pct_clima": 103.0
    },
    "Alto São Francisco": {
-    "mm": 127.9,
+    "mm": 137.8,
     "clima_mes": 170.0,
-    "pct_clima": 75.0
+    "pct_clima": 81.0
    },
    "Médio São Francisco": {
-    "mm": 135.5,
+    "mm": 135.7,
     "clima_mes": 139.0,
-    "pct_clima": 97.0
+    "pct_clima": 98.0
    },
    "Baixo São Francisco": {
     "mm": 36.7,
@@ -440,171 +440,171 @@
     "pct_clima": 183.0
    },
    "Alto Tocantins": {
-    "mm": 177.3,
+    "mm": 178.2,
     "clima_mes": 194.0,
-    "pct_clima": 91.0
+    "pct_clima": 92.0
    },
    "Araguaia": {
-    "mm": 176.3,
+    "mm": 180.3,
     "clima_mes": 154.0,
-    "pct_clima": 114.0
+    "pct_clima": 117.0
    },
    "Baixo Tocantins": {
-    "mm": 123.7,
+    "mm": 124.5,
     "clima_mes": 162.0,
-    "pct_clima": 76.0
+    "pct_clima": 77.0
    },
    "Xingu": {
-    "mm": 141.6,
+    "mm": 147.3,
     "clima_mes": 145.0,
-    "pct_clima": 98.0
+    "pct_clima": 102.0
    },
    "Madeira": {
-    "mm": 76.8,
+    "mm": 85.2,
     "clima_mes": 124.0,
-    "pct_clima": 62.0
+    "pct_clima": 69.0
    }
   }
  },
  "verificacao_d1": {
-  "dia": "2026-11-26",
+  "dia": "2026-11-27",
   "fonte_obs": "MERGE/CPTEC",
-  "rodada_prevista": "2026112500",
+  "rodada_prevista": "2026112600",
   "bacias": {
    "Jacuí": {
     "obs": 0.1,
-    "gfs": 0.2,
-    "gefs": 0.2,
-    "ecmwf": 0.5,
-    "aifs": 0.7,
-    "media_modelos": 0.4,
-    "desvio": -0.3
+    "gfs": 0.1,
+    "gefs": 0.1,
+    "ecmwf": 0.4,
+    "aifs": 0.3,
+    "media_modelos": 0.2,
+    "desvio": -0.1
    },
    "Uruguai": {
-    "obs": 0.3,
-    "gfs": 2.0,
-    "gefs": 2.9,
-    "ecmwf": 13.0,
-    "aifs": 1.6,
-    "media_modelos": 4.9,
-    "desvio": -4.6
+    "obs": 1.3,
+    "gfs": 3.3,
+    "gefs": 5.3,
+    "ecmwf": 6.0,
+    "aifs": 2.4,
+    "media_modelos": 4.2,
+    "desvio": -2.9
    },
    "Iguaçu": {
-    "obs": 1.4,
-    "gfs": 21.7,
-    "gefs": 19.1,
-    "ecmwf": 41.1,
-    "aifs": 7.0,
-    "media_modelos": 22.2,
-    "desvio": -20.8
+    "obs": 1.0,
+    "gfs": 5.8,
+    "gefs": 6.2,
+    "ecmwf": 6.8,
+    "aifs": 4.2,
+    "media_modelos": 5.8,
+    "desvio": -4.8
    },
    "Baixo Paraná": {
-    "obs": 4.8,
-    "gfs": 17.7,
-    "gefs": 16.0,
-    "ecmwf": 30.3,
-    "aifs": 12.0,
-    "media_modelos": 19.0,
-    "desvio": -14.2
-   },
-   "Alto Paraná": {
-    "obs": 7.9,
-    "gfs": 25.6,
-    "gefs": 22.0,
-    "ecmwf": 23.2,
-    "aifs": 15.0,
-    "media_modelos": 21.4,
-    "desvio": -13.5
-   },
-   "Paranapanema": {
-    "obs": 3.9,
-    "gfs": 17.2,
-    "gefs": 14.9,
-    "ecmwf": 9.5,
-    "aifs": 7.1,
-    "media_modelos": 12.2,
-    "desvio": -8.3
-   },
-   "Tietê": {
-    "obs": 4.0,
-    "gfs": 12.5,
-    "gefs": 16.8,
-    "ecmwf": 13.8,
-    "aifs": 9.6,
-    "media_modelos": 13.2,
-    "desvio": -9.2
-   },
-   "Baixo Grande": {
-    "obs": 7.8,
-    "gfs": 13.3,
-    "gefs": 16.3,
-    "ecmwf": 20.4,
-    "aifs": 11.2,
-    "media_modelos": 15.3,
-    "desvio": -7.5
-   },
-   "Alto Grande": {
-    "obs": 12.8,
-    "gfs": 23.5,
-    "gefs": 29.6,
-    "ecmwf": 26.2,
-    "aifs": 13.3,
-    "media_modelos": 23.1,
+    "obs": 0.3,
+    "gfs": 15.9,
+    "gefs": 17.8,
+    "ecmwf": 3.5,
+    "aifs": 5.0,
+    "media_modelos": 10.6,
     "desvio": -10.3
    },
+   "Alto Paraná": {
+    "obs": 3.5,
+    "gfs": 11.7,
+    "gefs": 10.9,
+    "ecmwf": 9.3,
+    "aifs": 8.3,
+    "media_modelos": 10.1,
+    "desvio": -6.6
+   },
+   "Paranapanema": {
+    "obs": 0.6,
+    "gfs": 1.0,
+    "gefs": 1.7,
+    "ecmwf": 0.4,
+    "aifs": 1.5,
+    "media_modelos": 1.1,
+    "desvio": -0.5
+   },
+   "Tietê": {
+    "obs": 0.6,
+    "gfs": 1.0,
+    "gefs": 2.4,
+    "ecmwf": 1.4,
+    "aifs": 3.0,
+    "media_modelos": 1.9,
+    "desvio": -1.3
+   },
+   "Baixo Grande": {
+    "obs": 2.2,
+    "gfs": 2.7,
+    "gefs": 8.4,
+    "ecmwf": 6.3,
+    "aifs": 10.5,
+    "media_modelos": 7.0,
+    "desvio": -4.8
+   },
+   "Alto Grande": {
+    "obs": 3.2,
+    "gfs": 7.6,
+    "gefs": 9.2,
+    "ecmwf": 10.4,
+    "aifs": 11.6,
+    "media_modelos": 9.7,
+    "desvio": -6.5
+   },
    "Baixo Paranaíba": {
-    "obs": 8.1,
-    "gfs": 19.4,
-    "gefs": 14.7,
-    "ecmwf": 8.7,
-    "aifs": 15.8,
-    "media_modelos": 14.6,
+    "obs": 6.1,
+    "gfs": 7.2,
+    "gefs": 11.6,
+    "ecmwf": 16.7,
+    "aifs": 14.8,
+    "media_modelos": 12.6,
     "desvio": -6.5
    },
    "Alto Paranaíba": {
-    "obs": 8.8,
-    "gfs": 9.5,
-    "gefs": 11.8,
-    "ecmwf": 10.4,
-    "aifs": 11.4,
-    "media_modelos": 10.8,
-    "desvio": -2.0
+    "obs": 5.8,
+    "gfs": 13.9,
+    "gefs": 17.1,
+    "ecmwf": 9.8,
+    "aifs": 11.8,
+    "media_modelos": 13.1,
+    "desvio": -7.3
    },
    "Alto São Francisco": {
-    "obs": 6.5,
-    "gfs": 6.3,
-    "gefs": 9.9,
-    "ecmwf": 7.2,
-    "aifs": 8.7,
-    "media_modelos": 8.0,
-    "desvio": -1.5
+    "obs": 9.9,
+    "gfs": 24.8,
+    "gefs": 32.8,
+    "ecmwf": 9.3,
+    "aifs": 17.3,
+    "media_modelos": 21.0,
+    "desvio": -11.1
    },
    "Alto Tocantins": {
-    "obs": 2.4,
-    "gfs": 1.2,
-    "gefs": 2.0,
-    "ecmwf": 2.1,
-    "aifs": 2.2,
-    "media_modelos": 1.9,
-    "desvio": 0.5
+    "obs": 0.9,
+    "gfs": 3.0,
+    "gefs": 4.5,
+    "ecmwf": 1.8,
+    "aifs": 1.6,
+    "media_modelos": 2.7,
+    "desvio": -1.8
    },
    "Madeira": {
-    "obs": 14.1,
-    "gfs": 6.8,
-    "gefs": 7.3,
-    "ecmwf": 16.4,
-    "aifs": 17.7,
-    "media_modelos": 12.1,
-    "desvio": 2.0
+    "obs": 8.4,
+    "gfs": 8.6,
+    "gefs": 8.4,
+    "ecmwf": 10.9,
+    "aifs": 14.8,
+    "media_modelos": 10.7,
+    "desvio": -2.3
    },
    "Médio São Francisco": {
-    "obs": 0.7,
-    "gfs": 0.1,
-    "gefs": 0.2,
-    "ecmwf": 0.3,
-    "aifs": 0.3,
-    "media_modelos": 0.2,
-    "desvio": 0.5
+    "obs": 0.2,
+    "gfs": 1.3,
+    "gefs": 1.8,
+    "ecmwf": 0.5,
+    "aifs": 0.4,
+    "media_modelos": 1.0,
+    "desvio": -0.8
    },
    "Baixo São Francisco": {
     "obs": 0.0,
@@ -616,116 +616,116 @@
     "desvio": 0.0
    },
    "Baixo Tocantins": {
-    "obs": 1.7,
+    "obs": 0.8,
     "gfs": 0.1,
-    "gefs": 0.4,
-    "ecmwf": 2.4,
-    "aifs": 1.4,
-    "media_modelos": 1.1,
-    "desvio": 0.6
+    "gefs": 0.2,
+    "ecmwf": 1.9,
+    "aifs": 0.9,
+    "media_modelos": 0.8,
+    "desvio": 0.0
    },
    "Araguaia": {
-    "obs": 6.1,
-    "gfs": 2.0,
-    "gefs": 2.3,
-    "ecmwf": 3.9,
-    "aifs": 6.0,
-    "media_modelos": 3.5,
-    "desvio": 2.6
+    "obs": 4.0,
+    "gfs": 3.0,
+    "gefs": 3.4,
+    "ecmwf": 4.2,
+    "aifs": 4.4,
+    "media_modelos": 3.8,
+    "desvio": 0.2
    },
    "Xingu": {
-    "obs": 3.0,
-    "gfs": 1.6,
-    "gefs": 1.6,
-    "ecmwf": 3.4,
-    "aifs": 4.6,
-    "media_modelos": 2.8,
-    "desvio": 0.2
+    "obs": 5.7,
+    "gfs": 4.2,
+    "gefs": 3.4,
+    "ecmwf": 7.1,
+    "aifs": 8.1,
+    "media_modelos": 5.7,
+    "desvio": 0.0
    }
   },
   "erro_por_modelo": {
    "gfs": {
-    "vies_medio": 4.5,
-    "erro_abs_medio": 6.3
+    "vies_medio": 3.2,
+    "erro_abs_medio": 3.5
    },
    "gefs": {
-    "vies_medio": 4.9,
-    "erro_abs_medio": 6.4
+    "vies_medio": 4.8,
+    "erro_abs_medio": 5.1
    },
    "ecmwf": {
-    "vies_medio": 7.3,
-    "erro_abs_medio": 7.6
-   },
-   "aifs": {
     "vies_medio": 2.7,
     "erro_abs_medio": 2.8
+   },
+   "aifs": {
+    "vies_medio": 3.5,
+    "erro_abs_medio": 3.5
    }
   }
  },
  "ear": {
   "Nordeste": {
-   "data": "2026-11-25",
-   "pct": 58.7,
-   "var_7d": -0.2
+   "data": "2026-11-26",
+   "pct": 59.6,
+   "var_7d": 0.8
   },
   "Norte": {
-   "data": "2026-11-25",
-   "pct": 49.6,
-   "var_7d": -3.5
+   "data": "2026-11-26",
+   "pct": 50.8,
+   "var_7d": -1.9
   },
   "SE/CO": {
-   "data": "2026-11-25",
-   "pct": 56.3,
-   "var_7d": 1.2
+   "data": "2026-11-26",
+   "pct": 56.5,
+   "var_7d": 1.3
   },
   "Sul": {
-   "data": "2026-11-25",
-   "pct": 82.9,
+   "data": "2026-11-26",
+   "pct": 82.4,
    "var_7d": 1.5
   }
  },
  "ena": {
   "Norte": {
-   "data": "2026-11-25",
-   "mwmed": 2809.0,
-   "pct_mlt": 68.9,
-   "pct_mlt_mes": 51.2
+   "data": "2026-11-26",
+   "mwmed": 3025.0,
+   "pct_mlt": 74.2,
+   "pct_mlt_mes": 52.4
   },
   "Nordeste": {
-   "data": "2026-11-25",
-   "mwmed": 5154.0,
-   "pct_mlt": 103.7,
-   "pct_mlt_mes": 64.1
+   "data": "2026-11-26",
+   "mwmed": 4823.0,
+   "pct_mlt": 97.0,
+   "pct_mlt_mes": 63.2
   },
   "Sul": {
-   "data": "2026-11-25",
-   "mwmed": 45331.0,
-   "pct_mlt": 462.2,
-   "pct_mlt_mes": 324.5
+   "data": "2026-11-26",
+   "mwmed": 39723.0,
+   "pct_mlt": 405.0,
+   "pct_mlt_mes": 327.9
   },
   "SE/CO": {
-   "data": "2026-11-25",
-   "mwmed": 48032.0,
-   "pct_mlt": 151.0,
-   "pct_mlt_mes": 145.6
+   "data": "2026-11-26",
+   "mwmed": 49524.0,
+   "pct_mlt": 155.7,
+   "pct_mlt_mes": 146.2
   }
  },
  "carga": {
   "Norte": {
-   "data": "2026-11-24",
-   "mwmed": 10099.0
+   "data": "2026-11-25",
+   "mwmed": 10320.0
   },
   "Nordeste": {
-   "data": "2026-11-24",
-   "mwmed": 16623.0
+   "data": "2026-11-25",
+   "mwmed": 16722.0
   },
   "Sul": {
-   "data": "2026-11-24",
-   "mwmed": 16537.0
+   "data": "2026-11-25",
+   "mwmed": 15664.0
   },
   "SE/CO": {
-   "data": "2026-11-24",
-   "mwmed": 53607.0
+   "data": "2026-11-25",
+   "mwmed": 54164.0
   }
  },
  "enso": {
@@ -737,11 +737,11 @@
   "var_nino34": 0.1
  },
  "status": {
-  "gfs": "ok (rodada 2026112600)",
-  "gefs": "ok (rodada 2026112600)",
-  "ecmwf": "ok (rodada 2026112600)",
-  "ecmwf_ens": "ok (rodada 2026112600)",
-  "aifs": "ok (rodada 2026112600)",
+  "gfs": "ok (rodada 2026112700)",
+  "gefs": "ok (rodada 2026112700)",
+  "ecmwf": "ok (rodada 2026112700)",
+  "ecmwf_ens": "ok (rodada 2026112700)",
+  "aifs": "ok (rodada 2026112700)",
   "observado": "ok (1 dia(s) novo(s))",
   "ear": "ok",
   "ena": "ok",
@@ -756,23 +756,23 @@
   "eolica_prev_ons": "ok"
  },
  "cmo": {
-  "data": "2026-11-26",
+  "data": "2026-11-27",
   "submercados": {
    "Norte": {
-    "media": 146.38,
-    "max": 352.48
+    "media": 78.53,
+    "max": 140.19
    },
    "Nordeste": {
-    "media": 10.42,
-    "max": 49.9
+    "media": 5.55,
+    "max": 10.87
    },
    "Sul": {
-    "media": 8.55,
-    "max": 49.9
+    "media": 5.53,
+    "max": 10.87
    },
    "SE/CO": {
-    "media": 10.49,
-    "max": 49.91
+    "media": 5.56,
+    "max": 10.88
    }
   }
  },
@@ -1996,128 +1996,8 @@
   }
  },
  "eolica": {
-  "ate": "2026-11-24T23:00",
+  "ate": "2026-11-25T23:00",
   "serie_horaria": [
-   {
-    "t": "2026-11-10T00:00",
-    "Nordeste": 13570.0,
-    "Sul": 948.0
-   },
-   {
-    "t": "2026-11-10T01:00",
-    "Nordeste": 14120.0,
-    "Sul": 951.0
-   },
-   {
-    "t": "2026-11-10T02:00",
-    "Nordeste": 14321.0,
-    "Sul": 913.0
-   },
-   {
-    "t": "2026-11-10T03:00",
-    "Nordeste": 13851.0,
-    "Sul": 889.0
-   },
-   {
-    "t": "2026-11-10T04:00",
-    "Nordeste": 14753.0,
-    "Sul": 858.0
-   },
-   {
-    "t": "2026-11-10T05:00",
-    "Nordeste": 15733.0,
-    "Sul": 867.0
-   },
-   {
-    "t": "2026-11-10T06:00",
-    "Nordeste": 15655.0,
-    "Sul": 851.0
-   },
-   {
-    "t": "2026-11-10T07:00",
-    "Nordeste": 14598.0,
-    "Sul": 697.0
-   },
-   {
-    "t": "2026-11-10T08:00",
-    "Nordeste": 11212.0,
-    "Sul": 527.0
-   },
-   {
-    "t": "2026-11-10T09:00",
-    "Nordeste": 7923.0,
-    "Sul": 261.0
-   },
-   {
-    "t": "2026-11-10T10:00",
-    "Nordeste": 7619.0,
-    "Sul": 245.0
-   },
-   {
-    "t": "2026-11-10T11:00",
-    "Nordeste": 7397.0,
-    "Sul": 236.0
-   },
-   {
-    "t": "2026-11-10T12:00",
-    "Nordeste": 5821.0,
-    "Sul": 268.0
-   },
-   {
-    "t": "2026-11-10T13:00",
-    "Nordeste": 7575.0,
-    "Sul": 348.0
-   },
-   {
-    "t": "2026-11-10T14:00",
-    "Nordeste": 10590.0,
-    "Sul": 541.0
-   },
-   {
-    "t": "2026-11-10T15:00",
-    "Nordeste": 12547.0,
-    "Sul": 647.0
-   },
-   {
-    "t": "2026-11-10T16:00",
-    "Nordeste": 14340.0,
-    "Sul": 636.0
-   },
-   {
-    "t": "2026-11-10T17:00",
-    "Nordeste": 16211.0,
-    "Sul": 650.0
-   },
-   {
-    "t": "2026-11-10T18:00",
-    "Nordeste": 16843.0,
-    "Sul": 666.0
-   },
-   {
-    "t": "2026-11-10T19:00",
-    "Nordeste": 17600.0,
-    "Sul": 776.0
-   },
-   {
-    "t": "2026-11-10T20:00",
-    "Nordeste": 17980.0,
-    "Sul": 910.0
-   },
-   {
-    "t": "2026-11-10T21:00",
-    "Nordeste": 18868.0,
-    "Sul": 964.0
-   },
-   {
-    "t": "2026-11-10T22:00",
-    "Nordeste": 20421.0,
-    "Sul": 955.0
-   },
-   {
-    "t": "2026-11-10T23:00",
-    "Nordeste": 21297.0,
-    "Sul": 922.0
-   },
    {
     "t": "2026-11-11T00:00",
     "Nordeste": 21041.0,
@@ -3080,32 +2960,32 @@
    },
    {
     "t": "2026-11-19T00:00",
-    "Nordeste": 9642.0,
-    "Sul": 316.0
+    "Nordeste": 9644.0,
+    "Sul": 319.0
    },
    {
     "t": "2026-11-19T01:00",
-    "Nordeste": 9291.0,
-    "Sul": 332.0
+    "Nordeste": 9292.0,
+    "Sul": 333.0
    },
    {
     "t": "2026-11-19T02:00",
-    "Nordeste": 9688.0,
+    "Nordeste": 9689.0,
     "Sul": 337.0
    },
    {
     "t": "2026-11-19T03:00",
-    "Nordeste": 9853.0,
+    "Nordeste": 9854.0,
     "Sul": 358.0
    },
    {
     "t": "2026-11-19T04:00",
     "Nordeste": 9965.0,
-    "Sul": 349.0
+    "Sul": 350.0
    },
    {
     "t": "2026-11-19T05:00",
-    "Nordeste": 9377.0,
+    "Nordeste": 9378.0,
     "Sul": 333.0
    },
    {
@@ -3125,12 +3005,12 @@
    },
    {
     "t": "2026-11-19T09:00",
-    "Nordeste": 6740.0,
+    "Nordeste": 6736.0,
     "Sul": 164.0
    },
    {
     "t": "2026-11-19T10:00",
-    "Nordeste": 6091.0,
+    "Nordeste": 6092.0,
     "Sul": 161.0
    },
    {
@@ -3145,23 +3025,23 @@
    },
    {
     "t": "2026-11-19T13:00",
-    "Nordeste": 6262.0,
+    "Nordeste": 6263.0,
     "Sul": 323.0
    },
    {
     "t": "2026-11-19T14:00",
-    "Nordeste": 7335.0,
+    "Nordeste": 7336.0,
     "Sul": 294.0
    },
    {
     "t": "2026-11-19T15:00",
-    "Nordeste": 7984.0,
+    "Nordeste": 7985.0,
     "Sul": 248.0
    },
    {
     "t": "2026-11-19T16:00",
-    "Nordeste": 9898.0,
-    "Sul": 176.0
+    "Nordeste": 9899.0,
+    "Sul": 177.0
    },
    {
     "t": "2026-11-19T17:00",
@@ -3170,53 +3050,53 @@
    },
    {
     "t": "2026-11-19T18:00",
-    "Nordeste": 12198.0,
+    "Nordeste": 12199.0,
     "Sul": 224.0
    },
    {
     "t": "2026-11-19T19:00",
-    "Nordeste": 13077.0,
+    "Nordeste": 13078.0,
     "Sul": 376.0
    },
    {
     "t": "2026-11-19T20:00",
-    "Nordeste": 14154.0,
+    "Nordeste": 14160.0,
     "Sul": 367.0
    },
    {
     "t": "2026-11-19T21:00",
-    "Nordeste": 15013.0,
+    "Nordeste": 15018.0,
     "Sul": 399.0
    },
    {
     "t": "2026-11-19T22:00",
-    "Nordeste": 14720.0,
+    "Nordeste": 14724.0,
     "Sul": 430.0
    },
    {
     "t": "2026-11-19T23:00",
-    "Nordeste": 14782.0,
+    "Nordeste": 14785.0,
     "Sul": 356.0
    },
    {
     "t": "2026-11-20T00:00",
-    "Nordeste": 15391.0,
+    "Nordeste": 15394.0,
     "Sul": 384.0
    },
    {
     "t": "2026-11-20T01:00",
-    "Nordeste": 15697.0,
-    "Sul": 319.0
+    "Nordeste": 15713.0,
+    "Sul": 320.0
    },
    {
     "t": "2026-11-20T02:00",
-    "Nordeste": 15340.0,
-    "Sul": 414.0
+    "Nordeste": 15358.0,
+    "Sul": 415.0
    },
    {
     "t": "2026-11-20T03:00",
-    "Nordeste": 14634.0,
-    "Sul": 420.0
+    "Nordeste": 14638.0,
+    "Sul": 421.0
    },
    {
     "t": "2026-11-20T04:00",
@@ -3225,27 +3105,27 @@
    },
    {
     "t": "2026-11-20T05:00",
-    "Nordeste": 14018.0,
+    "Nordeste": 14027.0,
     "Sul": 364.0
    },
    {
     "t": "2026-11-20T06:00",
-    "Nordeste": 12451.0,
+    "Nordeste": 12450.0,
     "Sul": 306.0
    },
    {
     "t": "2026-11-20T07:00",
-    "Nordeste": 8904.0,
+    "Nordeste": 8903.0,
     "Sul": 159.0
    },
    {
     "t": "2026-11-20T08:00",
-    "Nordeste": 5483.0,
+    "Nordeste": 5482.0,
     "Sul": 165.0
    },
    {
     "t": "2026-11-20T09:00",
-    "Nordeste": 3545.0,
+    "Nordeste": 3544.0,
     "Sul": 106.0
    },
    {
@@ -3260,17 +3140,17 @@
    },
    {
     "t": "2026-11-20T12:00",
-    "Nordeste": 3120.0,
-    "Sul": 95.0
+    "Nordeste": 3121.0,
+    "Sul": 94.0
    },
    {
     "t": "2026-11-20T13:00",
-    "Nordeste": 4717.0,
+    "Nordeste": 4718.0,
     "Sul": 121.0
    },
    {
     "t": "2026-11-20T14:00",
-    "Nordeste": 5578.0,
+    "Nordeste": 5579.0,
     "Sul": 215.0
    },
    {
@@ -3280,17 +3160,17 @@
    },
    {
     "t": "2026-11-20T16:00",
-    "Nordeste": 6865.0,
+    "Nordeste": 6866.0,
     "Sul": 342.0
    },
    {
     "t": "2026-11-20T17:00",
-    "Nordeste": 9148.0,
+    "Nordeste": 9150.0,
     "Sul": 294.0
    },
    {
     "t": "2026-11-20T18:00",
-    "Nordeste": 10944.0,
+    "Nordeste": 10945.0,
     "Sul": 247.0
    },
    {
@@ -3310,28 +3190,28 @@
    },
    {
     "t": "2026-11-20T22:00",
-    "Nordeste": 13381.0,
+    "Nordeste": 13380.0,
     "Sul": 253.0
    },
    {
     "t": "2026-11-20T23:00",
     "Nordeste": 13272.0,
-    "Sul": 271.0
+    "Sul": 272.0
    },
    {
     "t": "2026-11-21T00:00",
-    "Nordeste": 13626.0,
+    "Nordeste": 13632.0,
     "Sul": 319.0
    },
    {
     "t": "2026-11-21T01:00",
-    "Nordeste": 13827.0,
+    "Nordeste": 13832.0,
     "Sul": 326.0
    },
    {
     "t": "2026-11-21T02:00",
-    "Nordeste": 14209.0,
-    "Sul": 445.0
+    "Nordeste": 14215.0,
+    "Sul": 446.0
    },
    {
     "t": "2026-11-21T03:00",
@@ -3340,222 +3220,222 @@
    },
    {
     "t": "2026-11-21T04:00",
-    "Nordeste": 14380.0,
+    "Nordeste": 14381.0,
     "Sul": 472.0
    },
    {
     "t": "2026-11-21T05:00",
-    "Nordeste": 12967.0,
-    "Sul": 436.0
+    "Nordeste": 12970.0,
+    "Sul": 437.0
    },
    {
     "t": "2026-11-21T06:00",
     "Nordeste": 10448.0,
-    "Sul": 306.0
+    "Sul": 308.0
    },
    {
     "t": "2026-11-21T07:00",
-    "Nordeste": 8751.0,
+    "Nordeste": 8753.0,
     "Sul": 195.0
    },
    {
     "t": "2026-11-21T08:00",
-    "Nordeste": 6506.0,
+    "Nordeste": 6498.0,
     "Sul": 189.0
    },
    {
     "t": "2026-11-21T09:00",
-    "Nordeste": 3992.0,
+    "Nordeste": 3984.0,
     "Sul": 171.0
    },
    {
     "t": "2026-11-21T10:00",
-    "Nordeste": 2299.0,
-    "Sul": 106.0
+    "Nordeste": 2292.0,
+    "Sul": 105.0
    },
    {
     "t": "2026-11-21T11:00",
-    "Nordeste": 1906.0,
-    "Sul": 77.0
+    "Nordeste": 1900.0,
+    "Sul": 76.0
    },
    {
     "t": "2026-11-21T12:00",
-    "Nordeste": 1759.0,
+    "Nordeste": 1752.0,
     "Sul": 88.0
    },
    {
     "t": "2026-11-21T13:00",
-    "Nordeste": 2427.0,
-    "Sul": 94.0
+    "Nordeste": 2422.0,
+    "Sul": 93.0
    },
    {
     "t": "2026-11-21T14:00",
-    "Nordeste": 4764.0,
+    "Nordeste": 4783.0,
     "Sul": 179.0
    },
    {
     "t": "2026-11-21T15:00",
-    "Nordeste": 5437.0,
+    "Nordeste": 5457.0,
     "Sul": 192.0
    },
    {
     "t": "2026-11-21T16:00",
-    "Nordeste": 7493.0,
+    "Nordeste": 7516.0,
     "Sul": 210.0
    },
    {
     "t": "2026-11-21T17:00",
-    "Nordeste": 9574.0,
+    "Nordeste": 9595.0,
     "Sul": 225.0
    },
    {
     "t": "2026-11-21T18:00",
-    "Nordeste": 10919.0,
+    "Nordeste": 10952.0,
     "Sul": 214.0
    },
    {
     "t": "2026-11-21T19:00",
-    "Nordeste": 12613.0,
+    "Nordeste": 12648.0,
     "Sul": 278.0
    },
    {
     "t": "2026-11-21T20:00",
-    "Nordeste": 12675.0,
+    "Nordeste": 12689.0,
     "Sul": 372.0
    },
    {
     "t": "2026-11-21T21:00",
-    "Nordeste": 12253.0,
+    "Nordeste": 12267.0,
     "Sul": 437.0
    },
    {
     "t": "2026-11-21T22:00",
-    "Nordeste": 11486.0,
+    "Nordeste": 11495.0,
     "Sul": 486.0
    },
    {
     "t": "2026-11-21T23:00",
-    "Nordeste": 10079.0,
-    "Sul": 521.0
+    "Nordeste": 10090.0,
+    "Sul": 522.0
    },
    {
     "t": "2026-11-22T00:00",
-    "Nordeste": 10239.0,
+    "Nordeste": 10244.0,
     "Sul": 500.0
    },
    {
     "t": "2026-11-22T01:00",
-    "Nordeste": 10307.0,
+    "Nordeste": 10319.0,
     "Sul": 493.0
    },
    {
     "t": "2026-11-22T02:00",
-    "Nordeste": 10320.0,
+    "Nordeste": 10313.0,
     "Sul": 480.0
    },
    {
     "t": "2026-11-22T03:00",
-    "Nordeste": 10600.0,
+    "Nordeste": 10590.0,
     "Sul": 543.0
    },
    {
     "t": "2026-11-22T04:00",
-    "Nordeste": 11090.0,
+    "Nordeste": 11084.0,
     "Sul": 481.0
    },
    {
     "t": "2026-11-22T05:00",
-    "Nordeste": 11252.0,
+    "Nordeste": 11246.0,
     "Sul": 503.0
    },
    {
     "t": "2026-11-22T06:00",
-    "Nordeste": 10203.0,
+    "Nordeste": 10171.0,
     "Sul": 348.0
    },
    {
     "t": "2026-11-22T07:00",
-    "Nordeste": 8201.0,
+    "Nordeste": 8149.0,
     "Sul": 222.0
    },
    {
     "t": "2026-11-22T08:00",
-    "Nordeste": 4736.0,
-    "Sul": 111.0
+    "Nordeste": 4688.0,
+    "Sul": 110.0
    },
    {
     "t": "2026-11-22T09:00",
-    "Nordeste": 3101.0,
+    "Nordeste": 3082.0,
     "Sul": 43.0
    },
    {
     "t": "2026-11-22T10:00",
-    "Nordeste": 2538.0,
+    "Nordeste": 2505.0,
     "Sul": 41.0
    },
    {
     "t": "2026-11-22T11:00",
-    "Nordeste": 2128.0,
+    "Nordeste": 2115.0,
     "Sul": 109.0
    },
    {
     "t": "2026-11-22T12:00",
-    "Nordeste": 2071.0,
+    "Nordeste": 2057.0,
     "Sul": 189.0
    },
    {
     "t": "2026-11-22T13:00",
-    "Nordeste": 4281.0,
+    "Nordeste": 4291.0,
     "Sul": 195.0
    },
    {
     "t": "2026-11-22T14:00",
-    "Nordeste": 5045.0,
+    "Nordeste": 5057.0,
     "Sul": 143.0
    },
    {
     "t": "2026-11-22T15:00",
-    "Nordeste": 5603.0,
+    "Nordeste": 5621.0,
     "Sul": 172.0
    },
    {
     "t": "2026-11-22T16:00",
-    "Nordeste": 7548.0,
+    "Nordeste": 7569.0,
     "Sul": 200.0
    },
    {
     "t": "2026-11-22T17:00",
-    "Nordeste": 9894.0,
+    "Nordeste": 9899.0,
     "Sul": 165.0
    },
    {
     "t": "2026-11-22T18:00",
-    "Nordeste": 10651.0,
+    "Nordeste": 10653.0,
     "Sul": 138.0
    },
    {
     "t": "2026-11-22T19:00",
-    "Nordeste": 11213.0,
+    "Nordeste": 11214.0,
     "Sul": 129.0
    },
    {
     "t": "2026-11-22T20:00",
-    "Nordeste": 11190.0,
+    "Nordeste": 11184.0,
     "Sul": 139.0
    },
    {
     "t": "2026-11-22T21:00",
-    "Nordeste": 10958.0,
+    "Nordeste": 10961.0,
     "Sul": 150.0
    },
    {
     "t": "2026-11-22T22:00",
-    "Nordeste": 10597.0,
+    "Nordeste": 10592.0,
     "Sul": 174.0
    },
    {
     "t": "2026-11-22T23:00",
-    "Nordeste": 10241.0,
+    "Nordeste": 10242.0,
     "Sul": 183.0
    },
    {
@@ -3580,7 +3460,7 @@
    },
    {
     "t": "2026-11-23T04:00",
-    "Nordeste": 9700.0,
+    "Nordeste": 9699.0,
     "Sul": 323.0
    },
    {
@@ -3595,22 +3475,22 @@
    },
    {
     "t": "2026-11-23T07:00",
-    "Nordeste": 8889.0,
+    "Nordeste": 8890.0,
     "Sul": 212.0
    },
    {
     "t": "2026-11-23T08:00",
-    "Nordeste": 8670.0,
+    "Nordeste": 8671.0,
     "Sul": 174.0
    },
    {
     "t": "2026-11-23T09:00",
-    "Nordeste": 7863.0,
+    "Nordeste": 7864.0,
     "Sul": 130.0
    },
    {
     "t": "2026-11-23T10:00",
-    "Nordeste": 7213.0,
+    "Nordeste": 7214.0,
     "Sul": 139.0
    },
    {
@@ -3620,12 +3500,12 @@
    },
    {
     "t": "2026-11-23T12:00",
-    "Nordeste": 6726.0,
+    "Nordeste": 6720.0,
     "Sul": 94.0
    },
    {
     "t": "2026-11-23T13:00",
-    "Nordeste": 8241.0,
+    "Nordeste": 8234.0,
     "Sul": 132.0
    },
    {
@@ -3635,7 +3515,7 @@
    },
    {
     "t": "2026-11-23T15:00",
-    "Nordeste": 10246.0,
+    "Nordeste": 10247.0,
     "Sul": 164.0
    },
    {
@@ -3645,7 +3525,7 @@
    },
    {
     "t": "2026-11-23T17:00",
-    "Nordeste": 13336.0,
+    "Nordeste": 13333.0,
     "Sul": 225.0
    },
    {
@@ -3655,27 +3535,27 @@
    },
    {
     "t": "2026-11-23T19:00",
-    "Nordeste": 15135.0,
+    "Nordeste": 15134.0,
     "Sul": 410.0
    },
    {
     "t": "2026-11-23T20:00",
-    "Nordeste": 14546.0,
+    "Nordeste": 14536.0,
     "Sul": 552.0
    },
    {
     "t": "2026-11-23T21:00",
-    "Nordeste": 14524.0,
+    "Nordeste": 14512.0,
     "Sul": 588.0
    },
    {
     "t": "2026-11-23T22:00",
-    "Nordeste": 15048.0,
+    "Nordeste": 15037.0,
     "Sul": 634.0
    },
    {
     "t": "2026-11-23T23:00",
-    "Nordeste": 14881.0,
+    "Nordeste": 14869.0,
     "Sul": 661.0
    },
    {
@@ -3685,107 +3565,107 @@
    },
    {
     "t": "2026-11-24T01:00",
-    "Nordeste": 15246.0,
+    "Nordeste": 15249.0,
     "Sul": 635.0
    },
    {
     "t": "2026-11-24T02:00",
-    "Nordeste": 15794.0,
+    "Nordeste": 15795.0,
     "Sul": 660.0
    },
    {
     "t": "2026-11-24T03:00",
-    "Nordeste": 15834.0,
+    "Nordeste": 15855.0,
     "Sul": 535.0
    },
    {
     "t": "2026-11-24T04:00",
-    "Nordeste": 15800.0,
+    "Nordeste": 15821.0,
     "Sul": 444.0
    },
    {
     "t": "2026-11-24T05:00",
-    "Nordeste": 15567.0,
+    "Nordeste": 15544.0,
     "Sul": 440.0
    },
    {
     "t": "2026-11-24T06:00",
-    "Nordeste": 14241.0,
+    "Nordeste": 14267.0,
     "Sul": 305.0
    },
    {
     "t": "2026-11-24T07:00",
-    "Nordeste": 13039.0,
+    "Nordeste": 13093.0,
     "Sul": 221.0
    },
    {
     "t": "2026-11-24T08:00",
-    "Nordeste": 12208.0,
+    "Nordeste": 12258.0,
     "Sul": 241.0
    },
    {
     "t": "2026-11-24T09:00",
-    "Nordeste": 11577.0,
+    "Nordeste": 11616.0,
     "Sul": 183.0
    },
    {
     "t": "2026-11-24T10:00",
-    "Nordeste": 10598.0,
+    "Nordeste": 10618.0,
     "Sul": 161.0
    },
    {
     "t": "2026-11-24T11:00",
-    "Nordeste": 9448.0,
+    "Nordeste": 9436.0,
     "Sul": 148.0
    },
    {
     "t": "2026-11-24T12:00",
-    "Nordeste": 8485.0,
+    "Nordeste": 8461.0,
     "Sul": 134.0
    },
    {
     "t": "2026-11-24T13:00",
-    "Nordeste": 9444.0,
+    "Nordeste": 9442.0,
     "Sul": 90.0
    },
    {
     "t": "2026-11-24T14:00",
-    "Nordeste": 10172.0,
+    "Nordeste": 10164.0,
     "Sul": 89.0
    },
    {
     "t": "2026-11-24T15:00",
-    "Nordeste": 10565.0,
+    "Nordeste": 10503.0,
     "Sul": 180.0
    },
    {
     "t": "2026-11-24T16:00",
-    "Nordeste": 12024.0,
+    "Nordeste": 12031.0,
     "Sul": 312.0
    },
    {
     "t": "2026-11-24T17:00",
-    "Nordeste": 13992.0,
+    "Nordeste": 14007.0,
     "Sul": 261.0
    },
    {
     "t": "2026-11-24T18:00",
-    "Nordeste": 15220.0,
+    "Nordeste": 15234.0,
     "Sul": 207.0
    },
    {
     "t": "2026-11-24T19:00",
-    "Nordeste": 16621.0,
+    "Nordeste": 16634.0,
     "Sul": 249.0
    },
    {
     "t": "2026-11-24T20:00",
-    "Nordeste": 17666.0,
+    "Nordeste": 17672.0,
     "Sul": 344.0
    },
    {
     "t": "2026-11-24T21:00",
-    "Nordeste": 18536.0,
+    "Nordeste": 18542.0,
     "Sul": 461.0
    },
    {
@@ -3795,15 +3675,131 @@
    },
    {
     "t": "2026-11-24T23:00",
-    "Nordeste": 19372.0,
+    "Nordeste": 19370.0,
     "Sul": 532.0
+   },
+   {
+    "t": "2026-11-25T00:00",
+    "Nordeste": 19599.0,
+    "Sul": 522.0
+   },
+   {
+    "t": "2026-11-25T01:00",
+    "Nordeste": 20020.0,
+    "Sul": 556.0
+   },
+   {
+    "t": "2026-11-25T02:00",
+    "Nordeste": 19691.0,
+    "Sul": 653.0
+   },
+   {
+    "t": "2026-11-25T03:00",
+    "Nordeste": 19932.0,
+    "Sul": 708.0
+   },
+   {
+    "t": "2026-11-25T04:00",
+    "Nordeste": 19924.0,
+    "Sul": 730.0
+   },
+   {
+    "t": "2026-11-25T05:00",
+    "Nordeste": 19074.0,
+    "Sul": 683.0
+   },
+   {
+    "t": "2026-11-25T06:00",
+    "Nordeste": 16557.0,
+    "Sul": 613.0
+   },
+   {
+    "t": "2026-11-25T07:00",
+    "Nordeste": 14345.0,
+    "Sul": 666.0
+   },
+   {
+    "t": "2026-11-25T08:00",
+    "Nordeste": 13324.0,
+    "Sul": 644.0
+   },
+   {
+    "t": "2026-11-25T09:00",
+    "Nordeste": 11956.0,
+    "Sul": 318.0
+   },
+   {
+    "t": "2026-11-25T10:00",
+    "Nordeste": 10674.0,
+    "Sul": 336.0
+   },
+   {
+    "t": "2026-11-25T11:00",
+    "Nordeste": 9956.0,
+    "Sul": 421.0
+   },
+   {
+    "t": "2026-11-25T12:00",
+    "Nordeste": 8972.0,
+    "Sul": 322.0
+   },
+   {
+    "t": "2026-11-25T13:00",
+    "Nordeste": 9169.0,
+    "Sul": 252.0
+   },
+   {
+    "t": "2026-11-25T14:00",
+    "Nordeste": 10690.0,
+    "Sul": 197.0
+   },
+   {
+    "t": "2026-11-25T15:00",
+    "Nordeste": 11599.0,
+    "Sul": 144.0
+   },
+   {
+    "t": "2026-11-25T16:00",
+    "Nordeste": 13365.0,
+    "Sul": 109.0
+   },
+   {
+    "t": "2026-11-25T17:00",
+    "Nordeste": 15700.0,
+    "Sul": 101.0
+   },
+   {
+    "t": "2026-11-25T18:00",
+    "Nordeste": 17681.0,
+    "Sul": 107.0
+   },
+   {
+    "t": "2026-11-25T19:00",
+    "Nordeste": 18891.0,
+    "Sul": 133.0
+   },
+   {
+    "t": "2026-11-25T20:00",
+    "Nordeste": 19397.0,
+    "Sul": 174.0
+   },
+   {
+    "t": "2026-11-25T21:00",
+    "Nordeste": 19496.0,
+    "Sul": 192.0
+   },
+   {
+    "t": "2026-11-25T22:00",
+    "Nordeste": 19570.0,
+    "Sul": 299.0
+   },
+   {
+    "t": "2026-11-25T23:00",
+    "Nordeste": 20331.0,
+    "Sul": 424.0
    }
   ],
   "diario": {
-   "2026-11-10": {
-    "Nordeste": 13785.0,
-    "Sul": 689.0
-   },
    "2026-11-11": {
     "Nordeste": 16094.0,
     "Sul": 443.0
@@ -3837,215 +3833,210 @@
     "Sul": 174.0
    },
    "2026-11-19": {
-    "Nordeste": 9735.0,
+    "Nordeste": 9736.0,
     "Sul": 281.0
    },
    "2026-11-20": {
-    "Nordeste": 9862.0,
+    "Nordeste": 9864.0,
     "Sul": 242.0
    },
    "2026-11-21": {
-    "Nordeste": 9127.0,
+    "Nordeste": 9134.0,
     "Sul": 284.0
    },
    "2026-11-22": {
-    "Nordeste": 8084.0,
+    "Nordeste": 8077.0,
     "Sul": 244.0
    },
    "2026-11-23": {
-    "Nordeste": 10558.0,
+    "Nordeste": 10555.0,
     "Sul": 287.0
    },
    "2026-11-24": {
-    "Nordeste": 13976.0,
+    "Nordeste": 13983.0,
     "Sul": 332.0
+   },
+   "2026-11-25": {
+    "Nordeste": 15830.0,
+    "Sul": 388.0
    }
   },
   "media_30d": {
-   "Nordeste": 10969.0,
-   "Sul": 349.0
+   "Nordeste": 11314.0,
+   "Sul": 355.0
   }
  },
  "eolica_prev_ons": {
   "previsao": {
-   "dia": "2026-11-26",
+   "dia": "2026-11-27",
    "subsistemas": {
     "Norte": {
      "curva_mw": [
-      388.0,
+      389.0,
+      390.0,
       390.0,
       391.0,
-      392.0,
-      392.0,
-      393.0,
-      392.0,
       391.0,
       390.0,
-      390.0,
+      389.0,
       388.0,
-      385.0,
-      379.0,
-      374.0,
-      367.0,
-      358.0,
-      349.0,
-      342.0,
-      335.0,
-      326.0,
-      318.0,
-      311.0,
-      301.0,
-      283.0,
-      266.0,
-      271.0,
-      296.0,
-      323.0,
-      337.0,
-      339.0,
-      338.0,
-      341.0,
-      343.0,
-      344.0,
-      342.0,
-      340.0,
-      340.0,
-      344.0,
-      351.0,
-      360.0,
-      369.0,
-      377.0,
-      382.0,
-      385.0,
-      387.0,
+      388.0,
       387.0,
       386.0,
-      384.0
+      382.0,
+      374.0,
+      366.0,
+      359.0,
+      352.0,
+      349.0,
+      347.0,
+      344.0,
+      339.0,
+      334.0,
+      329.0,
+      318.0,
+      292.0,
+      265.0,
+      258.0,
+      275.0,
+      298.0,
+      309.0,
+      305.0,
+      300.0,
+      299.0,
+      304.0,
+      313.0,
+      319.0,
+      322.0,
+      321.0,
+      321.0,
+      323.0,
+      329.0,
+      338.0,
+      348.0,
+      357.0,
+      364.0,
+      369.0,
+      371.0,
+      370.0,
+      366.0
      ],
      "passo_h": 0.5,
-     "gwh": 8.5,
-     "mwmed": 355.0
+     "gwh": 8.3,
+     "mwmed": 344.0
     },
     "Nordeste": {
      "curva_mw": [
-      19560.0,
-      19397.0,
-      19237.0,
-      19038.0,
-      18742.0,
-      18442.0,
-      18184.0,
-      17864.0,
-      17492.0,
-      17050.0,
-      16421.0,
-      15923.0,
-      15227.0,
-      14494.0,
-      13812.0,
-      12915.0,
-      12049.0,
-      10983.0,
-      9795.0,
-      8572.0,
-      7585.0,
-      6906.0,
-      6466.0,
-      6165.0,
-      5994.0,
-      6025.0,
-      6295.0,
-      6721.0,
-      7211.0,
-      7729.0,
-      8286.0,
-      9016.0,
-      10025.0,
-      11216.0,
-      12545.0,
-      13529.0,
-      14340.0,
-      15060.0,
-      15594.0,
-      15856.0,
-      15892.0,
-      15872.0,
-      15930.0,
-      16037.0,
-      16330.0,
-      16478.0,
-      16633.0,
-      16773.0
+      16968.0,
+      17095.0,
+      17161.0,
+      17155.0,
+      17075.0,
+      16945.0,
+      16735.0,
+      16498.0,
+      16283.0,
+      16064.0,
+      15778.0,
+      15487.0,
+      15054.0,
+      14513.0,
+      13870.0,
+      13096.0,
+      12109.0,
+      10921.0,
+      9639.0,
+      8396.0,
+      7379.0,
+      6693.0,
+      6241.0,
+      5951.0,
+      5837.0,
+      5940.0,
+      6296.0,
+      6554.0,
+      6967.0,
+      7441.0,
+      8068.0,
+      8981.0,
+      10374.0,
+      11791.0,
+      13047.0,
+      13985.0,
+      14781.0,
+      15514.0,
+      16162.0,
+      16662.0,
+      17080.0,
+      17516.0,
+      17990.0,
+      18417.0,
+      18889.0,
+      19197.0,
+      19438.0,
+      19608.0
      ],
      "passo_h": 0.5,
-     "gwh": 318.9,
-     "mwmed": 13286.0
+     "gwh": 319.8,
+     "mwmed": 13326.0
     },
     "Sul": {
      "curva_mw": [
-      386.0,
-      378.0,
-      370.0,
-      369.0,
-      368.0,
-      370.0,
-      367.0,
-      365.0,
-      362.0,
-      368.0,
-      386.0,
-      402.0,
-      374.0,
-      335.0,
-      282.0,
-      246.0,
-      231.0,
-      232.0,
-      226.0,
-      221.0,
-      214.0,
-      204.0,
-      196.0,
-      188.0,
-      181.0,
-      178.0,
-      182.0,
-      194.0,
-      206.0,
-      224.0,
-      242.0,
-      263.0,
-      305.0,
-      314.0,
-      320.0,
-      329.0,
-      337.0,
+      582.0,
+      551.0,
+      527.0,
+      509.0,
+      498.0,
+      494.0,
+      484.0,
+      476.0,
+      468.0,
+      473.0,
+      486.0,
+      492.0,
+      476.0,
+      435.0,
+      387.0,
       350.0,
-      375.0,
-      411.0,
-      461.0,
-      513.0,
-      558.0,
-      593.0,
-      614.0,
-      624.0,
-      624.0,
-      620.0
+      321.0,
+      299.0,
+      268.0,
+      240.0,
+      223.0,
+      216.0,
+      213.0,
+      211.0,
+      214.0,
+      215.0,
+      229.0,
+      243.0,
+      259.0,
+      280.0,
+      296.0,
+      320.0,
+      341.0,
+      360.0,
+      367.0,
+      370.0,
+      371.0,
+      369.0,
+      374.0,
+      386.0,
+      404.0,
+      424.0,
+      438.0,
+      446.0,
+      448.0,
+      451.0,
+      459.0,
+      469.0
      ],
      "passo_h": 0.5,
-     "gwh": 8.2,
-     "mwmed": 343.0
+     "gwh": 9.1,
+     "mwmed": 379.0
     },
     "SE/CO": {
      "curva_mw": [
-      6.0,
-      6.0,
-      6.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0,
       5.0,
       5.0,
       5.0,
@@ -4066,54 +4057,63 @@
       4.0,
       4.0,
       4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
       5.0,
       5.0,
       5.0,
       5.0,
       5.0,
       5.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
      ],
      "passo_h": 0.5,
      "gwh": 0.1,
-     "mwmed": 5.0
+     "mwmed": 4.0
     }
    }
   },
   "verificacao": {
-   "dia": "2026-11-24",
+   "dia": "2026-11-25",
    "subsistemas": {
     "Norte": {
-     "previsto_gwh": 8.5,
+     "previsto_gwh": 8.7,
      "verificado_gwh": 9.1,
-     "erro_pct": -6.5
+     "erro_pct": -4.7
     },
     "Nordeste": {
-     "previsto_gwh": 298.6,
-     "verificado_gwh": 335.4,
-     "erro_pct": -11.0
+     "previsto_gwh": 358.2,
+     "verificado_gwh": 379.9,
+     "erro_pct": -5.7
     },
     "Sul": {
-     "previsto_gwh": 7.5,
-     "verificado_gwh": 8.0,
-     "erro_pct": -5.8
+     "previsto_gwh": 8.6,
+     "verificado_gwh": 9.3,
+     "erro_pct": -7.6
     },
     "SE/CO": {
      "previsto_gwh": 0.1,
-     "verificado_gwh": 1.0,
-     "erro_pct": -89.9
+     "verificado_gwh": 3.1,
+     "erro_pct": -96.8
     }
    }
   }
