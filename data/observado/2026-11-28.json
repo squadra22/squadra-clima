@@ -1,0 +1,25 @@
+{
+ "fonte": "MERGE/CPTEC",
+ "dia": "2026-11-28",
+ "bacias": {
+  "Jacuí": 4.8,
+  "Uruguai": 16.8,
+  "Iguaçu": 15.5,
+  "Baixo Paraná": 12.9,
+  "Alto Paraná": 3.7,
+  "Paranapanema": 3.3,
+  "Tietê": 0.6,
+  "Alto Grande": 7.0,
+  "Baixo Grande": 16.7,
+  "Alto Paranaíba": 26.5,
+  "Baixo Paranaíba": 20.6,
+  "Alto São Francisco": 12.2,
+  "Médio São Francisco": 0.0,
+  "Baixo São Francisco": 0.0,
+  "Alto Tocantins": 2.3,
+  "Araguaia": 2.5,
+  "Baixo Tocantins": 0.4,
+  "Xingu": 1.4,
+  "Madeira": 0.8
+ }
+}
